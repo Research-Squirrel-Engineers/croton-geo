@@ -1,0 +1,53 @@
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix crmsci: <http://www.ics.forth.gr/isl/CRMsci/> .
+@prefix nm: <http://nomisma.org/id/> .
+@prefix crmarchaeo: <http://www.cidoc-crm.org/cidoc-crm/CRMarchaeo/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix relations: <http://pelagios.github.io/vocab/relations#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix un: <http://www.owl-ontologies.com/Ontology1181490123.owl#> .
+@prefix svcs: <http://rdfs.org/sioc/services#> .
+@prefix nmo: <http://nomisma.org/ontology#> .
+@prefix doap: <http://usefulinc.com/ns/doap#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix pelagios: <http://pelagios.github.io/vocab/terms#> .
+@prefix crmgeo: <http://www.ics.forth.gr/isl/CRMgeo/> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<http://coinhoards.org/id/igch1894>
+	rdf:type <http://www.w3.org/2004/02/skos/core#Concept>;
+	skos:prefLabel "IGCH 1894"@en;
+	nmo:hasClosingDate "-0440"^^xsd:gYear;
+	dcterms:tableOfContents <http://coinhoards.org/id/igch1894#contents>;
+	void:inDataset <http://coinhoards.org/>;
+	nmo:hasFindspot [ nmo:hasDate "1963"^^xsd:gYear; crm:P7_took_place_at " South Italy "; ].
+
+<http://coinhoards.org/id/igch1894#contents>
+	nmo:hasMaterial <http://nomisma.org/id/ar>;
+	nmo:hasMint <http://nomisma.org/id/caulonia>,
+		<http://nomisma.org/id/croton>,
+		" ",
+		<http://nomisma.org/id/metapontum>,
+		<http://nomisma.org/id/sybaris>,
+		<http://nomisma.org/id/taras>,
+		<http://nomisma.org/id/thurium>;
+	nmo:hasDenomination <http://nomisma.org/id/stater>;
+	nmo:hasMint [ rdf:value <http://nomisma.org/id/laus>; un:hasUncertainty <http://nomisma.org/id/uncertain_value> ].
+
+<https://sws.geonames.org/12089033/>
+	rdfs:label "South Italy";
+	crm:P2_has_type <http://vocab.getty.edu/aat/300182722>;
+	geo:location <https://sws.geonames.org/12089033/#this>;
+	crm:P168_place_is_defined_by <https://sws.geonames.org/12089033/#this>.
+
+<https://sws.geonames.org/12089033/#this>
+	rdf:type <http://www.ics.forth.gr/isl/CRMgeo/SP5_Geometric_Place_Expression>;
+	crmgeo:Q9_is_expressed_in_terms_of <http://www.wikidata.org/entity/Q215848>;
+	crmgeo:asWKT "POLYGON (13.01849 37.91575, 13.01849 42.89508, 18.52038 42.89508, 18.52038 37.91575)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
