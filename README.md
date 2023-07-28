@@ -18,3 +18,9 @@ The PhD Thesis of S. Baars deals with the silver coinage of Croton, an Achaean c
 Locality | Geo Info | Coord | Source | References
 -------- | -------- | ----- | ------ | ----------
 Garranes | Barony Kinalmeaky, Co. Cork | 51.893813, -8.49212 | OSM (11071361392) | macalister_1945 (p.83)
+
+## Bruttium / Calabria
+
+* https://gazetteer.dainst.org/place/2071876
+* https://gazetteer.dainst.org/place/2180561
+* https://pleiades.stoa.org/places/452366

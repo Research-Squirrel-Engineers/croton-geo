@@ -1,0 +1,43 @@
+{
+  "type" : "Feature",
+  "id" : "https://gazetteer.dainst.org/place/2071876",
+  "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 16.732178, 39.248407 ]
+  },
+  "properties" : {
+    "@id" : "https://gazetteer.dainst.org/place/2071876",
+    "gazId" : "2071876",
+    "parent" : "https://gazetteer.dainst.org/place/2315102",
+    "ancestors" : [ "https://gazetteer.dainst.org/place/2309807", "https://gazetteer.dainst.org/place/2044223", "https://gazetteer.dainst.org/place/2042600" ],
+    "types" : [ "archaeological-area" ],
+    "prefName" : {
+      "title" : "Bruttium",
+      "language" : "lat",
+      "ancient" : true
+    },
+    "names" : [ {
+      "title" : "Bruzio",
+      "language" : "ita"
+    } ],
+    "prefLocation" : {
+      "coordinates" : [ 16.732178, 39.248407 ],
+      "confidence" : 2,
+      "publicSite" : true
+    },
+    "identifiers" : [ {
+      "value" : "000002419",
+      "context" : "zenon-systemnr"
+    }, {
+      "value" : "xTopLandItGeb Bruttium",
+      "context" : "zenon-thesaurus"
+    }, {
+      "value" : "000072268",
+      "context" : "zenon-systemnr"
+    }, {
+      "value" : "zTopogEuropSüdeuItaliMolisZZ--RBruzio",
+      "context" : "zenon-thesaurus"
+    } ],
+    "tags" : [ "Region (old type)" ]
+  }
+}
