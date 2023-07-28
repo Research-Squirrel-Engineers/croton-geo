@@ -1,0 +1,11 @@
+@prefix ns1: <http://nomisma.org/ontology#> .
+
+<http://coinhoards.org/id/igch1873#contents> ns1:hasDenomination <http://nomisma.org/id/drachma>,
+        <http://nomisma.org/id/stater> ;
+    ns1:hasMaterial <http://nomisma.org/id/ar> ;
+    ns1:hasMint <http://nomisma.org/id/caulonia>,
+        <http://nomisma.org/id/croton>,
+        <http://nomisma.org/id/metapontum>,
+        <http://nomisma.org/id/poseidonia>,
+        <http://nomisma.org/id/sybaris> .
+
