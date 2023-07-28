@@ -24,3 +24,4 @@ Garranes | Barony Kinalmeaky, Co. Cork | 51.893813, -8.49212 | OSM (11071361392)
 * https://gazetteer.dainst.org/place/2071876
 * https://gazetteer.dainst.org/place/2180561
 * https://pleiades.stoa.org/places/452366
+* https://commons.wikimedia.org/wiki/File:Shepherd_-_Bruttium_(Calabria)_-_1911.png
