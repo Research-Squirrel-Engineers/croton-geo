@@ -18,6 +18,7 @@ With these modern and ancient labels, another problem arises, if one wants to ma
 Link | Reference | Label |
 ---- | --------- | ----- |
 [igch1902](http://coinhoards.org/id/igch1902) | Kraay, SNR 1970, p. 68 | Taranto, Via Oberdan |
+[igch1925](http://coinhoards.org/id/igch1925) | Pozzi, AIIN 1962-4, pp. 109-47, illus.<br>Stazio, AIIN 1965-7, p. 61 | Paestum (anc. Poseidonia), Lucania |
 
 ## Sources (Books)
 
