@@ -19,6 +19,10 @@ Link | Reference | Label |
 ---- | --------- | ----- |
 [igch1902](http://coinhoards.org/id/igch1902) | Kraay, SNR 1970, p. 68 | Taranto, Via Oberdan |
 [igch1925](http://coinhoards.org/id/igch1925) | Pozzi, AIIN 1962-4, pp. 109-47, illus.<br>Stazio, AIIN 1965-7, p. 61 | Paestum (anc. Poseidonia), Lucania |
+[igch1885](http://coinhoards.org/id/igch1885) | Procopio, AIIN 1960-1, p. 59, illus. | Strongoli (anc. Petelia), 25 km. N of Croton, Bruttium |
+[igch1873](http://coinhoards.org/id/igch1873) | Sambon, Recherches, pp. 35-6 | Calabria (anc. Bruttium) |
+[igch1894](http://coinhoards.org/id/igch1894) | Information from correspondents | South Italy |
+[igch1916](http://coinhoards.org/id/igch1916) | Vlasto, NNM 15 (1922), pp. 204-5<br>Kraay, ANSMN 16 (1970), pp. 23-30 (for details of Pegasi) | Ionian Shore, Bruttium |
 
 ## Sources (Books)
 
