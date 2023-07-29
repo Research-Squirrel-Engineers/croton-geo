@@ -15,6 +15,9 @@ With these modern and ancient labels, another problem arises, if one wants to ma
 * http://coinhoards.org/id/igch1894
 * http://coinhoards.org/id/igch1916
 
+Link | Reference | Label |
+[igch1902](http://coinhoards.org/id/igch1902) | Kraay, SNR 1970, p. 68 | Taranto, Via Oberdan |
+
 ## Sources (Books)
 
 -> references in references.bib
