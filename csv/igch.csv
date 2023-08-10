@@ -1,3 +1,3 @@
-id,label,relatedto,source,sourcetype,spatialtype,methodtype,certaintytype,literature,wkt
+id,label,relatedto,source,sourcetype,spatialtype,methodtype,certainty,literature,wkt
 1001,"Taranto, Via Oberdan",http://coinhoards.org/id/igch1902,fsl:Coinhoards,fsl:URI,fsl:InhabitedPlace,fsl:ExternalRepository,fsl:high,"Kraay, SNR 1970, p. 68","POINT(17.24707000000000079 40.46437999999999846)"
 1002,"Paestum (anc. Poseidonia), Lucania",http://coinhoards.org/id/igch1925,fsl:Coinhoards,fsl:URI,fsl:InhabitedPlace,fsl:ExternalRepository,fsl:high,"Pozzi, AIIN 1962-4, pp. 109-47, illus.;Stazio, AIIN 1965-7, p. 61","POINT(15.00731000000000037 40.4222999999999999)"
