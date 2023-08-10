@@ -1,5 +1,5 @@
 # create triples from igch.csv 
-# on 2023-08-10 21:42
+# on 2023-08-10 21:48
 
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
@@ -15,7 +15,7 @@
 
 fsld:site_1001 rdf:type fsl:Site .
 fsld:site_1001 fsl:partOf fsl:Croton .
-fsld:site_1001 fsl:sityType fsl:ArchaeologicalSite .
+fsld:site_1001 fsl:siteType fsl:ArchaeologicalSite .
 fsld:site_1001 rdfs:label 'Taranto, Via Oberdan'@en.
 fsld:site_1001 fsl:relatedTo <http://coinhoards.org/id/igch1902>.
 fsld:site_1001 fsl:hasSource fsl:Coinhoards.
@@ -36,13 +36,13 @@ fsld:site_1001 prov:wasAttributedTo fsl:ImportPythonScript .
 fsld:site_1001 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/croton-geo> .
 fsld:site_1001 prov:wasGeneratedBy fsld:activity_site_1001 .
 fsld:activity_site_1001 rdf:type <http://www.w3.org/ns/prov#Activity> .
-fsld:activity_site_1001 prov:startedAtTime '2023-08-10T21:42:31.553527Z'^^xsd:dateTime .
-fsld:activity_site_1001 prov:endedAtTime '2023-08-10T21:42:31.564128Z'^^xsd:dateTime .
+fsld:activity_site_1001 prov:startedAtTime '2023-08-10T21:48:42.769810Z'^^xsd:dateTime .
+fsld:activity_site_1001 prov:endedAtTime '2023-08-10T21:48:42.786784Z'^^xsd:dateTime .
 fsld:activity_site_1001 prov:wasAssociatedWith fsl:ImportPythonScript .
 
 fsld:site_1002 rdf:type fsl:Site .
 fsld:site_1002 fsl:partOf fsl:Croton .
-fsld:site_1002 fsl:sityType fsl:ArchaeologicalSite .
+fsld:site_1002 fsl:siteType fsl:ArchaeologicalSite .
 fsld:site_1002 rdfs:label 'Paestum (anc. Poseidonia), Lucania'@en.
 fsld:site_1002 fsl:relatedTo <http://coinhoards.org/id/igch1925>.
 fsld:site_1002 fsl:hasSource fsl:Coinhoards.
@@ -64,7 +64,7 @@ fsld:site_1002 prov:wasAttributedTo fsl:ImportPythonScript .
 fsld:site_1002 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/croton-geo> .
 fsld:site_1002 prov:wasGeneratedBy fsld:activity_site_1002 .
 fsld:activity_site_1002 rdf:type <http://www.w3.org/ns/prov#Activity> .
-fsld:activity_site_1002 prov:startedAtTime '2023-08-10T21:42:31.553527Z'^^xsd:dateTime .
-fsld:activity_site_1002 prov:endedAtTime '2023-08-10T21:42:31.565139Z'^^xsd:dateTime .
+fsld:activity_site_1002 prov:startedAtTime '2023-08-10T21:48:42.769810Z'^^xsd:dateTime .
+fsld:activity_site_1002 prov:endedAtTime '2023-08-10T21:48:42.786784Z'^^xsd:dateTime .
 fsld:activity_site_1002 prov:wasAssociatedWith fsl:ImportPythonScript .
 

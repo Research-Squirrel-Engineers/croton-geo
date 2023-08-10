@@ -61,7 +61,7 @@ for index, row in data.iterrows():
     lines.append("fsld:site_" +
                  str(row['id']) + " " + "fsl:partOf" + " fsl:Croton .")
     lines.append("fsld:site_" +
-                 str(row['id']) + " " + "fsl:sityType" + " fsl:ArchaeologicalSite .")
+                 str(row['id']) + " " + "fsl:siteType" + " fsl:ArchaeologicalSite .")
     lines.append("fsld:site_" +
                  str(row['id']) + " " + "rdfs:label" + " '" + str(row['label']) + "'@en.")
     lines.append("fsld:site_" +
