@@ -30,7 +30,7 @@
     ns1:method ns1:ExternalRepository ;
     ns1:partOf ns1:Croton ;
     ns1:relatedTo <http://coinhoards.org/id/igch1902> ;
-    ns1:sityType ns1:ArchaeologicalSite ;
+    ns1:siteType ns1:ArchaeologicalSite ;
     ns1:spatialType ns1:InhabitedPlace ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-1100-6494> ;
@@ -52,7 +52,7 @@
     ns1:method ns1:ExternalRepository ;
     ns1:partOf ns1:Croton ;
     ns1:relatedTo <http://coinhoards.org/id/igch1925> ;
-    ns1:sityType ns1:ArchaeologicalSite ;
+    ns1:siteType ns1:ArchaeologicalSite ;
     ns1:spatialType ns1:InhabitedPlace ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-1100-6494> ;
@@ -65,13 +65,13 @@
     prov:wasGeneratedBy <http://fuzzy-sl.squirrel.link/data/activity_site_1002> .
 
 <http://fuzzy-sl.squirrel.link/data/activity_site_1001> a prov:Activity ;
-    prov:endedAtTime "2023-08-10T21:42:31.564128+00:00"^^xsd:dateTime ;
-    prov:startedAtTime "2023-08-10T21:42:31.553527+00:00"^^xsd:dateTime ;
+    prov:endedAtTime "2023-08-10T21:48:42.786784+00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2023-08-10T21:48:42.769810+00:00"^^xsd:dateTime ;
     prov:wasAssociatedWith ns1:ImportPythonScript .
 
 <http://fuzzy-sl.squirrel.link/data/activity_site_1002> a prov:Activity ;
-    prov:endedAtTime "2023-08-10T21:42:31.565139+00:00"^^xsd:dateTime ;
-    prov:startedAtTime "2023-08-10T21:42:31.553527+00:00"^^xsd:dateTime ;
+    prov:endedAtTime "2023-08-10T21:48:42.786784+00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2023-08-10T21:48:42.769810+00:00"^^xsd:dateTime ;
     prov:wasAssociatedWith ns1:ImportPythonScript .
 
 <http://fuzzy-sl.squirrel.link/data/site_1001_geom> a <http://www.opengis.net/ont/sf#Point> ;

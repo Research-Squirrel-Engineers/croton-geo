@@ -67,7 +67,7 @@ var tree={
               "instancecount": 1
             },
             "http://archaeoinformatics.link/ontology#hasReference": {
-              "instancecount": 2
+              "instancecount": 1
             },
             "http://archaeoinformatics.link/ontology#hasSource": {
               "instancecount": 1
@@ -84,7 +84,7 @@ var tree={
             "http://archaeoinformatics.link/ontology#relatedTo": {
               "instancecount": 1
             },
-            "http://archaeoinformatics.link/ontology#sityType": {
+            "http://archaeoinformatics.link/ontology#siteType": {
               "instancecount": 1
             },
             "http://archaeoinformatics.link/ontology#spatialType": {
@@ -127,7 +127,7 @@ var tree={
             }
           }
         },
-        "instancecount": 21
+        "instancecount": 20
       },
       {
         "id": "http://fuzzy-sl.squirrel.link/data/site_1001_geom",

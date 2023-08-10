@@ -14,7 +14,7 @@
     ns1:method ns1:ExternalRepository ;
     ns1:partOf ns1:Croton ;
     ns1:relatedTo <http://coinhoards.org/id/igch1925> ;
-    ns1:sityType ns1:ArchaeologicalSite ;
+    ns1:siteType ns1:ArchaeologicalSite ;
     ns1:spatialType ns1:InhabitedPlace ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-1100-6494> ;
