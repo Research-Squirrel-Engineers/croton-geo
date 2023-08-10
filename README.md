@@ -24,6 +24,10 @@ Link | Reference | Label |
 [igch1894](http://coinhoards.org/id/igch1894) | Information from correspondents | South Italy |
 [igch1916](http://coinhoards.org/id/igch1916) | Vlasto, NNM 15 (1922), pp. 204-5<br>Kraay, ANSMN 16 (1970), pp. 23-30 (for details of Pegasi) | Ionian Shore, Bruttium |
 
+ID | Label | relatedTo | Source | SourceType | SpatialType | MethodType | CertaintyType
+-- | ------| ----| ------ | -----------| ----------- | ---------- | -------------
+1001 | Taranto, Via Oberdan | http://coinhoards.org/id/igch1902 | fsl:Coinhoards | fsl:URI | fsl:InhabitedPlace | fsl:ExternalRepository | fsl:high
+
 ## Sources (Books)
 
 -> references in references.bib
