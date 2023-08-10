@@ -38,3 +38,10 @@ Garranes | Barony Kinalmeaky, Co. Cork | 51.893813, -8.49212 | OSM (11071361392)
 * https://gazetteer.dainst.org/place/2180561
 * https://pleiades.stoa.org/places/452366
 * https://commons.wikimedia.org/wiki/File:Shepherd_-_Bruttium_(Calabria)_-_1911.png
+
+ID | Label | URI | Source | SpatialType | MethodType
+-- | -------- | -------- | ----- | ------ | ----------
+2001 | Bruttium | https://gazetteer.dainst.org/place/2071876 | fsl:iDAIgazetteer | fsl:RegionCentre | fsl:ExternalRepository
+2002 | Calabria (Regione) | https://gazetteer.dainst.org/place/2180561 | fsl:iDAIgazetteer | fsl:RegionCentre | fsl:ExternalRepository
+2003 | Leucopetra (cape) | https://pleiades.stoa.org/places/452366 | fsl:Pleides | fsl:RepresentativePoint | fsl:ExternalRepository
+2004 | Shepherd - Bruttium (Calabria) - 1911 | https://commons.wikimedia.org/wiki/File:Shepherd_-_Bruttium_(Calabria)_-_1911.png | fsl:WikimediaCommons | fsl:AncientLocation | fsl:Georeferencing
