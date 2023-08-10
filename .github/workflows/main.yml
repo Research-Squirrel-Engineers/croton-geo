@@ -18,10 +18,10 @@ jobs:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     uses: sparqlunicorn/sparqlunicornGoesGIS-ontdoc/.github/workflows/udoc.yml@main
     with: 
-        rdffilepath: rdf/igch1873.ttl rdf/igch1885.ttl
+        rdffilepath: rdf/igch.ttl
         docpath: docs
-        prefixns: http://coinhoards.org/id/
-        prefixnsshort: ch
+        prefixns: http://fuzzy-sl.squirrel.link/data/
+        prefixnsshort: fsld
         indexpages: true
         createcollections: true
         preferredlang: en
