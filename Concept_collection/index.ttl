@@ -1,8 +1,0 @@
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-
-<http://coinhoards.org/id/Concept_collection> a skos:Collection ;
-    rdfs:label "Concept Instances Collection" ;
-    rdfs:member <http://coinhoards.org/id/igch1873>,
-        <http://coinhoards.org/id/igch1885> .
-

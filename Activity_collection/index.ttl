@@ -1,0 +1,8 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://fuzzy-sl.squirrel.link/data/Activity_collection> a skos:Collection ;
+    rdfs:label "Activity Instances Collection" ;
+    rdfs:member <http://fuzzy-sl.squirrel.link/data/activity_site_1001>,
+        <http://fuzzy-sl.squirrel.link/data/activity_site_1002> .
+

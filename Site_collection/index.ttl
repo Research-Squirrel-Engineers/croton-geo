@@ -1,0 +1,8 @@
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://fuzzy-sl.squirrel.link/data/Site_collection> a geo:FeatureCollection ;
+    rdfs:label "Site Instances Collection" ;
+    rdfs:member <http://fuzzy-sl.squirrel.link/data/site_1001>,
+        <http://fuzzy-sl.squirrel.link/data/site_1002> .
+

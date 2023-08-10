@@ -1,27 +1,82 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix ns1: <http://nomisma.org/ontology#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ns1: <http://archaeoinformatics.link/ontology#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix void: <http://rdfs.org/ns/void#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://coinhoards.org/id/Concept_collection> a skos:Collection ;
-    rdfs:label "Concept Instances Collection" ;
-    rdfs:member <http://coinhoards.org/id/igch1873>,
-        <http://coinhoards.org/id/igch1885> .
+<http://fuzzy-sl.squirrel.link/data/Activity_collection> a skos:Collection ;
+    rdfs:label "Activity Instances Collection" ;
+    rdfs:member <http://fuzzy-sl.squirrel.link/data/activity_site_1001>,
+        <http://fuzzy-sl.squirrel.link/data/activity_site_1002> .
 
-<http://coinhoards.org/id/igch1885> a skos:Concept ;
-    ns1:hasClosingDate "-0470"^^xsd:gYear ;
-    ns1:hasFindspot [ ] ;
-    dcterms:tableOfContents <http://coinhoards.org/id/igch1885#contents> ;
-    void:inDataset <http://coinhoards.org/> ;
-    skos:prefLabel "IGCH 1885"@en .
+<http://fuzzy-sl.squirrel.link/data/Point_collection> a geo:GeometryCollection ;
+    rdfs:label "Point Instances Collection" ;
+    rdfs:member <http://fuzzy-sl.squirrel.link/data/site_1001_geom>,
+        <http://fuzzy-sl.squirrel.link/data/site_1002_geom> .
 
-<http://coinhoards.org/id/igch1885#contents> ns1:hasDenomination <http://nomisma.org/id/stater> ;
-    ns1:hasMaterial <http://nomisma.org/id/ar> ;
-    ns1:hasMint <http://nomisma.org/id/caulonia>,
-        <http://nomisma.org/id/croton>,
-        <http://nomisma.org/id/metapontum>,
-        <http://nomisma.org/id/poseidonia>,
-        <http://nomisma.org/id/taras> .
+<http://fuzzy-sl.squirrel.link/data/Site_collection> a geo:FeatureCollection ;
+    rdfs:label "Site Instances Collection" ;
+    rdfs:member <http://fuzzy-sl.squirrel.link/data/site_1001>,
+        <http://fuzzy-sl.squirrel.link/data/site_1002> .
+
+<http://fuzzy-sl.squirrel.link/data/site_1001> a ns1:Site ;
+    rdfs:label "Taranto, Via Oberdan"@en ;
+    ns1:certaintyLevel ns1:high ;
+    ns1:hasReference "Kraay, SNR 1970, p. 68" ;
+    ns1:hasSource ns1:Coinhoards ;
+    ns1:hasSourceType ns1:URI ;
+    ns1:method ns1:ExternalRepository ;
+    ns1:partOf ns1:Croton ;
+    ns1:relatedTo <http://coinhoards.org/id/igch1902> ;
+    ns1:sityType ns1:ArchaeologicalSite ;
+    ns1:spatialType ns1:InhabitedPlace ;
+    dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
+        <https://orcid.org/0000-0003-1100-6494> ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/deed.de> ;
+    dcterms:rightsHolder <https://orcid.org/0000-0002-3246-3531>,
+        <https://orcid.org/0000-0003-1100-6494> ;
+    geo:hasGeometry <http://fuzzy-sl.squirrel.link/data/site_1001_geom> ;
+    prov:wasAttributedTo ns1:ImportPythonScript ;
+    prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/croton-geo> ;
+    prov:wasGeneratedBy <http://fuzzy-sl.squirrel.link/data/activity_site_1001> .
+
+<http://fuzzy-sl.squirrel.link/data/site_1002> a ns1:Site ;
+    rdfs:label "Paestum (anc. Poseidonia), Lucania"@en ;
+    ns1:certaintyLevel ns1:high ;
+    ns1:hasReference "Pozzi, AIIN 1962-4, pp. 109-47, illus.",
+        "Stazio, AIIN 1965-7, p. 61" ;
+    ns1:hasSource ns1:Coinhoards ;
+    ns1:hasSourceType ns1:URI ;
+    ns1:method ns1:ExternalRepository ;
+    ns1:partOf ns1:Croton ;
+    ns1:relatedTo <http://coinhoards.org/id/igch1925> ;
+    ns1:sityType ns1:ArchaeologicalSite ;
+    ns1:spatialType ns1:InhabitedPlace ;
+    dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
+        <https://orcid.org/0000-0003-1100-6494> ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/deed.de> ;
+    dcterms:rightsHolder <https://orcid.org/0000-0002-3246-3531>,
+        <https://orcid.org/0000-0003-1100-6494> ;
+    geo:hasGeometry <http://fuzzy-sl.squirrel.link/data/site_1002_geom> ;
+    prov:wasAttributedTo ns1:ImportPythonScript ;
+    prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/croton-geo> ;
+    prov:wasGeneratedBy <http://fuzzy-sl.squirrel.link/data/activity_site_1002> .
+
+<http://fuzzy-sl.squirrel.link/data/activity_site_1001> a prov:Activity ;
+    prov:endedAtTime "2023-08-10T21:42:31.564128+00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2023-08-10T21:42:31.553527+00:00"^^xsd:dateTime ;
+    prov:wasAssociatedWith ns1:ImportPythonScript .
+
+<http://fuzzy-sl.squirrel.link/data/activity_site_1002> a prov:Activity ;
+    prov:endedAtTime "2023-08-10T21:42:31.565139+00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2023-08-10T21:42:31.553527+00:00"^^xsd:dateTime ;
+    prov:wasAssociatedWith ns1:ImportPythonScript .
+
+<http://fuzzy-sl.squirrel.link/data/site_1001_geom> a <http://www.opengis.net/ont/sf#Point> ;
+    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(17.24707000000000079 40.46437999999999846)"^^geo:wktLiteral .
+
+<http://fuzzy-sl.squirrel.link/data/site_1002_geom> a <http://www.opengis.net/ont/sf#Point> ;
+    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(15.00731000000000037 40.4222999999999999)"^^geo:wktLiteral .
 

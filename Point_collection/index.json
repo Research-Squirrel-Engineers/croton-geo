@@ -1,0 +1,1 @@
+{"http://www.w3.org/1999/02/22-rdf-syntax-ns#type": ["http://www.opengis.net/ont/geosparql#GeometryCollection"], "http://www.w3.org/2000/01/rdf-schema#label": ["Point Instances Collection"], "http://www.w3.org/2000/01/rdf-schema#member": ["http://fuzzy-sl.squirrel.link/data/site_1002_geom", "http://fuzzy-sl.squirrel.link/data/site_1001_geom"]}
