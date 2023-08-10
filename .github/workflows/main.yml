@@ -28,5 +28,6 @@ jobs:
         ghpages: true
         metadatatable: true
         createnonNSPages: true
-        logourl: https://raw.githubusercontent.com/archaeolink-lod/unicorn-ontdoc-template-nmt/main/icons/al_circle_icon.png
+        logourl: https://raw.githubusercontent.com/Research-Squirrel-Engineers/croton-geo/main/img/fsl-logo.png
         ogcapifeatures: true
+        datasettitle: Croton Fuzzy Spatial Locations
