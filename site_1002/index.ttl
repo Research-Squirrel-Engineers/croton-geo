@@ -22,7 +22,7 @@
     dcterms:rightsHolder <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-1100-6494> ;
     geo:hasGeometry <http://fuzzy-sl.squirrel.link/data/site_1002_geom> ;
-    prov:wasAttributedTo ns1:ImportPythonScript ;
+    prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/croton-geo/blob/main/py/igch.py> ;
     prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/croton-geo> ;
     prov:wasGeneratedBy <http://fuzzy-sl.squirrel.link/data/activity_site_1002> .
 

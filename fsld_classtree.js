@@ -57,10 +57,38 @@ var tree={
         "data": {}
       },
       {
+        "id": "http://fuzzy-sl.squirrel.link/data/site_1003",
+        "parent": "http://archaeoinformatics.link/ontology#Site",
+        "type": "geoinstance",
+        "text": "Strongoli (anc. Petelia), 25 km. N of Croton, Bruttium (fsld:site_1003)",
+        "data": {}
+      },
+      {
+        "id": "http://fuzzy-sl.squirrel.link/data/site_1004",
+        "parent": "http://archaeoinformatics.link/ontology#Site",
+        "type": "geoinstance",
+        "text": "Calabria (anc. Bruttium) (fsld:site_1004)",
+        "data": {}
+      },
+      {
+        "id": "http://fuzzy-sl.squirrel.link/data/site_1005",
+        "parent": "http://archaeoinformatics.link/ontology#Site",
+        "type": "geoinstance",
+        "text": "South Italy (fsld:site_1005)",
+        "data": {}
+      },
+      {
+        "id": "http://fuzzy-sl.squirrel.link/data/site_1006",
+        "parent": "http://archaeoinformatics.link/ontology#Site",
+        "type": "geoinstance",
+        "text": "Ionian Shore, Bruttium (fsld:site_1006)",
+        "data": {}
+      },
+      {
         "id": "http://archaeoinformatics.link/ontology#Site",
         "parent": "#",
         "type": "geoclass",
-        "text": "Site (fsl:Site) [2]",
+        "text": "Site (fsl:Site) [6]",
         "data": {
           "to": {
             "http://archaeoinformatics.link/ontology#certaintyLevel": {
@@ -144,10 +172,38 @@ var tree={
         "data": {}
       },
       {
+        "id": "http://fuzzy-sl.squirrel.link/data/site_1003_geom",
+        "parent": "http://www.opengis.net/ont/sf#Point",
+        "type": "geoinstance",
+        "text": "site_1003_geom (fsld:site_1003_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://fuzzy-sl.squirrel.link/data/site_1004_geom",
+        "parent": "http://www.opengis.net/ont/sf#Point",
+        "type": "geoinstance",
+        "text": "site_1004_geom (fsld:site_1004_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://fuzzy-sl.squirrel.link/data/site_1005_geom",
+        "parent": "http://www.opengis.net/ont/sf#Point",
+        "type": "geoinstance",
+        "text": "site_1005_geom (fsld:site_1005_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://fuzzy-sl.squirrel.link/data/site_1006_geom",
+        "parent": "http://www.opengis.net/ont/sf#Point",
+        "type": "geoinstance",
+        "text": "site_1006_geom (fsld:site_1006_geom)",
+        "data": {}
+      },
+      {
         "id": "http://www.opengis.net/ont/sf#Point",
         "parent": "#",
         "type": "geoclass",
-        "text": "Point (sf:Point) [2]",
+        "text": "Point (sf:Point) [6]",
         "data": {
           "to": {
             "http://www.opengis.net/ont/geosparql#asWKT": {
@@ -185,10 +241,38 @@ var tree={
         "data": {}
       },
       {
+        "id": "http://fuzzy-sl.squirrel.link/data/activity_site_1003",
+        "parent": "http://www.w3.org/ns/prov#Activity",
+        "type": "instance",
+        "text": "activity_site_1003 (fsld:activity_site_1003)",
+        "data": {}
+      },
+      {
+        "id": "http://fuzzy-sl.squirrel.link/data/activity_site_1004",
+        "parent": "http://www.w3.org/ns/prov#Activity",
+        "type": "instance",
+        "text": "activity_site_1004 (fsld:activity_site_1004)",
+        "data": {}
+      },
+      {
+        "id": "http://fuzzy-sl.squirrel.link/data/activity_site_1005",
+        "parent": "http://www.w3.org/ns/prov#Activity",
+        "type": "instance",
+        "text": "activity_site_1005 (fsld:activity_site_1005)",
+        "data": {}
+      },
+      {
+        "id": "http://fuzzy-sl.squirrel.link/data/activity_site_1006",
+        "parent": "http://www.w3.org/ns/prov#Activity",
+        "type": "instance",
+        "text": "activity_site_1006 (fsld:activity_site_1006)",
+        "data": {}
+      },
+      {
         "id": "http://www.w3.org/ns/prov#Activity",
         "parent": "#",
         "type": "class",
-        "text": "Activity (prov:Activity) [2]",
+        "text": "Activity (prov:Activity) [6]",
         "data": {
           "to": {
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
@@ -238,13 +322,13 @@ var tree={
               "instancecount": 1
             },
             "http://www.w3.org/2000/01/rdf-schema#member": {
-              "instancecount": 2,
-              "http://archaeoinformatics.link/ontology#Site": 2
+              "instancecount": 6,
+              "http://archaeoinformatics.link/ontology#Site": 6
             }
           },
           "from": {}
         },
-        "instancecount": 5
+        "instancecount": 9
       },
       {
         "id": "http://www.opengis.net/ont/geosparql#SpatialObjectCollection",
@@ -274,13 +358,13 @@ var tree={
               "instancecount": 1
             },
             "http://www.w3.org/2000/01/rdf-schema#member": {
-              "instancecount": 2,
-              "http://www.opengis.net/ont/sf#Point": 2
+              "instancecount": 6,
+              "http://www.opengis.net/ont/sf#Point": 6
             }
           },
           "from": {}
         },
-        "instancecount": 5
+        "instancecount": 9
       },
       {
         "id": "http://fuzzy-sl.squirrel.link/data/Activity_collection",
@@ -303,13 +387,13 @@ var tree={
               "instancecount": 1
             },
             "http://www.w3.org/2000/01/rdf-schema#member": {
-              "instancecount": 2,
-              "http://www.w3.org/ns/prov#Activity": 2
+              "instancecount": 6,
+              "http://www.w3.org/ns/prov#Activity": 6
             }
           },
           "from": {}
         },
-        "instancecount": 4
+        "instancecount": 8
       }
     ]
   }

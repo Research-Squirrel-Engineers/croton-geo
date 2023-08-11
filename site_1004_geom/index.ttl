@@ -1,0 +1,5 @@
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+
+<http://fuzzy-sl.squirrel.link/data/site_1004_geom> a <http://www.opengis.net/ont/sf#Point> ;
+    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POLYGON((15.62969000000000008 37.91575000000000273, 15.62969000000000008 40.14392999999999745, 17.20653000000000077 40.14392999999999745, 17.20653000000000077 37.91575000000000273, 15.62969000000000008 37.91575000000000273))"^^geo:wktLiteral .
+
