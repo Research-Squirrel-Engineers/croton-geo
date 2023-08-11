@@ -28,7 +28,7 @@ print("*****************************************")
 starttime = datetime.datetime.now().strftime("%Y-%m-%dT%H:%M:%S.%fZ")
 
 # set paths
-file_name = "igch.csv"
+file_name = "external.csv"
 dir_path = os.path.dirname(os.path.realpath(__file__))
 file_in = dir_path.replace("\\py", "\\csv") + "\\" + file_name
 
@@ -38,7 +38,7 @@ data = pd.read_csv(
     encoding='utf-8',
     sep=',',
     usecols=['id', 'label', 'relatedto', 'source', 'sourcetype',
-             'spatialtype', 'methodtype', 'certainty', 'literature', 'wkt'],
+             'spatialtype', 'methodtype', 'certainty', 'wkt'],
     na_values=['.', '??', 'NULL']  # take any '.' or '??' values as NA
 )
 print(data.info())
@@ -76,11 +76,6 @@ for index, row in data.iterrows():
                  str(row['id']) + " " + "fsl:method" + " " + str(row['methodtype']) + ".")
     lines.append("fsld:site_" +
                  str(row['id']) + " " + "fsl:certaintyLevel" + " " + str(row['certainty']) + ".")
-    lit = str(row['literature'])
-    lit = lit.split(";")
-    for split in lit:
-        lines.append("fsld:site_" +
-                     str(row['id']) + " " + "fsl:hasReference" + " '" + split + "'.")
 
     # geom
     point = str(row['wkt'])
@@ -107,7 +102,7 @@ for index, row in data.iterrows():
 
     # prov-o
     lines.append("fsld:site_" + str(row['id']) + " " +
-                 "prov:wasAttributedTo" + " <https://github.com/Research-Squirrel-Engineers/croton-geo/blob/main/py/igch.py> .")
+                 "prov:wasAttributedTo" + " <https://github.com/Research-Squirrel-Engineers/croton-geo/blob/main/py/external.py> .")
     lines.append("fsld:site_" + str(row['id']) + " " +
                  "prov:wasDerivedFrom" + " <https://github.com/Research-Squirrel-Engineers/croton-geo> .")
     lines.append("fsld:site_" + str(row['id']) + " " +
@@ -119,7 +114,7 @@ for index, row in data.iterrows():
     lines.append("fsld:activity_site_" + str(row['id']) + " " + "prov:endedAtTime '" +
                  datetime.datetime.now().strftime("%Y-%m-%dT%H:%M:%S.%fZ") + "'^^xsd:dateTime .")
     lines.append("fsld:activity_site_" + str(
-        row['id']) + " " + "prov:wasAssociatedWith" + " <https://github.com/Research-Squirrel-Engineers/croton-geo/blob/main/py/igch.py> .")
+        row['id']) + " " + "prov:wasAssociatedWith" + " <https://github.com/Research-Squirrel-Engineers/croton-geo/blob/main/py/external.py> .")
 
     lines.append("")
 
