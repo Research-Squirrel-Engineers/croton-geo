@@ -2,7 +2,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://fuzzy-sl.squirrel.link/data/activity_site_1002> a prov:Activity ;
-    prov:endedAtTime "2023-08-11T10:19:22.578610+00:00"^^xsd:dateTime ;
-    prov:startedAtTime "2023-08-11T10:19:22.566227+00:00"^^xsd:dateTime ;
+    prov:endedAtTime "2023-08-11T10:35:15.951250+00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2023-08-11T10:35:15.939385+00:00"^^xsd:dateTime ;
     prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/croton-geo/blob/main/py/igch.py> .
 

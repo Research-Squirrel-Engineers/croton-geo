@@ -1,0 +1,26 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ns1: <http://archaeoinformatics.link/ontology#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://fuzzy-sl.squirrel.link/data/site_2006> a ns1:Site ;
+    rdfs:label "Paestum (Italy)"@en ;
+    ns1:certaintyLevel ns1:medium ;
+    ns1:hasSource ns1:GeoNames ;
+    ns1:hasSourceType ns1:URI ;
+    ns1:method ns1:ExternalRepository ;
+    ns1:partOf ns1:Croton ;
+    ns1:relatedTo <https://sws.geonames.org/3171709/> ;
+    ns1:siteType ns1:ArchaeologicalSite ;
+    ns1:spatialType ns1:InhabitedPlace ;
+    dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
+        <https://orcid.org/0000-0003-1100-6494> ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/deed.de> ;
+    dcterms:rightsHolder <https://orcid.org/0000-0002-3246-3531>,
+        <https://orcid.org/0000-0003-1100-6494> ;
+    geo:hasGeometry <http://fuzzy-sl.squirrel.link/data/site_2006_geom> ;
+    prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/croton-geo/blob/main/py/external.py> ;
+    prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/croton-geo> ;
+    prov:wasGeneratedBy <http://fuzzy-sl.squirrel.link/data/activity_site_2006> .
+

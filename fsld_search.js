@@ -1,11 +1,20 @@
 var search={
   "Activity Instances Collection": "http://fuzzy-sl.squirrel.link/data/Activity_collection",
+  "Bruttium": "http://fuzzy-sl.squirrel.link/data/site_2001",
+  "Calabria (Italy)": "http://fuzzy-sl.squirrel.link/data/site_2008",
+  "Calabria (Regione)": "http://fuzzy-sl.squirrel.link/data/site_2002",
   "Calabria (anc. Bruttium)": "http://fuzzy-sl.squirrel.link/data/site_1004",
   "Ionian Shore, Bruttium": "http://fuzzy-sl.squirrel.link/data/site_1006",
+  "Leucopetra (cape)": "http://fuzzy-sl.squirrel.link/data/site_2003",
+  "Paestum (Italy)": "http://fuzzy-sl.squirrel.link/data/site_2006",
   "Paestum (anc. Poseidonia), Lucania": "http://fuzzy-sl.squirrel.link/data/site_1002",
   "Point Instances Collection": "http://fuzzy-sl.squirrel.link/data/Point_collection",
+  "Province of Brindisi (Italy)": "http://fuzzy-sl.squirrel.link/data/site_2010",
+  "Shepherd - Bruttium (Calabria) - 1911": "http://fuzzy-sl.squirrel.link/data/site_2004",
   "Site Instances Collection": "http://fuzzy-sl.squirrel.link/data/Site_collection",
   "South Italy": "http://fuzzy-sl.squirrel.link/data/site_1005",
+  "Strongoli (Italy)": "http://fuzzy-sl.squirrel.link/data/site_2007",
   "Strongoli (anc. Petelia), 25 km. N of Croton, Bruttium": "http://fuzzy-sl.squirrel.link/data/site_1003",
+  "Taranto (Italy)": "http://fuzzy-sl.squirrel.link/data/site_2005",
   "Taranto, Via Oberdan": "http://fuzzy-sl.squirrel.link/data/site_1001"
 }

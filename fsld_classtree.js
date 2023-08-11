@@ -85,16 +85,83 @@ var tree={
         "data": {}
       },
       {
+        "id": "http://fuzzy-sl.squirrel.link/data/site_2001",
+        "parent": "http://archaeoinformatics.link/ontology#Site",
+        "type": "geoinstance",
+        "text": "Bruttium (fsld:site_2001)",
+        "data": {}
+      },
+      {
+        "id": "http://fuzzy-sl.squirrel.link/data/site_2002",
+        "parent": "http://archaeoinformatics.link/ontology#Site",
+        "type": "geoinstance",
+        "text": "Calabria (Regione) (fsld:site_2002)",
+        "data": {}
+      },
+      {
+        "id": "http://fuzzy-sl.squirrel.link/data/site_2003",
+        "parent": "http://archaeoinformatics.link/ontology#Site",
+        "type": "geoinstance",
+        "text": "Leucopetra (cape) (fsld:site_2003)",
+        "data": {}
+      },
+      {
+        "id": "http://fuzzy-sl.squirrel.link/data/site_2004",
+        "parent": "http://archaeoinformatics.link/ontology#Site",
+        "type": "geoinstance",
+        "text": "Shepherd - Bruttium (Calabria) - 1911 (fsld:site_2004)",
+        "data": {}
+      },
+      {
+        "id": "http://fuzzy-sl.squirrel.link/data/site_2005",
+        "parent": "http://archaeoinformatics.link/ontology#Site",
+        "type": "geoinstance",
+        "text": "Taranto (Italy) (fsld:site_2005)",
+        "data": {}
+      },
+      {
+        "id": "http://fuzzy-sl.squirrel.link/data/site_2006",
+        "parent": "http://archaeoinformatics.link/ontology#Site",
+        "type": "geoinstance",
+        "text": "Paestum (Italy) (fsld:site_2006)",
+        "data": {}
+      },
+      {
+        "id": "http://fuzzy-sl.squirrel.link/data/site_2007",
+        "parent": "http://archaeoinformatics.link/ontology#Site",
+        "type": "geoinstance",
+        "text": "Strongoli (Italy) (fsld:site_2007)",
+        "data": {}
+      },
+      {
+        "id": "http://fuzzy-sl.squirrel.link/data/site_2008",
+        "parent": "http://archaeoinformatics.link/ontology#Site",
+        "type": "geoinstance",
+        "text": "Calabria (Italy) (fsld:site_2008)",
+        "data": {}
+      },
+      {
+        "id": "http://fuzzy-sl.squirrel.link/data/site_2009",
+        "parent": "http://archaeoinformatics.link/ontology#Site",
+        "type": "geoinstance",
+        "text": "South Italy (fsld:site_2009)",
+        "data": {}
+      },
+      {
+        "id": "http://fuzzy-sl.squirrel.link/data/site_2010",
+        "parent": "http://archaeoinformatics.link/ontology#Site",
+        "type": "geoinstance",
+        "text": "Province of Brindisi (Italy) (fsld:site_2010)",
+        "data": {}
+      },
+      {
         "id": "http://archaeoinformatics.link/ontology#Site",
         "parent": "#",
         "type": "geoclass",
-        "text": "Site (fsl:Site) [6]",
+        "text": "Site (fsl:Site) [16]",
         "data": {
           "to": {
             "http://archaeoinformatics.link/ontology#certaintyLevel": {
-              "instancecount": 1
-            },
-            "http://archaeoinformatics.link/ontology#hasReference": {
               "instancecount": 1
             },
             "http://archaeoinformatics.link/ontology#hasSource": {
@@ -155,7 +222,7 @@ var tree={
             }
           }
         },
-        "instancecount": 20
+        "instancecount": 19
       },
       {
         "id": "http://fuzzy-sl.squirrel.link/data/site_1001_geom",
@@ -200,10 +267,80 @@ var tree={
         "data": {}
       },
       {
+        "id": "http://fuzzy-sl.squirrel.link/data/site_2001_geom",
+        "parent": "http://www.opengis.net/ont/sf#Point",
+        "type": "geoinstance",
+        "text": "site_2001_geom (fsld:site_2001_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://fuzzy-sl.squirrel.link/data/site_2002_geom",
+        "parent": "http://www.opengis.net/ont/sf#Point",
+        "type": "geoinstance",
+        "text": "site_2002_geom (fsld:site_2002_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://fuzzy-sl.squirrel.link/data/site_2003_geom",
+        "parent": "http://www.opengis.net/ont/sf#Point",
+        "type": "geoinstance",
+        "text": "site_2003_geom (fsld:site_2003_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://fuzzy-sl.squirrel.link/data/site_2004_geom",
+        "parent": "http://www.opengis.net/ont/sf#Point",
+        "type": "geoinstance",
+        "text": "site_2004_geom (fsld:site_2004_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://fuzzy-sl.squirrel.link/data/site_2005_geom",
+        "parent": "http://www.opengis.net/ont/sf#Point",
+        "type": "geoinstance",
+        "text": "site_2005_geom (fsld:site_2005_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://fuzzy-sl.squirrel.link/data/site_2006_geom",
+        "parent": "http://www.opengis.net/ont/sf#Point",
+        "type": "geoinstance",
+        "text": "site_2006_geom (fsld:site_2006_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://fuzzy-sl.squirrel.link/data/site_2007_geom",
+        "parent": "http://www.opengis.net/ont/sf#Point",
+        "type": "geoinstance",
+        "text": "site_2007_geom (fsld:site_2007_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://fuzzy-sl.squirrel.link/data/site_2008_geom",
+        "parent": "http://www.opengis.net/ont/sf#Point",
+        "type": "geoinstance",
+        "text": "site_2008_geom (fsld:site_2008_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://fuzzy-sl.squirrel.link/data/site_2009_geom",
+        "parent": "http://www.opengis.net/ont/sf#Point",
+        "type": "geoinstance",
+        "text": "site_2009_geom (fsld:site_2009_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://fuzzy-sl.squirrel.link/data/site_2010_geom",
+        "parent": "http://www.opengis.net/ont/sf#Point",
+        "type": "geoinstance",
+        "text": "site_2010_geom (fsld:site_2010_geom)",
+        "data": {}
+      },
+      {
         "id": "http://www.opengis.net/ont/sf#Point",
         "parent": "#",
         "type": "geoclass",
-        "text": "Point (sf:Point) [6]",
+        "text": "Point (sf:Point) [16]",
         "data": {
           "to": {
             "http://www.opengis.net/ont/geosparql#asWKT": {
@@ -269,10 +406,80 @@ var tree={
         "data": {}
       },
       {
+        "id": "http://fuzzy-sl.squirrel.link/data/activity_site_2001",
+        "parent": "http://www.w3.org/ns/prov#Activity",
+        "type": "instance",
+        "text": "activity_site_2001 (fsld:activity_site_2001)",
+        "data": {}
+      },
+      {
+        "id": "http://fuzzy-sl.squirrel.link/data/activity_site_2002",
+        "parent": "http://www.w3.org/ns/prov#Activity",
+        "type": "instance",
+        "text": "activity_site_2002 (fsld:activity_site_2002)",
+        "data": {}
+      },
+      {
+        "id": "http://fuzzy-sl.squirrel.link/data/activity_site_2003",
+        "parent": "http://www.w3.org/ns/prov#Activity",
+        "type": "instance",
+        "text": "activity_site_2003 (fsld:activity_site_2003)",
+        "data": {}
+      },
+      {
+        "id": "http://fuzzy-sl.squirrel.link/data/activity_site_2004",
+        "parent": "http://www.w3.org/ns/prov#Activity",
+        "type": "instance",
+        "text": "activity_site_2004 (fsld:activity_site_2004)",
+        "data": {}
+      },
+      {
+        "id": "http://fuzzy-sl.squirrel.link/data/activity_site_2005",
+        "parent": "http://www.w3.org/ns/prov#Activity",
+        "type": "instance",
+        "text": "activity_site_2005 (fsld:activity_site_2005)",
+        "data": {}
+      },
+      {
+        "id": "http://fuzzy-sl.squirrel.link/data/activity_site_2006",
+        "parent": "http://www.w3.org/ns/prov#Activity",
+        "type": "instance",
+        "text": "activity_site_2006 (fsld:activity_site_2006)",
+        "data": {}
+      },
+      {
+        "id": "http://fuzzy-sl.squirrel.link/data/activity_site_2007",
+        "parent": "http://www.w3.org/ns/prov#Activity",
+        "type": "instance",
+        "text": "activity_site_2007 (fsld:activity_site_2007)",
+        "data": {}
+      },
+      {
+        "id": "http://fuzzy-sl.squirrel.link/data/activity_site_2008",
+        "parent": "http://www.w3.org/ns/prov#Activity",
+        "type": "instance",
+        "text": "activity_site_2008 (fsld:activity_site_2008)",
+        "data": {}
+      },
+      {
+        "id": "http://fuzzy-sl.squirrel.link/data/activity_site_2009",
+        "parent": "http://www.w3.org/ns/prov#Activity",
+        "type": "instance",
+        "text": "activity_site_2009 (fsld:activity_site_2009)",
+        "data": {}
+      },
+      {
+        "id": "http://fuzzy-sl.squirrel.link/data/activity_site_2010",
+        "parent": "http://www.w3.org/ns/prov#Activity",
+        "type": "instance",
+        "text": "activity_site_2010 (fsld:activity_site_2010)",
+        "data": {}
+      },
+      {
         "id": "http://www.w3.org/ns/prov#Activity",
         "parent": "#",
         "type": "class",
-        "text": "Activity (prov:Activity) [6]",
+        "text": "Activity (prov:Activity) [16]",
         "data": {
           "to": {
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
@@ -322,13 +529,13 @@ var tree={
               "instancecount": 1
             },
             "http://www.w3.org/2000/01/rdf-schema#member": {
-              "instancecount": 6,
-              "http://archaeoinformatics.link/ontology#Site": 6
+              "instancecount": 16,
+              "http://archaeoinformatics.link/ontology#Site": 16
             }
           },
           "from": {}
         },
-        "instancecount": 9
+        "instancecount": 19
       },
       {
         "id": "http://www.opengis.net/ont/geosparql#SpatialObjectCollection",
@@ -358,13 +565,13 @@ var tree={
               "instancecount": 1
             },
             "http://www.w3.org/2000/01/rdf-schema#member": {
-              "instancecount": 6,
-              "http://www.opengis.net/ont/sf#Point": 6
+              "instancecount": 16,
+              "http://www.opengis.net/ont/sf#Point": 16
             }
           },
           "from": {}
         },
-        "instancecount": 9
+        "instancecount": 19
       },
       {
         "id": "http://fuzzy-sl.squirrel.link/data/Activity_collection",
@@ -387,13 +594,13 @@ var tree={
               "instancecount": 1
             },
             "http://www.w3.org/2000/01/rdf-schema#member": {
-              "instancecount": 6,
-              "http://www.w3.org/ns/prov#Activity": 6
+              "instancecount": 16,
+              "http://www.w3.org/ns/prov#Activity": 16
             }
           },
           "from": {}
         },
-        "instancecount": 8
+        "instancecount": 18
       }
     ]
   }
