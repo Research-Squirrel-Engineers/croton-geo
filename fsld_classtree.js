@@ -95,7 +95,7 @@ var tree={
               "instancecount": 1
             },
             "http://archaeoinformatics.link/ontology#hasReference": {
-              "instancecount": 2
+              "instancecount": 1
             },
             "http://archaeoinformatics.link/ontology#hasSource": {
               "instancecount": 1
@@ -155,7 +155,7 @@ var tree={
             }
           }
         },
-        "instancecount": 21
+        "instancecount": 20
       },
       {
         "id": "http://fuzzy-sl.squirrel.link/data/site_1001_geom",
