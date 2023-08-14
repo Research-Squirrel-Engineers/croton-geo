@@ -9,8 +9,8 @@
     ns1:certaintyLevel ns1:low ;
     ns1:hasSource ns1:Pleides ;
     ns1:hasSourceType ns1:URI ;
-    prov:endedAtTime "2023-08-14T12:47:33.637809+00:00"^^xsd:dateTime ;
-    prov:startedAtTime "2023-08-14T12:47:33.608222+00:00"^^xsd:dateTime ;
+    prov:endedAtTime "2023-08-14T12:58:43.069535+00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2023-08-14T12:58:43.038750+00:00"^^xsd:dateTime ;
     prov:used <http://fuzzy-sl.squirrel.link/data/site_2003> ;
     prov:wasAssociatedWith <http://orcid.org/0000-0002-3246-3531> .
 
