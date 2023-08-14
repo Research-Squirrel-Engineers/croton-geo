@@ -28,7 +28,7 @@
     skos:prefLabel "Ionian Shore, Bruttium"@en ;
     skos:scopeNote "The Vlasto Cat. records the above coins as from the Taranto 1908 hd. (Noe 1051 = no. 2000); that hd., however, contained nothing but Taras, Per. VIII. Nos. 413-5 are recorded as from &#x022;the 1908 Taranto find (Ionian Shore find). Noe 1051.&#x022; It is evident that there is a confusion between two finds made in the same year, but concealed at very different dates. In his copy of J. Hirsch May 23, 1910 Evans noted &#x022;Hirsch Find&#x022; against Thurium nos. 281, 285-91, 294, 296 and Corcyra no. 496."@en ;
     prov:wasAttributedTo <http://orcid.org/0000-0003-1100-6494>,
-        <https://github.com/Research-Squirrel-Engineers/croton-geo/blob/main/py/igch.py> ;
+        <https://github.com/Research-Squirrel-Engineers/croton-geo/blob/main/py/croton.py> ;
     prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/croton-geo> ;
     prov:wasGeneratedBy <http://fuzzy-sl.squirrel.link/data/site_1006_activity>,
         <http://fuzzy-sl.squirrel.link/data/site_1006_pyscript> .

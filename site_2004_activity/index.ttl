@@ -10,8 +10,8 @@
     ns1:hasSource ns1:WikimediaCommons ;
     ns1:hasSourceType ns1:Image ;
     ns1:image <https://upload.wikimedia.org/wikipedia/commons/7/75/Shepherd_-_Bruttium_%28Calabria%29_-_1911.png> ;
-    prov:endedAtTime "2023-08-14T12:58:43.069535+00:00"^^xsd:dateTime ;
-    prov:startedAtTime "2023-08-14T12:58:43.038750+00:00"^^xsd:dateTime ;
+    prov:endedAtTime "2023-08-14T13:09:06.159545+00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2023-08-14T13:09:06.131423+00:00"^^xsd:dateTime ;
     prov:used <http://fuzzy-sl.squirrel.link/data/site_2004> ;
     prov:wasAssociatedWith <http://orcid.org/0000-0002-3246-3531> .
 

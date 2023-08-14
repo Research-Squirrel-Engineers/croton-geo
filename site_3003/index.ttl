@@ -28,7 +28,7 @@
     skos:prefLabel "Fiume Esaro 1967 (gennaio)"@en ;
     skos:scopeNote "Am `Fiume Esaro`."@en ;
     prov:wasAttributedTo <http://orcid.org/0000-0003-1100-6494>,
-        <https://github.com/Research-Squirrel-Engineers/croton-geo/blob/main/py/igch.py> ;
+        <https://github.com/Research-Squirrel-Engineers/croton-geo/blob/main/py/croton.py> ;
     prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/croton-geo> ;
     prov:wasGeneratedBy <http://fuzzy-sl.squirrel.link/data/site_3003_activity>,
         <http://fuzzy-sl.squirrel.link/data/site_3003_pyscript> .

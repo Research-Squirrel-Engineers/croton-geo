@@ -25,7 +25,7 @@
     skos:prefLabel "Calabria (Regione)"@en ;
     skos:scopeNote "Region Bruttium (ancient) or Calabria (modern)"@en ;
     prov:wasAttributedTo <http://orcid.org/0000-0002-3246-3531>,
-        <https://github.com/Research-Squirrel-Engineers/croton-geo/blob/main/py/igch.py> ;
+        <https://github.com/Research-Squirrel-Engineers/croton-geo/blob/main/py/croton.py> ;
     prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/croton-geo> ;
     prov:wasGeneratedBy <http://fuzzy-sl.squirrel.link/data/site_2002_activity>,
         <http://fuzzy-sl.squirrel.link/data/site_2002_pyscript> .

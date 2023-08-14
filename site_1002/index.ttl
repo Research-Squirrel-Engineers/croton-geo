@@ -26,7 +26,7 @@
         <http://sws.geonames.org/3171709> ;
     skos:prefLabel "Paestum (anc. Poseidonia), Lucania"@en ;
     prov:wasAttributedTo <http://orcid.org/0000-0003-1100-6494>,
-        <https://github.com/Research-Squirrel-Engineers/croton-geo/blob/main/py/igch.py> ;
+        <https://github.com/Research-Squirrel-Engineers/croton-geo/blob/main/py/croton.py> ;
     prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/croton-geo> ;
     prov:wasGeneratedBy <http://fuzzy-sl.squirrel.link/data/site_1002_activity>,
         <http://fuzzy-sl.squirrel.link/data/site_1002_pyscript> .
