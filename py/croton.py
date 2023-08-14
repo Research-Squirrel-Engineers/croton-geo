@@ -483,8 +483,17 @@ for index, row in data.iterrows():
                  str(row['id']) + "_activity " + "fsl:certaintyLevel" + " " + str(row['certainty']) + ".")
     lines.append("fsld:site_" +
                  str(row['id']) + "_activity " + "fsl:certaintyDesc" + " '" + str(row['certaintyinfo']) + "'@en.")
+    # image?
+    if str(row['relatedto']) != 'nan':
+        for i in relatedtos:
+            if ".png" in i:
+                lines.append("fsld:site_" +
+                             str(row['id']) + "_activity " + "skos:prefSymbol" + " <" + i + ">.")
+            if ".jpg" in i:
+                lines.append("fsld:site_" +
+                             str(row['id']) + "_activity " + "skos:prefSymbol" + " <" + i + ">.")
 
-    # prov-o model
+        # prov-o model
     lines.append("fsld:site_" + str(row['id']) + " " + "prov:wasGeneratedBy" +
                  " " + "fsld:site_" + str(row['id']) + "_activity.")
     lines.append("fsld:site_" +
