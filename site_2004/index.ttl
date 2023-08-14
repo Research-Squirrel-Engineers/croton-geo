@@ -21,7 +21,7 @@
         <https://orcid.org/0000-0003-1100-6494> ;
     geo:hasGeometry <http://fuzzy-sl.squirrel.link/data/site_2004_geom> ;
     rdfs:comment "Region Bruttium (ancient) or Calabria (modern)"@en ;
-    skos:exactMatch <https://commons.wikimedia.org/wiki/File:Shepherd_-_Bruttium_(Calabria)_-_1911.png> ;
+    skos:exactMatch <https://upload.wikimedia.org/wikipedia/commons/7/75/Shepherd_-_Bruttium_%28Calabria%29_-_1911.png> ;
     skos:prefLabel "Shepherd - Bruttium (Calabria) - 1911"@en ;
     skos:scopeNote "Region Bruttium (ancient) or Calabria (modern)"@en ;
     prov:wasAttributedTo <http://orcid.org/0000-0002-3246-3531>,

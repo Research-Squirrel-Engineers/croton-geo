@@ -24,7 +24,7 @@ var search={
   "San Giorgio Ionico 1949": "http://fuzzy-sl.squirrel.link/data/site_3001",
   "Shepherd - Bruttium (Calabria) - 1911": "http://fuzzy-sl.squirrel.link/data/site_2004",
   "Site Instances Collection": "http://fuzzy-sl.squirrel.link/data/Site_collection",
-  "South Italy": "http://fuzzy-sl.squirrel.link/data/site_2009",
+  "South Italy": "http://fuzzy-sl.squirrel.link/data/site_1005",
   "Strongoli (Italy)": "http://fuzzy-sl.squirrel.link/data/site_2007",
   "Strongoli (anc. Petelia), 25 km. N of Croton, Bruttium": "http://fuzzy-sl.squirrel.link/data/site_1003",
   "Taranto (Italy)": "http://fuzzy-sl.squirrel.link/data/site_2005",
