@@ -1,0 +1,18 @@
+@prefix ns1: <http://archaeoinformatics.link/ontology#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://fuzzy-sl.squirrel.link/data/site_3003_activity> a ns1:Georeferencing,
+        prov:Activity ;
+    ns1:activityDesc "set a point based on P. Attianese (1980) and E. A. Arslan (2014) using OSM Way 137318585"@en ;
+    ns1:certaintyDesc "Es gibt lediglich die Information, dass der Hortfund am Fluss Esaro gefunden wurde, ohne genaue Angabe, wo am Flusslauf. In der Literatur gibt es die Information, dass er “in Crotone” gefunden wurde, womit eher die Stadt als die Provinz gemeint sein dürfte, da es ansonsten anders formuliert worden wäre. Der städtische Bereich des Flusslaufes endet kurz hinter der “Strada Statale 106 Jonica”. Am wahrscheinlichsten ist der Fundort am Flusslauf zwischen dem Abschnitt kurz vor der Autobahn und der Flussmündung im Meer. Da der Fund 1967 getätigt wurde, entspricht der damalige Flussverlauf vermutlich ziemlich genau dem heutigen. Sowohl Letzteres als auch der mutmaßliche Fundabschnitt sind jedoch Vermutungen."@en ;
+    ns1:certaintyLevel ns1:low ;
+    ns1:hasReference "E. A. Arslan (2014)",
+        "P. Attianese (1980)" ;
+    ns1:hasSource ns1:PaperDesc ;
+    ns1:hasSourceType ns1:Paper ;
+    prov:endedAtTime "2023-08-14T12:23:26.823253+00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2023-08-14T12:23:26.782144+00:00"^^xsd:dateTime ;
+    prov:used <http://fuzzy-sl.squirrel.link/data/site_3003> ;
+    prov:wasAssociatedWith <http://orcid.org/0000-0003-1100-6494> .
+

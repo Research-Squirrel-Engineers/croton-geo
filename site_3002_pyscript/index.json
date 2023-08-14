@@ -1,0 +1,1 @@
+{"http://www.w3.org/1999/02/22-rdf-syntax-ns#type": ["http://www.w3.org/ns/prov#Activity"], "http://www.w3.org/ns/prov#endedAtTime": ["2023-08-14T12:23:26.823253+00:00"], "http://www.w3.org/ns/prov#startedAtTime": ["2023-08-14T12:23:26.782144+00:00"], "http://www.w3.org/ns/prov#wasAssociatedWith": ["https://github.com/Research-Squirrel-Engineers/croton-geo/blob/main/py/igch.py"]}

@@ -3,5 +3,6 @@
 
 <http://fuzzy-sl.squirrel.link/data/Agent_collection> a skos:Collection ;
     rdfs:label "Agent Instances Collection" ;
-    rdfs:member <http://fuzzy-sl.squirrel.link/data/agent_0000-0003-1100-6494> .
+    rdfs:member <http://fuzzy-sl.squirrel.link/data/agent_0000-0002-3246-3531>,
+        <http://fuzzy-sl.squirrel.link/data/agent_0000-0003-1100-6494> .
 

@@ -50,10 +50,17 @@ var tree={
         "data": {}
       },
       {
+        "id": "http://fuzzy-sl.squirrel.link/data/agent_0000-0002-3246-3531_suniv0_",
+        "parent": "http://xmlns.com/foaf/0.1/Person",
+        "type": "instance",
+        "text": "agent_0000-0002-3246-3531 (fsld:agent_0000-0002-3246-3531)",
+        "data": {}
+      },
+      {
         "id": "http://xmlns.com/foaf/0.1/Person",
         "parent": "#",
         "type": "class",
-        "text": "Person (foaf:Person) [1]",
+        "text": "Person (foaf:Person) [2]",
         "data": {}
       },
       {
@@ -64,10 +71,17 @@ var tree={
         "data": {}
       },
       {
+        "id": "http://fuzzy-sl.squirrel.link/data/agent_0000-0002-3246-3531_suniv1_",
+        "parent": "http://www.w3.org/ns/prov#Agent",
+        "type": "instance",
+        "text": "agent_0000-0002-3246-3531 (fsld:agent_0000-0002-3246-3531)",
+        "data": {}
+      },
+      {
         "id": "http://www.w3.org/ns/prov#Agent",
         "parent": "#",
         "type": "class",
-        "text": "Agent (prov:Agent) [1]",
+        "text": "Agent (prov:Agent) [2]",
         "data": {
           "to": {
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
@@ -136,10 +150,115 @@ var tree={
         "data": {}
       },
       {
+        "id": "http://fuzzy-sl.squirrel.link/data/site_2001_suniv0_",
+        "parent": "http://archaeoinformatics.link/ontology#Site",
+        "type": "geoinstance",
+        "text": "Bruttium (fsld:site_2001)",
+        "data": {}
+      },
+      {
+        "id": "http://fuzzy-sl.squirrel.link/data/site_2002_suniv0_",
+        "parent": "http://archaeoinformatics.link/ontology#Site",
+        "type": "geoinstance",
+        "text": "Calabria (Regione) (fsld:site_2002)",
+        "data": {}
+      },
+      {
+        "id": "http://fuzzy-sl.squirrel.link/data/site_2003_suniv0_",
+        "parent": "http://archaeoinformatics.link/ontology#Site",
+        "type": "geoinstance",
+        "text": "Leucopetra (cape) (fsld:site_2003)",
+        "data": {}
+      },
+      {
+        "id": "http://fuzzy-sl.squirrel.link/data/site_2004_suniv0_",
+        "parent": "http://archaeoinformatics.link/ontology#Site",
+        "type": "geoinstance",
+        "text": "Shepherd - Bruttium (Calabria) - 1911 (fsld:site_2004)",
+        "data": {}
+      },
+      {
+        "id": "http://fuzzy-sl.squirrel.link/data/site_2005_suniv0_",
+        "parent": "http://archaeoinformatics.link/ontology#Site",
+        "type": "geoinstance",
+        "text": "Taranto (Italy) (fsld:site_2005)",
+        "data": {}
+      },
+      {
+        "id": "http://fuzzy-sl.squirrel.link/data/site_2006_suniv0_",
+        "parent": "http://archaeoinformatics.link/ontology#Site",
+        "type": "geoinstance",
+        "text": "Paestum (Italy) (fsld:site_2006)",
+        "data": {}
+      },
+      {
+        "id": "http://fuzzy-sl.squirrel.link/data/site_2007_suniv0_",
+        "parent": "http://archaeoinformatics.link/ontology#Site",
+        "type": "geoinstance",
+        "text": "Strongoli (Italy) (fsld:site_2007)",
+        "data": {}
+      },
+      {
+        "id": "http://fuzzy-sl.squirrel.link/data/site_2008_suniv0_",
+        "parent": "http://archaeoinformatics.link/ontology#Site",
+        "type": "geoinstance",
+        "text": "Calabria (Italy) (fsld:site_2008)",
+        "data": {}
+      },
+      {
+        "id": "http://fuzzy-sl.squirrel.link/data/site_2009_suniv0_",
+        "parent": "http://archaeoinformatics.link/ontology#Site",
+        "type": "geoinstance",
+        "text": "South Italy (fsld:site_2009)",
+        "data": {}
+      },
+      {
+        "id": "http://fuzzy-sl.squirrel.link/data/site_2010_suniv0_",
+        "parent": "http://archaeoinformatics.link/ontology#Site",
+        "type": "geoinstance",
+        "text": "Province of Brindisi (Italy) (fsld:site_2010)",
+        "data": {}
+      },
+      {
+        "id": "http://fuzzy-sl.squirrel.link/data/site_2011_suniv0_",
+        "parent": "http://archaeoinformatics.link/ontology#Site",
+        "type": "geoinstance",
+        "text": "Curinga (Italy) (fsld:site_2011)",
+        "data": {}
+      },
+      {
+        "id": "http://fuzzy-sl.squirrel.link/data/site_3001_suniv0_",
+        "parent": "http://archaeoinformatics.link/ontology#Site",
+        "type": "geoinstance",
+        "text": "San Giorgio Ionico 1949 (fsld:site_3001)",
+        "data": {}
+      },
+      {
+        "id": "http://fuzzy-sl.squirrel.link/data/site_3002_suniv0_",
+        "parent": "http://archaeoinformatics.link/ontology#Site",
+        "type": "geoinstance",
+        "text": "Crotone, loc. Via Paternostro 1974 (fsld:site_3002)",
+        "data": {}
+      },
+      {
+        "id": "http://fuzzy-sl.squirrel.link/data/site_3003_suniv0_",
+        "parent": "http://archaeoinformatics.link/ontology#Site",
+        "type": "geoinstance",
+        "text": "Fiume Esaro 1967 (gennaio) (fsld:site_3003)",
+        "data": {}
+      },
+      {
+        "id": "http://fuzzy-sl.squirrel.link/data/site_3004_suniv0_",
+        "parent": "http://archaeoinformatics.link/ontology#Site",
+        "type": "geoinstance",
+        "text": "Curinga 1916 (IGCH 1881 / Noe 285) (fsld:site_3004)",
+        "data": {}
+      },
+      {
         "id": "http://archaeoinformatics.link/ontology#Site",
         "parent": "#",
         "type": "geoclass",
-        "text": "Site (fsl:Site) [7]",
+        "text": "Site (fsl:Site) [22]",
         "data": {}
       },
       {
@@ -192,10 +311,115 @@ var tree={
         "data": {}
       },
       {
+        "id": "http://fuzzy-sl.squirrel.link/data/site_2001_suniv1_",
+        "parent": "http://www.w3.org/ns/prov#Entity",
+        "type": "geoinstance",
+        "text": "Bruttium (fsld:site_2001)",
+        "data": {}
+      },
+      {
+        "id": "http://fuzzy-sl.squirrel.link/data/site_2002_suniv1_",
+        "parent": "http://www.w3.org/ns/prov#Entity",
+        "type": "geoinstance",
+        "text": "Calabria (Regione) (fsld:site_2002)",
+        "data": {}
+      },
+      {
+        "id": "http://fuzzy-sl.squirrel.link/data/site_2003_suniv1_",
+        "parent": "http://www.w3.org/ns/prov#Entity",
+        "type": "geoinstance",
+        "text": "Leucopetra (cape) (fsld:site_2003)",
+        "data": {}
+      },
+      {
+        "id": "http://fuzzy-sl.squirrel.link/data/site_2004_suniv1_",
+        "parent": "http://www.w3.org/ns/prov#Entity",
+        "type": "geoinstance",
+        "text": "Shepherd - Bruttium (Calabria) - 1911 (fsld:site_2004)",
+        "data": {}
+      },
+      {
+        "id": "http://fuzzy-sl.squirrel.link/data/site_2005_suniv1_",
+        "parent": "http://www.w3.org/ns/prov#Entity",
+        "type": "geoinstance",
+        "text": "Taranto (Italy) (fsld:site_2005)",
+        "data": {}
+      },
+      {
+        "id": "http://fuzzy-sl.squirrel.link/data/site_2006_suniv1_",
+        "parent": "http://www.w3.org/ns/prov#Entity",
+        "type": "geoinstance",
+        "text": "Paestum (Italy) (fsld:site_2006)",
+        "data": {}
+      },
+      {
+        "id": "http://fuzzy-sl.squirrel.link/data/site_2007_suniv1_",
+        "parent": "http://www.w3.org/ns/prov#Entity",
+        "type": "geoinstance",
+        "text": "Strongoli (Italy) (fsld:site_2007)",
+        "data": {}
+      },
+      {
+        "id": "http://fuzzy-sl.squirrel.link/data/site_2008_suniv1_",
+        "parent": "http://www.w3.org/ns/prov#Entity",
+        "type": "geoinstance",
+        "text": "Calabria (Italy) (fsld:site_2008)",
+        "data": {}
+      },
+      {
+        "id": "http://fuzzy-sl.squirrel.link/data/site_2009_suniv1_",
+        "parent": "http://www.w3.org/ns/prov#Entity",
+        "type": "geoinstance",
+        "text": "South Italy (fsld:site_2009)",
+        "data": {}
+      },
+      {
+        "id": "http://fuzzy-sl.squirrel.link/data/site_2010_suniv1_",
+        "parent": "http://www.w3.org/ns/prov#Entity",
+        "type": "geoinstance",
+        "text": "Province of Brindisi (Italy) (fsld:site_2010)",
+        "data": {}
+      },
+      {
+        "id": "http://fuzzy-sl.squirrel.link/data/site_2011_suniv1_",
+        "parent": "http://www.w3.org/ns/prov#Entity",
+        "type": "geoinstance",
+        "text": "Curinga (Italy) (fsld:site_2011)",
+        "data": {}
+      },
+      {
+        "id": "http://fuzzy-sl.squirrel.link/data/site_3001_suniv1_",
+        "parent": "http://www.w3.org/ns/prov#Entity",
+        "type": "geoinstance",
+        "text": "San Giorgio Ionico 1949 (fsld:site_3001)",
+        "data": {}
+      },
+      {
+        "id": "http://fuzzy-sl.squirrel.link/data/site_3002_suniv1_",
+        "parent": "http://www.w3.org/ns/prov#Entity",
+        "type": "geoinstance",
+        "text": "Crotone, loc. Via Paternostro 1974 (fsld:site_3002)",
+        "data": {}
+      },
+      {
+        "id": "http://fuzzy-sl.squirrel.link/data/site_3003_suniv1_",
+        "parent": "http://www.w3.org/ns/prov#Entity",
+        "type": "geoinstance",
+        "text": "Fiume Esaro 1967 (gennaio) (fsld:site_3003)",
+        "data": {}
+      },
+      {
+        "id": "http://fuzzy-sl.squirrel.link/data/site_3004_suniv1_",
+        "parent": "http://www.w3.org/ns/prov#Entity",
+        "type": "geoinstance",
+        "text": "Curinga 1916 (IGCH 1881 / Noe 285) (fsld:site_3004)",
+        "data": {}
+      },
+      {
         "id": "http://www.w3.org/ns/prov#Entity",
         "parent": "#",
         "type": "geoclass",
-        "text": "Entity (prov:Entity) [7]",
+        "text": "Entity (prov:Entity) [22]",
         "data": {}
       },
       {
@@ -248,19 +472,121 @@ var tree={
         "data": {}
       },
       {
+        "id": "http://fuzzy-sl.squirrel.link/data/site_2001_suniv2_",
+        "parent": "https://pleiades.stoa.org/places/vocab#Place",
+        "type": "geoinstance",
+        "text": "Bruttium (fsld:site_2001)",
+        "data": {}
+      },
+      {
+        "id": "http://fuzzy-sl.squirrel.link/data/site_2002_suniv2_",
+        "parent": "https://pleiades.stoa.org/places/vocab#Place",
+        "type": "geoinstance",
+        "text": "Calabria (Regione) (fsld:site_2002)",
+        "data": {}
+      },
+      {
+        "id": "http://fuzzy-sl.squirrel.link/data/site_2003_suniv2_",
+        "parent": "https://pleiades.stoa.org/places/vocab#Place",
+        "type": "geoinstance",
+        "text": "Leucopetra (cape) (fsld:site_2003)",
+        "data": {}
+      },
+      {
+        "id": "http://fuzzy-sl.squirrel.link/data/site_2004_suniv2_",
+        "parent": "https://pleiades.stoa.org/places/vocab#Place",
+        "type": "geoinstance",
+        "text": "Shepherd - Bruttium (Calabria) - 1911 (fsld:site_2004)",
+        "data": {}
+      },
+      {
+        "id": "http://fuzzy-sl.squirrel.link/data/site_2005_suniv2_",
+        "parent": "https://pleiades.stoa.org/places/vocab#Place",
+        "type": "geoinstance",
+        "text": "Taranto (Italy) (fsld:site_2005)",
+        "data": {}
+      },
+      {
+        "id": "http://fuzzy-sl.squirrel.link/data/site_2006_suniv2_",
+        "parent": "https://pleiades.stoa.org/places/vocab#Place",
+        "type": "geoinstance",
+        "text": "Paestum (Italy) (fsld:site_2006)",
+        "data": {}
+      },
+      {
+        "id": "http://fuzzy-sl.squirrel.link/data/site_2007_suniv2_",
+        "parent": "https://pleiades.stoa.org/places/vocab#Place",
+        "type": "geoinstance",
+        "text": "Strongoli (Italy) (fsld:site_2007)",
+        "data": {}
+      },
+      {
+        "id": "http://fuzzy-sl.squirrel.link/data/site_2008_suniv2_",
+        "parent": "https://pleiades.stoa.org/places/vocab#Place",
+        "type": "geoinstance",
+        "text": "Calabria (Italy) (fsld:site_2008)",
+        "data": {}
+      },
+      {
+        "id": "http://fuzzy-sl.squirrel.link/data/site_2009_suniv2_",
+        "parent": "https://pleiades.stoa.org/places/vocab#Place",
+        "type": "geoinstance",
+        "text": "South Italy (fsld:site_2009)",
+        "data": {}
+      },
+      {
+        "id": "http://fuzzy-sl.squirrel.link/data/site_2010_suniv2_",
+        "parent": "https://pleiades.stoa.org/places/vocab#Place",
+        "type": "geoinstance",
+        "text": "Province of Brindisi (Italy) (fsld:site_2010)",
+        "data": {}
+      },
+      {
+        "id": "http://fuzzy-sl.squirrel.link/data/site_2011_suniv2_",
+        "parent": "https://pleiades.stoa.org/places/vocab#Place",
+        "type": "geoinstance",
+        "text": "Curinga (Italy) (fsld:site_2011)",
+        "data": {}
+      },
+      {
+        "id": "http://fuzzy-sl.squirrel.link/data/site_3001_suniv2_",
+        "parent": "https://pleiades.stoa.org/places/vocab#Place",
+        "type": "geoinstance",
+        "text": "San Giorgio Ionico 1949 (fsld:site_3001)",
+        "data": {}
+      },
+      {
+        "id": "http://fuzzy-sl.squirrel.link/data/site_3002_suniv2_",
+        "parent": "https://pleiades.stoa.org/places/vocab#Place",
+        "type": "geoinstance",
+        "text": "Crotone, loc. Via Paternostro 1974 (fsld:site_3002)",
+        "data": {}
+      },
+      {
+        "id": "http://fuzzy-sl.squirrel.link/data/site_3003_suniv2_",
+        "parent": "https://pleiades.stoa.org/places/vocab#Place",
+        "type": "geoinstance",
+        "text": "Fiume Esaro 1967 (gennaio) (fsld:site_3003)",
+        "data": {}
+      },
+      {
+        "id": "http://fuzzy-sl.squirrel.link/data/site_3004_suniv2_",
+        "parent": "https://pleiades.stoa.org/places/vocab#Place",
+        "type": "geoinstance",
+        "text": "Curinga 1916 (IGCH 1881 / Noe 285) (fsld:site_3004)",
+        "data": {}
+      },
+      {
         "id": "https://pleiades.stoa.org/places/vocab#Place",
         "parent": "#",
         "type": "geoclass",
-        "text": "Place (pleiades:Place) [7]",
+        "text": "Place (pleiades:Place) [22]",
         "data": {
           "to": {
             "http://archaeoinformatics.link/ontology#certaintyDesc": {
               "instancecount": 1
             },
             "http://archaeoinformatics.link/ontology#certaintyLevel": {
-              "instancecount": 1
-            },
-            "http://archaeoinformatics.link/ontology#hasReference": {
               "instancecount": 1
             },
             "http://archaeoinformatics.link/ontology#partOf": {
@@ -295,7 +621,7 @@ var tree={
               "instancecount": 1
             },
             "http://www.w3.org/2004/02/skos/core#exactMatch": {
-              "instancecount": 2
+              "instancecount": 1
             },
             "http://www.w3.org/2004/02/skos/core#prefLabel": {
               "instancecount": 1
@@ -327,7 +653,7 @@ var tree={
             }
           }
         },
-        "instancecount": 26
+        "instancecount": 24
       },
       {
         "id": "http://fuzzy-sl.squirrel.link/data/site_1001_geom",
@@ -379,10 +705,115 @@ var tree={
         "data": {}
       },
       {
+        "id": "http://fuzzy-sl.squirrel.link/data/site_2001_geom",
+        "parent": "http://www.opengis.net/ont/sf#Point",
+        "type": "geoinstance",
+        "text": "site_2001_geom (fsld:site_2001_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://fuzzy-sl.squirrel.link/data/site_2002_geom",
+        "parent": "http://www.opengis.net/ont/sf#Point",
+        "type": "geoinstance",
+        "text": "site_2002_geom (fsld:site_2002_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://fuzzy-sl.squirrel.link/data/site_2003_geom",
+        "parent": "http://www.opengis.net/ont/sf#Point",
+        "type": "geoinstance",
+        "text": "site_2003_geom (fsld:site_2003_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://fuzzy-sl.squirrel.link/data/site_2004_geom",
+        "parent": "http://www.opengis.net/ont/sf#Point",
+        "type": "geoinstance",
+        "text": "site_2004_geom (fsld:site_2004_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://fuzzy-sl.squirrel.link/data/site_2005_geom",
+        "parent": "http://www.opengis.net/ont/sf#Point",
+        "type": "geoinstance",
+        "text": "site_2005_geom (fsld:site_2005_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://fuzzy-sl.squirrel.link/data/site_2006_geom",
+        "parent": "http://www.opengis.net/ont/sf#Point",
+        "type": "geoinstance",
+        "text": "site_2006_geom (fsld:site_2006_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://fuzzy-sl.squirrel.link/data/site_2007_geom",
+        "parent": "http://www.opengis.net/ont/sf#Point",
+        "type": "geoinstance",
+        "text": "site_2007_geom (fsld:site_2007_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://fuzzy-sl.squirrel.link/data/site_2008_geom",
+        "parent": "http://www.opengis.net/ont/sf#Point",
+        "type": "geoinstance",
+        "text": "site_2008_geom (fsld:site_2008_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://fuzzy-sl.squirrel.link/data/site_2009_geom",
+        "parent": "http://www.opengis.net/ont/sf#Point",
+        "type": "geoinstance",
+        "text": "site_2009_geom (fsld:site_2009_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://fuzzy-sl.squirrel.link/data/site_2010_geom",
+        "parent": "http://www.opengis.net/ont/sf#Point",
+        "type": "geoinstance",
+        "text": "site_2010_geom (fsld:site_2010_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://fuzzy-sl.squirrel.link/data/site_2011_geom",
+        "parent": "http://www.opengis.net/ont/sf#Point",
+        "type": "geoinstance",
+        "text": "site_2011_geom (fsld:site_2011_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://fuzzy-sl.squirrel.link/data/site_3001_geom",
+        "parent": "http://www.opengis.net/ont/sf#Point",
+        "type": "geoinstance",
+        "text": "site_3001_geom (fsld:site_3001_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://fuzzy-sl.squirrel.link/data/site_3002_geom",
+        "parent": "http://www.opengis.net/ont/sf#Point",
+        "type": "geoinstance",
+        "text": "site_3002_geom (fsld:site_3002_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://fuzzy-sl.squirrel.link/data/site_3003_geom",
+        "parent": "http://www.opengis.net/ont/sf#Point",
+        "type": "geoinstance",
+        "text": "site_3003_geom (fsld:site_3003_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://fuzzy-sl.squirrel.link/data/site_3004_geom",
+        "parent": "http://www.opengis.net/ont/sf#Point",
+        "type": "geoinstance",
+        "text": "site_3004_geom (fsld:site_3004_geom)",
+        "data": {}
+      },
+      {
         "id": "http://www.opengis.net/ont/sf#Point",
         "parent": "#",
         "type": "geoclass",
-        "text": "Point (sf:Point) [7]",
+        "text": "Point (sf:Point) [22]",
         "data": {
           "to": {
             "http://archaeoinformatics.link/ontology#certaintyDesc": {
@@ -512,10 +943,220 @@ var tree={
         "data": {}
       },
       {
+        "id": "http://fuzzy-sl.squirrel.link/data/site_2001_activity_suniv0_",
+        "parent": "http://www.w3.org/ns/prov#Activity",
+        "type": "instance",
+        "text": "site_2001_activity (fsld:site_2001_activity)",
+        "data": {}
+      },
+      {
+        "id": "http://fuzzy-sl.squirrel.link/data/site_2001_pyscript",
+        "parent": "http://www.w3.org/ns/prov#Activity",
+        "type": "instance",
+        "text": "site_2001_pyscript (fsld:site_2001_pyscript)",
+        "data": {}
+      },
+      {
+        "id": "http://fuzzy-sl.squirrel.link/data/site_2002_activity_suniv0_",
+        "parent": "http://www.w3.org/ns/prov#Activity",
+        "type": "instance",
+        "text": "site_2002_activity (fsld:site_2002_activity)",
+        "data": {}
+      },
+      {
+        "id": "http://fuzzy-sl.squirrel.link/data/site_2002_pyscript",
+        "parent": "http://www.w3.org/ns/prov#Activity",
+        "type": "instance",
+        "text": "site_2002_pyscript (fsld:site_2002_pyscript)",
+        "data": {}
+      },
+      {
+        "id": "http://fuzzy-sl.squirrel.link/data/site_2003_activity_suniv0_",
+        "parent": "http://www.w3.org/ns/prov#Activity",
+        "type": "instance",
+        "text": "site_2003_activity (fsld:site_2003_activity)",
+        "data": {}
+      },
+      {
+        "id": "http://fuzzy-sl.squirrel.link/data/site_2003_pyscript",
+        "parent": "http://www.w3.org/ns/prov#Activity",
+        "type": "instance",
+        "text": "site_2003_pyscript (fsld:site_2003_pyscript)",
+        "data": {}
+      },
+      {
+        "id": "http://fuzzy-sl.squirrel.link/data/site_2004_activity_suniv0_",
+        "parent": "http://www.w3.org/ns/prov#Activity",
+        "type": "instance",
+        "text": "site_2004_activity (fsld:site_2004_activity)",
+        "data": {}
+      },
+      {
+        "id": "http://fuzzy-sl.squirrel.link/data/site_2004_pyscript",
+        "parent": "http://www.w3.org/ns/prov#Activity",
+        "type": "instance",
+        "text": "site_2004_pyscript (fsld:site_2004_pyscript)",
+        "data": {}
+      },
+      {
+        "id": "http://fuzzy-sl.squirrel.link/data/site_2005_activity_suniv0_",
+        "parent": "http://www.w3.org/ns/prov#Activity",
+        "type": "instance",
+        "text": "site_2005_activity (fsld:site_2005_activity)",
+        "data": {}
+      },
+      {
+        "id": "http://fuzzy-sl.squirrel.link/data/site_2005_pyscript",
+        "parent": "http://www.w3.org/ns/prov#Activity",
+        "type": "instance",
+        "text": "site_2005_pyscript (fsld:site_2005_pyscript)",
+        "data": {}
+      },
+      {
+        "id": "http://fuzzy-sl.squirrel.link/data/site_2006_activity_suniv0_",
+        "parent": "http://www.w3.org/ns/prov#Activity",
+        "type": "instance",
+        "text": "site_2006_activity (fsld:site_2006_activity)",
+        "data": {}
+      },
+      {
+        "id": "http://fuzzy-sl.squirrel.link/data/site_2006_pyscript",
+        "parent": "http://www.w3.org/ns/prov#Activity",
+        "type": "instance",
+        "text": "site_2006_pyscript (fsld:site_2006_pyscript)",
+        "data": {}
+      },
+      {
+        "id": "http://fuzzy-sl.squirrel.link/data/site_2007_activity_suniv0_",
+        "parent": "http://www.w3.org/ns/prov#Activity",
+        "type": "instance",
+        "text": "site_2007_activity (fsld:site_2007_activity)",
+        "data": {}
+      },
+      {
+        "id": "http://fuzzy-sl.squirrel.link/data/site_2007_pyscript",
+        "parent": "http://www.w3.org/ns/prov#Activity",
+        "type": "instance",
+        "text": "site_2007_pyscript (fsld:site_2007_pyscript)",
+        "data": {}
+      },
+      {
+        "id": "http://fuzzy-sl.squirrel.link/data/site_2008_activity_suniv0_",
+        "parent": "http://www.w3.org/ns/prov#Activity",
+        "type": "instance",
+        "text": "site_2008_activity (fsld:site_2008_activity)",
+        "data": {}
+      },
+      {
+        "id": "http://fuzzy-sl.squirrel.link/data/site_2008_pyscript",
+        "parent": "http://www.w3.org/ns/prov#Activity",
+        "type": "instance",
+        "text": "site_2008_pyscript (fsld:site_2008_pyscript)",
+        "data": {}
+      },
+      {
+        "id": "http://fuzzy-sl.squirrel.link/data/site_2009_activity_suniv0_",
+        "parent": "http://www.w3.org/ns/prov#Activity",
+        "type": "instance",
+        "text": "site_2009_activity (fsld:site_2009_activity)",
+        "data": {}
+      },
+      {
+        "id": "http://fuzzy-sl.squirrel.link/data/site_2009_pyscript",
+        "parent": "http://www.w3.org/ns/prov#Activity",
+        "type": "instance",
+        "text": "site_2009_pyscript (fsld:site_2009_pyscript)",
+        "data": {}
+      },
+      {
+        "id": "http://fuzzy-sl.squirrel.link/data/site_2010_activity_suniv0_",
+        "parent": "http://www.w3.org/ns/prov#Activity",
+        "type": "instance",
+        "text": "site_2010_activity (fsld:site_2010_activity)",
+        "data": {}
+      },
+      {
+        "id": "http://fuzzy-sl.squirrel.link/data/site_2010_pyscript",
+        "parent": "http://www.w3.org/ns/prov#Activity",
+        "type": "instance",
+        "text": "site_2010_pyscript (fsld:site_2010_pyscript)",
+        "data": {}
+      },
+      {
+        "id": "http://fuzzy-sl.squirrel.link/data/site_2011_activity_suniv0_",
+        "parent": "http://www.w3.org/ns/prov#Activity",
+        "type": "instance",
+        "text": "site_2011_activity (fsld:site_2011_activity)",
+        "data": {}
+      },
+      {
+        "id": "http://fuzzy-sl.squirrel.link/data/site_2011_pyscript",
+        "parent": "http://www.w3.org/ns/prov#Activity",
+        "type": "instance",
+        "text": "site_2011_pyscript (fsld:site_2011_pyscript)",
+        "data": {}
+      },
+      {
+        "id": "http://fuzzy-sl.squirrel.link/data/site_3001_activity_suniv0_",
+        "parent": "http://www.w3.org/ns/prov#Activity",
+        "type": "instance",
+        "text": "site_3001_activity (fsld:site_3001_activity)",
+        "data": {}
+      },
+      {
+        "id": "http://fuzzy-sl.squirrel.link/data/site_3001_pyscript",
+        "parent": "http://www.w3.org/ns/prov#Activity",
+        "type": "instance",
+        "text": "site_3001_pyscript (fsld:site_3001_pyscript)",
+        "data": {}
+      },
+      {
+        "id": "http://fuzzy-sl.squirrel.link/data/site_3002_activity_suniv0_",
+        "parent": "http://www.w3.org/ns/prov#Activity",
+        "type": "instance",
+        "text": "site_3002_activity (fsld:site_3002_activity)",
+        "data": {}
+      },
+      {
+        "id": "http://fuzzy-sl.squirrel.link/data/site_3002_pyscript",
+        "parent": "http://www.w3.org/ns/prov#Activity",
+        "type": "instance",
+        "text": "site_3002_pyscript (fsld:site_3002_pyscript)",
+        "data": {}
+      },
+      {
+        "id": "http://fuzzy-sl.squirrel.link/data/site_3003_activity_suniv0_",
+        "parent": "http://www.w3.org/ns/prov#Activity",
+        "type": "instance",
+        "text": "site_3003_activity (fsld:site_3003_activity)",
+        "data": {}
+      },
+      {
+        "id": "http://fuzzy-sl.squirrel.link/data/site_3003_pyscript",
+        "parent": "http://www.w3.org/ns/prov#Activity",
+        "type": "instance",
+        "text": "site_3003_pyscript (fsld:site_3003_pyscript)",
+        "data": {}
+      },
+      {
+        "id": "http://fuzzy-sl.squirrel.link/data/site_3004_activity_suniv0_",
+        "parent": "http://www.w3.org/ns/prov#Activity",
+        "type": "instance",
+        "text": "site_3004_activity (fsld:site_3004_activity)",
+        "data": {}
+      },
+      {
+        "id": "http://fuzzy-sl.squirrel.link/data/site_3004_pyscript",
+        "parent": "http://www.w3.org/ns/prov#Activity",
+        "type": "instance",
+        "text": "site_3004_pyscript (fsld:site_3004_pyscript)",
+        "data": {}
+      },
+      {
         "id": "http://www.w3.org/ns/prov#Activity",
         "parent": "#",
         "type": "class",
-        "text": "Activity (prov:Activity) [14]",
+        "text": "Activity (prov:Activity) [44]",
         "data": {
           "to": {
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
@@ -596,10 +1237,171 @@ var tree={
         "data": {}
       },
       {
+        "id": "http://fuzzy-sl.squirrel.link/data/site_2001_activity_suniv1_",
+        "parent": "http://archaeoinformatics.link/ontology#ExternalRepository",
+        "type": "instance",
+        "text": "site_2001_activity (fsld:site_2001_activity)",
+        "data": {}
+      },
+      {
+        "id": "http://fuzzy-sl.squirrel.link/data/site_2002_activity_suniv1_",
+        "parent": "http://archaeoinformatics.link/ontology#ExternalRepository",
+        "type": "instance",
+        "text": "site_2002_activity (fsld:site_2002_activity)",
+        "data": {}
+      },
+      {
+        "id": "http://fuzzy-sl.squirrel.link/data/site_2003_activity_suniv1_",
+        "parent": "http://archaeoinformatics.link/ontology#ExternalRepository",
+        "type": "instance",
+        "text": "site_2003_activity (fsld:site_2003_activity)",
+        "data": {}
+      },
+      {
+        "id": "http://fuzzy-sl.squirrel.link/data/site_2005_activity_suniv1_",
+        "parent": "http://archaeoinformatics.link/ontology#ExternalRepository",
+        "type": "instance",
+        "text": "site_2005_activity (fsld:site_2005_activity)",
+        "data": {}
+      },
+      {
+        "id": "http://fuzzy-sl.squirrel.link/data/site_2006_activity_suniv1_",
+        "parent": "http://archaeoinformatics.link/ontology#ExternalRepository",
+        "type": "instance",
+        "text": "site_2006_activity (fsld:site_2006_activity)",
+        "data": {}
+      },
+      {
+        "id": "http://fuzzy-sl.squirrel.link/data/site_2007_activity_suniv1_",
+        "parent": "http://archaeoinformatics.link/ontology#ExternalRepository",
+        "type": "instance",
+        "text": "site_2007_activity (fsld:site_2007_activity)",
+        "data": {}
+      },
+      {
+        "id": "http://fuzzy-sl.squirrel.link/data/site_2008_activity_suniv1_",
+        "parent": "http://archaeoinformatics.link/ontology#ExternalRepository",
+        "type": "instance",
+        "text": "site_2008_activity (fsld:site_2008_activity)",
+        "data": {}
+      },
+      {
+        "id": "http://fuzzy-sl.squirrel.link/data/site_2009_activity_suniv1_",
+        "parent": "http://archaeoinformatics.link/ontology#ExternalRepository",
+        "type": "instance",
+        "text": "site_2009_activity (fsld:site_2009_activity)",
+        "data": {}
+      },
+      {
+        "id": "http://fuzzy-sl.squirrel.link/data/site_2010_activity_suniv1_",
+        "parent": "http://archaeoinformatics.link/ontology#ExternalRepository",
+        "type": "instance",
+        "text": "site_2010_activity (fsld:site_2010_activity)",
+        "data": {}
+      },
+      {
+        "id": "http://fuzzy-sl.squirrel.link/data/site_2011_activity_suniv1_",
+        "parent": "http://archaeoinformatics.link/ontology#ExternalRepository",
+        "type": "instance",
+        "text": "site_2011_activity (fsld:site_2011_activity)",
+        "data": {}
+      },
+      {
         "id": "http://archaeoinformatics.link/ontology#ExternalRepository",
         "parent": "#",
         "type": "class",
-        "text": "ExternalRepository (fsl:ExternalRepository) [7]",
+        "text": "ExternalRepository (fsl:ExternalRepository) [17]",
+        "data": {
+          "to": {
+            "http://archaeoinformatics.link/ontology#activityDesc": {
+              "instancecount": 1
+            },
+            "http://archaeoinformatics.link/ontology#certaintyDesc": {
+              "instancecount": 1
+            },
+            "http://archaeoinformatics.link/ontology#certaintyLevel": {
+              "instancecount": 1
+            },
+            "http://archaeoinformatics.link/ontology#hasSource": {
+              "instancecount": 1
+            },
+            "http://archaeoinformatics.link/ontology#hasSourceType": {
+              "instancecount": 1
+            },
+            "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
+              "instancecount": 2
+            },
+            "http://www.w3.org/ns/prov#endedAtTime": {
+              "instancecount": 1
+            },
+            "http://www.w3.org/ns/prov#startedAtTime": {
+              "instancecount": 1
+            },
+            "http://www.w3.org/ns/prov#used": {
+              "instancecount": 1,
+              "http://archaeoinformatics.link/ontology#Site": 1,
+              "http://www.w3.org/ns/prov#Entity": 1,
+              "https://pleiades.stoa.org/places/vocab#Place": 1
+            },
+            "http://www.w3.org/ns/prov#wasAssociatedWith": {
+              "instancecount": 1
+            }
+          },
+          "from": {
+            "http://www.w3.org/2000/01/rdf-schema#member": {
+              "instancecount": 0,
+              "http://www.w3.org/2004/02/skos/core#Collection": 2
+            },
+            "http://www.w3.org/ns/prov#wasGeneratedBy": {
+              "instancecount": 0,
+              "http://archaeoinformatics.link/ontology#Site": 1,
+              "http://www.w3.org/ns/prov#Entity": 1,
+              "https://pleiades.stoa.org/places/vocab#Place": 1
+            }
+          }
+        },
+        "instancecount": 11
+      },
+      {
+        "id": "http://fuzzy-sl.squirrel.link/data/site_2004_activity_suniv1_",
+        "parent": "http://archaeoinformatics.link/ontology#Georeferencing",
+        "type": "instance",
+        "text": "site_2004_activity (fsld:site_2004_activity)",
+        "data": {}
+      },
+      {
+        "id": "http://fuzzy-sl.squirrel.link/data/site_3001_activity_suniv1_",
+        "parent": "http://archaeoinformatics.link/ontology#Georeferencing",
+        "type": "instance",
+        "text": "site_3001_activity (fsld:site_3001_activity)",
+        "data": {}
+      },
+      {
+        "id": "http://fuzzy-sl.squirrel.link/data/site_3002_activity_suniv1_",
+        "parent": "http://archaeoinformatics.link/ontology#Georeferencing",
+        "type": "instance",
+        "text": "site_3002_activity (fsld:site_3002_activity)",
+        "data": {}
+      },
+      {
+        "id": "http://fuzzy-sl.squirrel.link/data/site_3003_activity_suniv1_",
+        "parent": "http://archaeoinformatics.link/ontology#Georeferencing",
+        "type": "instance",
+        "text": "site_3003_activity (fsld:site_3003_activity)",
+        "data": {}
+      },
+      {
+        "id": "http://fuzzy-sl.squirrel.link/data/site_3004_activity_suniv1_",
+        "parent": "http://archaeoinformatics.link/ontology#Georeferencing",
+        "type": "instance",
+        "text": "site_3004_activity (fsld:site_3004_activity)",
+        "data": {}
+      },
+      {
+        "id": "http://archaeoinformatics.link/ontology#Georeferencing",
+        "parent": "#",
+        "type": "class",
+        "text": "Georeferencing (fsl:Georeferencing) [5]",
         "data": {
           "to": {
             "http://archaeoinformatics.link/ontology#activityDesc": {
@@ -683,10 +1485,17 @@ var tree={
         "data": {}
       },
       {
+        "id": "http://fuzzy-sl.squirrel.link/data/Georeferencing_collection",
+        "parent": "http://www.w3.org/2004/02/skos/core#Collection",
+        "type": "instance",
+        "text": "Georeferencing Instances Collection (fsld:Georeferencing_collection)",
+        "data": {}
+      },
+      {
         "id": "http://www.w3.org/2004/02/skos/core#Collection",
         "parent": "#",
         "type": "collectionclass",
-        "text": "Collection (skos:Collection) [4]",
+        "text": "Collection (skos:Collection) [5]",
         "data": {
           "to": {
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
@@ -696,14 +1505,14 @@ var tree={
               "instancecount": 1
             },
             "http://www.w3.org/2000/01/rdf-schema#member": {
-              "instancecount": 1,
-              "http://xmlns.com/foaf/0.1/Person": 1,
-              "http://www.w3.org/ns/prov#Agent": 1
+              "instancecount": 17,
+              "http://www.w3.org/ns/prov#Activity": 17,
+              "http://archaeoinformatics.link/ontology#ExternalRepository": 17
             }
           },
           "from": {}
         },
-        "instancecount": 3
+        "instancecount": 19
       },
       {
         "id": "http://fuzzy-sl.squirrel.link/data/Site_collection",
@@ -740,15 +1549,15 @@ var tree={
               "instancecount": 1
             },
             "http://www.w3.org/2000/01/rdf-schema#member": {
-              "instancecount": 7,
-              "http://archaeoinformatics.link/ontology#Site": 7,
-              "http://www.w3.org/ns/prov#Entity": 7,
-              "https://pleiades.stoa.org/places/vocab#Place": 7
+              "instancecount": 22,
+              "http://archaeoinformatics.link/ontology#Site": 22,
+              "http://www.w3.org/ns/prov#Entity": 22,
+              "https://pleiades.stoa.org/places/vocab#Place": 22
             }
           },
           "from": {}
         },
-        "instancecount": 10
+        "instancecount": 25
       },
       {
         "id": "http://www.opengis.net/ont/geosparql#SpatialObjectCollection",
@@ -778,13 +1587,13 @@ var tree={
               "instancecount": 1
             },
             "http://www.w3.org/2000/01/rdf-schema#member": {
-              "instancecount": 7,
-              "http://www.opengis.net/ont/sf#Point": 7
+              "instancecount": 22,
+              "http://www.opengis.net/ont/sf#Point": 22
             }
           },
           "from": {}
         },
-        "instancecount": 10
+        "instancecount": 25
       }
     ]
   }

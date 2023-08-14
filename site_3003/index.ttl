@@ -1,0 +1,35 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ns1: <http://archaeoinformatics.link/ontology#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://fuzzy-sl.squirrel.link/data/site_3003> a ns1:Site,
+        prov:Entity,
+        <https://pleiades.stoa.org/places/vocab#Place> ;
+    rdfs:label "Fiume Esaro 1967 (gennaio)"@en ;
+    ns1:certaintyDesc "Es gibt lediglich die Information, dass der Hortfund am Fluss Esaro gefunden wurde, ohne genaue Angabe, wo am Flusslauf. In der Literatur gibt es die Information, dass er “in Crotone” gefunden wurde, womit eher die Stadt als die Provinz gemeint sein dürfte, da es ansonsten anders formuliert worden wäre. Der städtische Bereich des Flusslaufes endet kurz hinter der “Strada Statale 106 Jonica”. Am wahrscheinlichsten ist der Fundort am Flusslauf zwischen dem Abschnitt kurz vor der Autobahn und der Flussmündung im Meer. Da der Fund 1967 getätigt wurde, entspricht der damalige Flussverlauf vermutlich ziemlich genau dem heutigen. Sowohl Letzteres als auch der mutmaßliche Fundabschnitt sind jedoch Vermutungen."@en ;
+    ns1:certaintyLevel ns1:low ;
+    ns1:dubiousMatch <http://openopenstreetmap.org/way/137318585>,
+        <http://wikidata.org/entity/Q6681> ;
+    ns1:hasReference "E. A. Arslan (2014)",
+        "P. Attianese (1980)" ;
+    ns1:partOf ns1:CrotonProject ;
+    ns1:siteType ns1:ArchaeologicalSite ;
+    ns1:spatialType ns1:River ;
+    dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
+        <https://orcid.org/0000-0003-1100-6494> ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:rightsHolder <https://orcid.org/0000-0002-3246-3531>,
+        <https://orcid.org/0000-0003-1100-6494> ;
+    geo:hasGeometry <http://fuzzy-sl.squirrel.link/data/site_3003_geom> ;
+    rdfs:comment "Am `Fiume Esaro`."@en ;
+    skos:prefLabel "Fiume Esaro 1967 (gennaio)"@en ;
+    skos:scopeNote "Am `Fiume Esaro`."@en ;
+    prov:wasAttributedTo <http://orcid.org/0000-0003-1100-6494>,
+        <https://github.com/Research-Squirrel-Engineers/croton-geo/blob/main/py/igch.py> ;
+    prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/croton-geo> ;
+    prov:wasGeneratedBy <http://fuzzy-sl.squirrel.link/data/site_3003_activity>,
+        <http://fuzzy-sl.squirrel.link/data/site_3003_pyscript> .
+

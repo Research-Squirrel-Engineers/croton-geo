@@ -1,0 +1,8 @@
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ns1: <http://archaeoinformatics.link/ontology#> .
+
+<http://fuzzy-sl.squirrel.link/data/site_3001_geom> a <http://www.opengis.net/ont/sf#Point> ;
+    ns1:certaintyDesc "Wo befand sich der Grundbesitz des E. De Finis?"@en ;
+    ns1:certaintyLevel ns1:medium ;
+    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(17.3787 40.4579)"^^geo:wktLiteral .
+
