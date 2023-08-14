@@ -1,5 +1,8 @@
 @prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ns1: <http://archaeoinformatics.link/ontology#> .
 
 <http://fuzzy-sl.squirrel.link/data/site_1001_geom> a <http://www.opengis.net/ont/sf#Point> ;
+    ns1:certaintyDesc "coordinate from related GeoNames ID"@en ;
+    ns1:certaintyLevel ns1:medium ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(17.24707 40.46438)"^^geo:wktLiteral .
 

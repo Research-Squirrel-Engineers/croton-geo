@@ -1,0 +1,13 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://fuzzy-sl.squirrel.link/data/ExternalRepository_collection> a skos:Collection ;
+    rdfs:label "ExternalRepository Instances Collection" ;
+    rdfs:member <http://fuzzy-sl.squirrel.link/data/site_1001_activity>,
+        <http://fuzzy-sl.squirrel.link/data/site_1002_activity>,
+        <http://fuzzy-sl.squirrel.link/data/site_1003_activity>,
+        <http://fuzzy-sl.squirrel.link/data/site_1004_activity>,
+        <http://fuzzy-sl.squirrel.link/data/site_1005_activity>,
+        <http://fuzzy-sl.squirrel.link/data/site_1006_activity>,
+        <http://fuzzy-sl.squirrel.link/data/site_1007_activity> .
+

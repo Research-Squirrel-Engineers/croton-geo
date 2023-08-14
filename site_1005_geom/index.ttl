@@ -1,5 +1,8 @@
 @prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ns1: <http://archaeoinformatics.link/ontology#> .
 
 <http://fuzzy-sl.squirrel.link/data/site_1005_geom> a <http://www.opengis.net/ont/sf#Point> ;
+    ns1:certaintyDesc "coordinate from related GeoNames ID"@en ;
+    ns1:certaintyLevel ns1:low ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POLYGON((13.0184899999999999 37.91575000000000273, 13.0184899999999999 42.8950800000000001, 18.5203799999999994 42.8950800000000001, 18.5203799999999994 37.91575000000000273, 13.0184899999999999 37.91575000000000273))"^^geo:wktLiteral .
 

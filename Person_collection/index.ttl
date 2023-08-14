@@ -1,0 +1,7 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://fuzzy-sl.squirrel.link/data/Person_collection> a skos:Collection ;
+    rdfs:label "Person Instances Collection" ;
+    rdfs:member <http://fuzzy-sl.squirrel.link/data/agent_0000-0003-1100-6494> .
+

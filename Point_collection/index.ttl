@@ -9,14 +9,5 @@
         <http://fuzzy-sl.squirrel.link/data/site_1004_geom>,
         <http://fuzzy-sl.squirrel.link/data/site_1005_geom>,
         <http://fuzzy-sl.squirrel.link/data/site_1006_geom>,
-        <http://fuzzy-sl.squirrel.link/data/site_2001_geom>,
-        <http://fuzzy-sl.squirrel.link/data/site_2002_geom>,
-        <http://fuzzy-sl.squirrel.link/data/site_2003_geom>,
-        <http://fuzzy-sl.squirrel.link/data/site_2004_geom>,
-        <http://fuzzy-sl.squirrel.link/data/site_2005_geom>,
-        <http://fuzzy-sl.squirrel.link/data/site_2006_geom>,
-        <http://fuzzy-sl.squirrel.link/data/site_2007_geom>,
-        <http://fuzzy-sl.squirrel.link/data/site_2008_geom>,
-        <http://fuzzy-sl.squirrel.link/data/site_2009_geom>,
-        <http://fuzzy-sl.squirrel.link/data/site_2010_geom> .
+        <http://fuzzy-sl.squirrel.link/data/site_1007_geom> .
 

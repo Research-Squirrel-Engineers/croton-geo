@@ -1,0 +1,17 @@
+@prefix ns1: <http://archaeoinformatics.link/ontology#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://fuzzy-sl.squirrel.link/data/site_1005_activity> a ns1:ExternalRepository,
+        prov:Activity ;
+    ns1:activityDesc "uses existing URI from coinhoards.org"@en ;
+    ns1:certaintyDesc "coordinate from related GeoNames ID"@en ;
+    ns1:certaintyLevel ns1:low ;
+    ns1:hasReference "Information from correspondents" ;
+    ns1:hasSource ns1:Coinhoards ;
+    ns1:hasSourceType ns1:URI ;
+    prov:endedAtTime "2023-08-14T11:56:50.265386+00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2023-08-14T11:56:50.250172+00:00"^^xsd:dateTime ;
+    prov:used <http://fuzzy-sl.squirrel.link/data/site_1005> ;
+    prov:wasAssociatedWith <http://orcid.org/0000-0003-1100-6494> .
+

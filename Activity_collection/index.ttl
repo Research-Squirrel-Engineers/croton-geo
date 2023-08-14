@@ -3,20 +3,18 @@
 
 <http://fuzzy-sl.squirrel.link/data/Activity_collection> a skos:Collection ;
     rdfs:label "Activity Instances Collection" ;
-    rdfs:member <http://fuzzy-sl.squirrel.link/data/activity_site_1001>,
-        <http://fuzzy-sl.squirrel.link/data/activity_site_1002>,
-        <http://fuzzy-sl.squirrel.link/data/activity_site_1003>,
-        <http://fuzzy-sl.squirrel.link/data/activity_site_1004>,
-        <http://fuzzy-sl.squirrel.link/data/activity_site_1005>,
-        <http://fuzzy-sl.squirrel.link/data/activity_site_1006>,
-        <http://fuzzy-sl.squirrel.link/data/activity_site_2001>,
-        <http://fuzzy-sl.squirrel.link/data/activity_site_2002>,
-        <http://fuzzy-sl.squirrel.link/data/activity_site_2003>,
-        <http://fuzzy-sl.squirrel.link/data/activity_site_2004>,
-        <http://fuzzy-sl.squirrel.link/data/activity_site_2005>,
-        <http://fuzzy-sl.squirrel.link/data/activity_site_2006>,
-        <http://fuzzy-sl.squirrel.link/data/activity_site_2007>,
-        <http://fuzzy-sl.squirrel.link/data/activity_site_2008>,
-        <http://fuzzy-sl.squirrel.link/data/activity_site_2009>,
-        <http://fuzzy-sl.squirrel.link/data/activity_site_2010> .
+    rdfs:member <http://fuzzy-sl.squirrel.link/data/site_1001_activity>,
+        <http://fuzzy-sl.squirrel.link/data/site_1001_pyscript>,
+        <http://fuzzy-sl.squirrel.link/data/site_1002_activity>,
+        <http://fuzzy-sl.squirrel.link/data/site_1002_pyscript>,
+        <http://fuzzy-sl.squirrel.link/data/site_1003_activity>,
+        <http://fuzzy-sl.squirrel.link/data/site_1003_pyscript>,
+        <http://fuzzy-sl.squirrel.link/data/site_1004_activity>,
+        <http://fuzzy-sl.squirrel.link/data/site_1004_pyscript>,
+        <http://fuzzy-sl.squirrel.link/data/site_1005_activity>,
+        <http://fuzzy-sl.squirrel.link/data/site_1005_pyscript>,
+        <http://fuzzy-sl.squirrel.link/data/site_1006_activity>,
+        <http://fuzzy-sl.squirrel.link/data/site_1006_pyscript>,
+        <http://fuzzy-sl.squirrel.link/data/site_1007_activity>,
+        <http://fuzzy-sl.squirrel.link/data/site_1007_pyscript> .
 
