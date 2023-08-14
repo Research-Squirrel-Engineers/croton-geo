@@ -37,8 +37,8 @@ data = pd.read_csv(
     file_in,
     encoding='utf-8',
     sep=',',
-    usecols=['id', 'label', 'relatedto', 'source', 'sourcetype',
-             'spatialtype', 'methodtype', 'certainty', 'literature', 'wkt'],
+    usecols=['id', 'label', 'desc', 'certainty', 'certaintyinfo', 'relatedto', 'relatedtohow', 'source',
+             'sourcetype', 'spatialtype', 'methodtype', 'agent', 'methoddesc', 'literature', 'wkt'],
     na_values=['.', '??', 'NULL']  # take any '.' or '??' values as NA
 )
 print(data.info())
@@ -55,34 +55,63 @@ for index, row in data.iterrows():
         print(tmpno)
     lineNo += 1
 
-    # site metadata
+    # agent
+    agent = str(row['agent'])
+    agents = agent.split(";")
+    for i in agents:
+        tmp_agent_id = i.replace("http://orcid.org/", "")
+        lines.append("fsld:agent_" + tmp_agent_id +
+                     " " + "rdf:type" + " foaf:Person .")
+        lines.append("fsld:agent_" + tmp_agent_id +
+                     " " + "rdf:type" + " prov:Agent .")
+        lines.append("fsld:agent_" + tmp_agent_id +
+                     " " + "skos:exactMatch" + " <" + i + ">.")
+
+    # entity (site)
+    # typing
     lines.append("fsld:site_" +
                  str(row['id']) + " " + "rdf:type" + " fsl:Site .")
     lines.append("fsld:site_" +
-                 str(row['id']) + " " + "fsl:partOf" + " fsl:Croton .")
+                 str(row['id']) + " " + "rdf:type" + " prov:Entity .")
+    lines.append("fsld:site_" +
+                 str(row['id']) + " " + "rdf:type" + " pleiades:Place .")
+    lines.append("fsld:site_" +
+                 str(row['id']) + " " + "fsl:partOf" + " fsl:CrotonProject .")
     lines.append("fsld:site_" +
                  str(row['id']) + " " + "fsl:siteType" + " fsl:ArchaeologicalSite .")
+    # metadata
     lines.append("fsld:site_" +
                  str(row['id']) + " " + "rdfs:label" + " '" + str(row['label']) + "'@en.")
     lines.append("fsld:site_" +
-                 str(row['id']) + " " + "fsl:relatedTo" + " <" + str(row['relatedto']) + ">.")
-    lines.append("fsld:site_" +
-                 str(row['id']) + " " + "fsl:hasSource" + " " + str(row['source']) + ".")
-    lines.append("fsld:site_" +
-                 str(row['id']) + " " + "fsl:hasSourceType" + " " + str(row['sourcetype']) + ".")
-    lines.append("fsld:site_" +
-                 str(row['id']) + " " + "fsl:spatialType" + " " + str(row['spatialtype']) + ".")
-    lines.append("fsld:site_" +
-                 str(row['id']) + " " + "fsl:method" + " " + str(row['methodtype']) + ".")
+                 str(row['id']) + " " + "skos:prefLabel" + " '" + str(row['label']) + "'@en.")
+    if str(row['desc']) != 'nan':
+        lines.append("fsld:site_" +
+                     str(row['id']) + " " + "skos:scopeNote" + " '" + str(row['desc']) + "'@en.")
+        lines.append("fsld:site_" +
+                     str(row['id']) + " " + "rdfs:comment" + " '" + str(row['desc']) + "'@en.")
+    lines.append("fsld:site_" + str(row['id']) + " " +
+                 "prov:wasDerivedFrom" + " <https://github.com/Research-Squirrel-Engineers/croton-geo> .")
+    # certainty
     lines.append("fsld:site_" +
                  str(row['id']) + " " + "fsl:certaintyLevel" + " " + str(row['certainty']) + ".")
+    lines.append("fsld:site_" +
+                 str(row['id']) + " " + "fsl:certaintyDesc" + " '" + str(row['certaintyinfo']) + "'@en.")
+    # relations
+    relatedto = str(row['relatedto'])
+    relatedtos = relatedto.split(";")
+    for i in relatedtos:
+        lines.append("fsld:site_" + str(row['id']) +
+                     " " + str(row['relatedtohow']) + " <" + i + ">.")
+    lines.append("fsld:site_" +
+                 str(row['id']) + " " + "fsl:spatialType" + " " + str(row['spatialtype']) + ".")
+    # literature
     lit = str(row['literature'])
-    lit = lit.split(";")
-    for split in lit:
+    lits = lit.split(";")
+    for i in lits:
         lines.append("fsld:site_" +
-                     str(row['id']) + " " + "fsl:hasReference" + " '" + split + "'.")
+                     str(row['id']) + " " + "fsl:hasReference" + " '" + i + "'.")
 
-    # geom
+    # site geometry
     point = str(row['wkt'])
     point = "\"<http://www.opengis.net/def/crs/EPSG/0/4326> " + \
         point + "\"^^geosparql:wktLiteral"
@@ -92,10 +121,51 @@ for index, row in data.iterrows():
                  str(row['id']) + "_geom " + "rdf:type" + " sf:Point .")
     lines.append("fsld:site_" +
                  str(row['id']) + "_geom " + "geosparql:asWKT " + point + ".")
+    lines.append("fsld:site_" +
+                 str(row['id']) + "_geom " + "fsl:certaintyLevel" + " " + str(row['certainty']) + ".")
+    lines.append("fsld:site_" +
+                 str(row['id']) + "_geom " + "fsl:certaintyDesc" + " '" + str(row['certaintyinfo']) + "'@en.")
+
+    # activity
+    # metadata
+    lines.append("fsld:site_" +
+                 str(row['id']) + "_activity " + "rdf:type" + " prov:Activity .")
+    lines.append("fsld:site_" +
+                 str(row['id']) + "_activity " + "rdf:type" + " " + str(row['methodtype']) + ".")
+    lines.append("fsld:site_" +
+                 str(row['id']) + "_activity " + "prov:startedAtTime '" + starttime + "'^^xsd:dateTime .")
+    lines.append("fsld:site_" +
+                 str(row['id']) + "_activity " + "prov:endedAtTime '" +
+                 datetime.datetime.now().strftime("%Y-%m-%dT%H:%M:%S.%fZ") + "'^^xsd:dateTime .")
+    # activity data
+    lines.append("fsld:site_" +
+                 str(row['id']) + "_activity " + "fsl:hasSource" + " " + str(row['source']) + ".")
+    lines.append("fsld:site_" +
+                 str(row['id']) + "_activity " + "fsl:hasSourceType" + " " + str(row['sourcetype']) + ".")
+    for i in lits:
+        lines.append(
+            "fsld:site_" + str(row['id']) + "_activity " + "fsl:hasReference" + " '" + i + "'.")
+    lines.append("fsld:site_" +
+                 str(row['id']) + "_activity " + "fsl:activityDesc" + " '" + str(row['methoddesc']) + "'@en.")
+    lines.append("fsld:site_" +
+                 str(row['id']) + "_activity " + "fsl:certaintyLevel" + " " + str(row['certainty']) + ".")
+    lines.append("fsld:site_" +
+                 str(row['id']) + "_activity " + "fsl:certaintyDesc" + " '" + str(row['certaintyinfo']) + "'@en.")
+
+    # prov-o model
+    lines.append("fsld:site_" + str(row['id']) + " " + "prov:wasGeneratedBy" +
+                 " " + "fsld:site_" + str(row['id']) + "_activity.")
+    lines.append("fsld:site_" +
+                 str(row['id']) + "_activity " + "prov:used " + "fsld:site_" + str(row['id']) + ".")
+    for i in agents:
+        lines.append(
+            "fsld:site_" + str(row['id']) + " " + "prov:wasAttributedTo" + " <" + i + ">.")
+        lines.append(
+            "fsld:site_" + str(row['id']) + "_activity " + "prov:wasAssociatedWith" + " <" + i + ">.")
 
     # license
     lines.append("fsld:site_" + str(row['id']) + " " + "dct:license" +
-                 " <" + "https://creativecommons.org/licenses/by/4.0/deed.de" + "> .")
+                 " <" + "https://creativecommons.org/licenses/by/4.0/" + "> .")
     lines.append("fsld:site_" + str(row['id']) + " " + "dct:creator" +
                  " <" + "https://orcid.org/0000-0002-3246-3531" + "> .")
     lines.append("fsld:site_" + str(row['id']) + " " + "dct:creator" +
@@ -105,24 +175,26 @@ for index, row in data.iterrows():
     lines.append("fsld:site_" + str(row['id']) + " " + "dct:rightsHolder" +
                  " <" + "https://orcid.org/0000-0003-1100-6494" + "> .")
 
-    # prov-o
+    # prov-o for script
     lines.append("fsld:site_" + str(row['id']) + " " +
                  "prov:wasAttributedTo" + " <https://github.com/Research-Squirrel-Engineers/croton-geo/blob/main/py/igch.py> .")
     lines.append("fsld:site_" + str(row['id']) + " " +
                  "prov:wasDerivedFrom" + " <https://github.com/Research-Squirrel-Engineers/croton-geo> .")
     lines.append("fsld:site_" + str(row['id']) + " " +
-                 "prov:wasGeneratedBy" + " fsld:activity_site_" + str(row['id']) + " .")
-    lines.append("fsld:activity_site_" +
-                 str(row['id']) + " " + "rdf:type" + " <http://www.w3.org/ns/prov#Activity> .")
-    lines.append("fsld:activity_site_" +
-                 str(row['id']) + " " + "prov:startedAtTime '" + starttime + "'^^xsd:dateTime .")
-    lines.append("fsld:activity_site_" + str(row['id']) + " " + "prov:endedAtTime '" +
+                 "prov:wasGeneratedBy" + " fsld:site_" + str(row['id']) + "_pyscript .")
+    lines.append("fsld:site_" +
+                 str(row['id']) + "_pyscript " + "rdf:type" + " <http://www.w3.org/ns/prov#Activity> .")
+    lines.append("fsld:site_" +
+                 str(row['id']) + "_pyscript " + "prov:startedAtTime '" + starttime + "'^^xsd:dateTime .")
+    lines.append("fsld:site_" +
+                 str(row['id']) + "_pyscript " + "prov:endedAtTime '" +
                  datetime.datetime.now().strftime("%Y-%m-%dT%H:%M:%S.%fZ") + "'^^xsd:dateTime .")
-    lines.append("fsld:activity_site_" + str(
-        row['id']) + " " + "prov:wasAssociatedWith" + " <https://github.com/Research-Squirrel-Engineers/croton-geo/blob/main/py/igch.py> .")
+    lines.append("fsld:site_" +
+                 str(row['id']) + "_pyscript " + "prov:wasAssociatedWith" + " <https://github.com/Research-Squirrel-Engineers/croton-geo/blob/main/py/igch.py> .")
 
     lines.append("")
 
+'''
 # set paths
 file_name = "external.csv"
 dir_path = os.path.dirname(os.path.realpath(__file__))
@@ -210,8 +282,9 @@ for index, row in data.iterrows():
                  datetime.datetime.now().strftime("%Y-%m-%dT%H:%M:%S.%fZ") + "'^^xsd:dateTime .")
     lines.append("fsld:activity_site_" + str(
         row['id']) + " " + "prov:wasAssociatedWith" + " <https://github.com/Research-Squirrel-Engineers/croton-geo/blob/main/py/external.py> .")
+'''
 
-    lines.append("")
+lines.append("")
 
 files = (len(lines) / 100000) + 1
 print("triples", len(lines), "files", int(files))
@@ -230,6 +303,11 @@ prefixes += "@prefix dc: <http://purl.org/dc/elements/1.1/> .\r\n"
 prefixes += "@prefix dct: <http://purl.org/dc/terms/> .\r\n"
 prefixes += "@prefix sf: <http://www.opengis.net/ont/sf#> .\r\n"
 prefixes += "@prefix prov: <http://www.w3.org/ns/prov#> .\r\n"
+prefixes += "@prefix foaf: <http://xmlns.com/foaf/0.1/> .\r\n"
+prefixes += "@prefix skos: <http://www.w3.org/2004/02/skos/core#> .\r\n"
+prefixes += "@prefix pleiades: <https://pleiades.stoa.org/places/vocab#> .\r\n"
+
+
 prefixes += "@prefix fsl: <http://archaeoinformatics.link/ontology#> .\r\n"
 prefixes += "@prefix fsld: <http://fuzzy-sl.squirrel.link/data/> .\r\n"
 prefixes += "\r\n"
@@ -239,7 +317,8 @@ for x in range(1, int(files) + 1):
     filename = dir_path.replace("\\py", "\\rdf") + \
         "\\" + "croton.ttl"
     file = codecs.open(filename, "w", "utf-8")
-    file.write("# create triples from " + file_name + " \r\n")
+    file.write(
+        "# create triples from https://github.com/Research-Squirrel-Engineers/croton-geo \r\n")
     file.write(
         "# on " + datetime.datetime.now().strftime("%Y-%m-%d %H:%M") + "\r\n\r\n")
     file.write(prefixes)
