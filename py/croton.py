@@ -184,7 +184,7 @@ for index, row in data.iterrows():
 
     # prov-o for script
     lines.append("fsld:site_" + str(row['id']) + " " +
-                 "prov:wasAttributedTo" + " <https://github.com/Research-Squirrel-Engineers/croton-geo/blob/main/py/igch.py> .")
+                 "prov:wasAttributedTo" + " <https://github.com/Research-Squirrel-Engineers/croton-geo/blob/main/py/croton.py> .")
     lines.append("fsld:site_" + str(row['id']) + " " +
                  "prov:wasDerivedFrom" + " <https://github.com/Research-Squirrel-Engineers/croton-geo> .")
     lines.append("fsld:site_" + str(row['id']) + " " +
@@ -197,7 +197,7 @@ for index, row in data.iterrows():
                  str(row['id']) + "_pyscript " + "prov:endedAtTime '" +
                  datetime.datetime.now().strftime("%Y-%m-%dT%H:%M:%S.%fZ") + "'^^xsd:dateTime .")
     lines.append("fsld:site_" +
-                 str(row['id']) + "_pyscript " + "prov:wasAssociatedWith" + " <https://github.com/Research-Squirrel-Engineers/croton-geo/blob/main/py/igch.py> .")
+                 str(row['id']) + "_pyscript " + "prov:wasAssociatedWith" + " <https://github.com/Research-Squirrel-Engineers/croton-geo/blob/main/py/croton.py> .")
 
     lines.append("")
 
@@ -357,7 +357,7 @@ for index, row in data.iterrows():
 
     # prov-o for script
     lines.append("fsld:site_" + str(row['id']) + " " +
-                 "prov:wasAttributedTo" + " <https://github.com/Research-Squirrel-Engineers/croton-geo/blob/main/py/igch.py> .")
+                 "prov:wasAttributedTo" + " <https://github.com/Research-Squirrel-Engineers/croton-geo/blob/main/py/croton.py> .")
     lines.append("fsld:site_" + str(row['id']) + " " +
                  "prov:wasDerivedFrom" + " <https://github.com/Research-Squirrel-Engineers/croton-geo> .")
     lines.append("fsld:site_" + str(row['id']) + " " +
@@ -370,7 +370,7 @@ for index, row in data.iterrows():
                  str(row['id']) + "_pyscript " + "prov:endedAtTime '" +
                  datetime.datetime.now().strftime("%Y-%m-%dT%H:%M:%S.%fZ") + "'^^xsd:dateTime .")
     lines.append("fsld:site_" +
-                 str(row['id']) + "_pyscript " + "prov:wasAssociatedWith" + " <https://github.com/Research-Squirrel-Engineers/croton-geo/blob/main/py/igch.py> .")
+                 str(row['id']) + "_pyscript " + "prov:wasAssociatedWith" + " <https://github.com/Research-Squirrel-Engineers/croton-geo/blob/main/py/croton.py> .")
 
     lines.append("")
 
@@ -529,7 +529,7 @@ for index, row in data.iterrows():
 
     # prov-o for script
     lines.append("fsld:site_" + str(row['id']) + " " +
-                 "prov:wasAttributedTo" + " <https://github.com/Research-Squirrel-Engineers/croton-geo/blob/main/py/igch.py> .")
+                 "prov:wasAttributedTo" + " <https://github.com/Research-Squirrel-Engineers/croton-geo/blob/main/py/croton.py> .")
     lines.append("fsld:site_" + str(row['id']) + " " +
                  "prov:wasDerivedFrom" + " <https://github.com/Research-Squirrel-Engineers/croton-geo> .")
     lines.append("fsld:site_" + str(row['id']) + " " +
@@ -542,7 +542,7 @@ for index, row in data.iterrows():
                  str(row['id']) + "_pyscript " + "prov:endedAtTime '" +
                  datetime.datetime.now().strftime("%Y-%m-%dT%H:%M:%S.%fZ") + "'^^xsd:dateTime .")
     lines.append("fsld:site_" +
-                 str(row['id']) + "_pyscript " + "prov:wasAssociatedWith" + " <https://github.com/Research-Squirrel-Engineers/croton-geo/blob/main/py/igch.py> .")
+                 str(row['id']) + "_pyscript " + "prov:wasAssociatedWith" + " <https://github.com/Research-Squirrel-Engineers/croton-geo/blob/main/py/croton.py> .")
 
     lines.append("")
 

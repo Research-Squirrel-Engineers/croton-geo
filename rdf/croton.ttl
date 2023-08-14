@@ -1,5 +1,5 @@
 # create triples from https://github.com/Research-Squirrel-Engineers/croton-geo 
-# on 2023-08-14 12:58
+# on 2023-08-14 13:09
 
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
@@ -48,8 +48,8 @@ fsld:site_1001_geom fsl:certaintyLevel fsl:medium.
 fsld:site_1001_geom fsl:certaintyDesc 'coordinate from related GeoNames ID'@en.
 fsld:site_1001_activity rdf:type prov:Activity .
 fsld:site_1001_activity rdf:type fsl:ExternalRepository.
-fsld:site_1001_activity prov:startedAtTime '2023-08-14T12:58:43.038750Z'^^xsd:dateTime .
-fsld:site_1001_activity prov:endedAtTime '2023-08-14T12:58:43.053404Z'^^xsd:dateTime .
+fsld:site_1001_activity prov:startedAtTime '2023-08-14T13:09:06.131423Z'^^xsd:dateTime .
+fsld:site_1001_activity prov:endedAtTime '2023-08-14T13:09:06.143361Z'^^xsd:dateTime .
 fsld:site_1001_activity fsl:hasSource fsl:Coinhoards.
 fsld:site_1001_activity fsl:hasSourceType fsl:URI.
 fsld:site_1001_activity fsl:hasReference 'Kraay, SNR 1970, p. 68'.
@@ -65,13 +65,13 @@ fsld:site_1001 dct:creator <https://orcid.org/0000-0002-3246-3531> .
 fsld:site_1001 dct:creator <https://orcid.org/0000-0003-1100-6494> .
 fsld:site_1001 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
 fsld:site_1001 dct:rightsHolder <https://orcid.org/0000-0003-1100-6494> .
-fsld:site_1001 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/croton-geo/blob/main/py/igch.py> .
+fsld:site_1001 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/croton-geo/blob/main/py/croton.py> .
 fsld:site_1001 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/croton-geo> .
 fsld:site_1001 prov:wasGeneratedBy fsld:site_1001_pyscript .
 fsld:site_1001_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
-fsld:site_1001_pyscript prov:startedAtTime '2023-08-14T12:58:43.038750Z'^^xsd:dateTime .
-fsld:site_1001_pyscript prov:endedAtTime '2023-08-14T12:58:43.054409Z'^^xsd:dateTime .
-fsld:site_1001_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/croton-geo/blob/main/py/igch.py> .
+fsld:site_1001_pyscript prov:startedAtTime '2023-08-14T13:09:06.131423Z'^^xsd:dateTime .
+fsld:site_1001_pyscript prov:endedAtTime '2023-08-14T13:09:06.143361Z'^^xsd:dateTime .
+fsld:site_1001_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/croton-geo/blob/main/py/croton.py> .
 
 fsld:agent_0000-0003-1100-6494 rdf:type foaf:Person .
 fsld:agent_0000-0003-1100-6494 rdf:type prov:Agent .
@@ -98,8 +98,8 @@ fsld:site_1002_geom fsl:certaintyLevel fsl:medium.
 fsld:site_1002_geom fsl:certaintyDesc 'coordinate from related GeoNames ID'@en.
 fsld:site_1002_activity rdf:type prov:Activity .
 fsld:site_1002_activity rdf:type fsl:ExternalRepository.
-fsld:site_1002_activity prov:startedAtTime '2023-08-14T12:58:43.038750Z'^^xsd:dateTime .
-fsld:site_1002_activity prov:endedAtTime '2023-08-14T12:58:43.054409Z'^^xsd:dateTime .
+fsld:site_1002_activity prov:startedAtTime '2023-08-14T13:09:06.131423Z'^^xsd:dateTime .
+fsld:site_1002_activity prov:endedAtTime '2023-08-14T13:09:06.144400Z'^^xsd:dateTime .
 fsld:site_1002_activity fsl:hasSource fsl:Coinhoards.
 fsld:site_1002_activity fsl:hasSourceType fsl:URI.
 fsld:site_1002_activity fsl:hasReference 'Pozzi, AIIN 1962-4, pp. 109-47, illus.'.
@@ -116,13 +116,13 @@ fsld:site_1002 dct:creator <https://orcid.org/0000-0002-3246-3531> .
 fsld:site_1002 dct:creator <https://orcid.org/0000-0003-1100-6494> .
 fsld:site_1002 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
 fsld:site_1002 dct:rightsHolder <https://orcid.org/0000-0003-1100-6494> .
-fsld:site_1002 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/croton-geo/blob/main/py/igch.py> .
+fsld:site_1002 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/croton-geo/blob/main/py/croton.py> .
 fsld:site_1002 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/croton-geo> .
 fsld:site_1002 prov:wasGeneratedBy fsld:site_1002_pyscript .
 fsld:site_1002_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
-fsld:site_1002_pyscript prov:startedAtTime '2023-08-14T12:58:43.038750Z'^^xsd:dateTime .
-fsld:site_1002_pyscript prov:endedAtTime '2023-08-14T12:58:43.054409Z'^^xsd:dateTime .
-fsld:site_1002_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/croton-geo/blob/main/py/igch.py> .
+fsld:site_1002_pyscript prov:startedAtTime '2023-08-14T13:09:06.131423Z'^^xsd:dateTime .
+fsld:site_1002_pyscript prov:endedAtTime '2023-08-14T13:09:06.144400Z'^^xsd:dateTime .
+fsld:site_1002_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/croton-geo/blob/main/py/croton.py> .
 
 fsld:agent_0000-0003-1100-6494 rdf:type foaf:Person .
 fsld:agent_0000-0003-1100-6494 rdf:type prov:Agent .
@@ -148,8 +148,8 @@ fsld:site_1003_geom fsl:certaintyLevel fsl:medium.
 fsld:site_1003_geom fsl:certaintyDesc 'coordinate from related GeoNames ID'@en.
 fsld:site_1003_activity rdf:type prov:Activity .
 fsld:site_1003_activity rdf:type fsl:ExternalRepository.
-fsld:site_1003_activity prov:startedAtTime '2023-08-14T12:58:43.038750Z'^^xsd:dateTime .
-fsld:site_1003_activity prov:endedAtTime '2023-08-14T12:58:43.054409Z'^^xsd:dateTime .
+fsld:site_1003_activity prov:startedAtTime '2023-08-14T13:09:06.131423Z'^^xsd:dateTime .
+fsld:site_1003_activity prov:endedAtTime '2023-08-14T13:09:06.144400Z'^^xsd:dateTime .
 fsld:site_1003_activity fsl:hasSource fsl:Coinhoards.
 fsld:site_1003_activity fsl:hasSourceType fsl:URI.
 fsld:site_1003_activity fsl:hasReference 'Procopio, AIIN 1960-1, p. 59, illus.'.
@@ -165,13 +165,13 @@ fsld:site_1003 dct:creator <https://orcid.org/0000-0002-3246-3531> .
 fsld:site_1003 dct:creator <https://orcid.org/0000-0003-1100-6494> .
 fsld:site_1003 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
 fsld:site_1003 dct:rightsHolder <https://orcid.org/0000-0003-1100-6494> .
-fsld:site_1003 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/croton-geo/blob/main/py/igch.py> .
+fsld:site_1003 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/croton-geo/blob/main/py/croton.py> .
 fsld:site_1003 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/croton-geo> .
 fsld:site_1003 prov:wasGeneratedBy fsld:site_1003_pyscript .
 fsld:site_1003_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
-fsld:site_1003_pyscript prov:startedAtTime '2023-08-14T12:58:43.038750Z'^^xsd:dateTime .
-fsld:site_1003_pyscript prov:endedAtTime '2023-08-14T12:58:43.054409Z'^^xsd:dateTime .
-fsld:site_1003_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/croton-geo/blob/main/py/igch.py> .
+fsld:site_1003_pyscript prov:startedAtTime '2023-08-14T13:09:06.131423Z'^^xsd:dateTime .
+fsld:site_1003_pyscript prov:endedAtTime '2023-08-14T13:09:06.144400Z'^^xsd:dateTime .
+fsld:site_1003_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/croton-geo/blob/main/py/croton.py> .
 
 fsld:agent_0000-0003-1100-6494 rdf:type foaf:Person .
 fsld:agent_0000-0003-1100-6494 rdf:type prov:Agent .
@@ -197,8 +197,8 @@ fsld:site_1004_geom fsl:certaintyLevel fsl:low.
 fsld:site_1004_geom fsl:certaintyDesc 'coordinate from related GeoNames ID'@en.
 fsld:site_1004_activity rdf:type prov:Activity .
 fsld:site_1004_activity rdf:type fsl:ExternalRepository.
-fsld:site_1004_activity prov:startedAtTime '2023-08-14T12:58:43.038750Z'^^xsd:dateTime .
-fsld:site_1004_activity prov:endedAtTime '2023-08-14T12:58:43.055400Z'^^xsd:dateTime .
+fsld:site_1004_activity prov:startedAtTime '2023-08-14T13:09:06.131423Z'^^xsd:dateTime .
+fsld:site_1004_activity prov:endedAtTime '2023-08-14T13:09:06.145410Z'^^xsd:dateTime .
 fsld:site_1004_activity fsl:hasSource fsl:Coinhoards.
 fsld:site_1004_activity fsl:hasSourceType fsl:URI.
 fsld:site_1004_activity fsl:hasReference 'Sambon, Recherches, pp. 35-6'.
@@ -214,13 +214,13 @@ fsld:site_1004 dct:creator <https://orcid.org/0000-0002-3246-3531> .
 fsld:site_1004 dct:creator <https://orcid.org/0000-0003-1100-6494> .
 fsld:site_1004 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
 fsld:site_1004 dct:rightsHolder <https://orcid.org/0000-0003-1100-6494> .
-fsld:site_1004 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/croton-geo/blob/main/py/igch.py> .
+fsld:site_1004 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/croton-geo/blob/main/py/croton.py> .
 fsld:site_1004 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/croton-geo> .
 fsld:site_1004 prov:wasGeneratedBy fsld:site_1004_pyscript .
 fsld:site_1004_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
-fsld:site_1004_pyscript prov:startedAtTime '2023-08-14T12:58:43.038750Z'^^xsd:dateTime .
-fsld:site_1004_pyscript prov:endedAtTime '2023-08-14T12:58:43.055400Z'^^xsd:dateTime .
-fsld:site_1004_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/croton-geo/blob/main/py/igch.py> .
+fsld:site_1004_pyscript prov:startedAtTime '2023-08-14T13:09:06.131423Z'^^xsd:dateTime .
+fsld:site_1004_pyscript prov:endedAtTime '2023-08-14T13:09:06.145410Z'^^xsd:dateTime .
+fsld:site_1004_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/croton-geo/blob/main/py/croton.py> .
 
 fsld:agent_0000-0003-1100-6494 rdf:type foaf:Person .
 fsld:agent_0000-0003-1100-6494 rdf:type prov:Agent .
@@ -248,8 +248,8 @@ fsld:site_1005_geom fsl:certaintyLevel fsl:low.
 fsld:site_1005_geom fsl:certaintyDesc 'coordinate from related GeoNames ID'@en.
 fsld:site_1005_activity rdf:type prov:Activity .
 fsld:site_1005_activity rdf:type fsl:ExternalRepository.
-fsld:site_1005_activity prov:startedAtTime '2023-08-14T12:58:43.038750Z'^^xsd:dateTime .
-fsld:site_1005_activity prov:endedAtTime '2023-08-14T12:58:43.055400Z'^^xsd:dateTime .
+fsld:site_1005_activity prov:startedAtTime '2023-08-14T13:09:06.131423Z'^^xsd:dateTime .
+fsld:site_1005_activity prov:endedAtTime '2023-08-14T13:09:06.145410Z'^^xsd:dateTime .
 fsld:site_1005_activity fsl:hasSource fsl:Coinhoards.
 fsld:site_1005_activity fsl:hasSourceType fsl:URI.
 fsld:site_1005_activity fsl:hasReference 'Information from correspondents'.
@@ -265,13 +265,13 @@ fsld:site_1005 dct:creator <https://orcid.org/0000-0002-3246-3531> .
 fsld:site_1005 dct:creator <https://orcid.org/0000-0003-1100-6494> .
 fsld:site_1005 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
 fsld:site_1005 dct:rightsHolder <https://orcid.org/0000-0003-1100-6494> .
-fsld:site_1005 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/croton-geo/blob/main/py/igch.py> .
+fsld:site_1005 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/croton-geo/blob/main/py/croton.py> .
 fsld:site_1005 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/croton-geo> .
 fsld:site_1005 prov:wasGeneratedBy fsld:site_1005_pyscript .
 fsld:site_1005_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
-fsld:site_1005_pyscript prov:startedAtTime '2023-08-14T12:58:43.038750Z'^^xsd:dateTime .
-fsld:site_1005_pyscript prov:endedAtTime '2023-08-14T12:58:43.055400Z'^^xsd:dateTime .
-fsld:site_1005_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/croton-geo/blob/main/py/igch.py> .
+fsld:site_1005_pyscript prov:startedAtTime '2023-08-14T13:09:06.131423Z'^^xsd:dateTime .
+fsld:site_1005_pyscript prov:endedAtTime '2023-08-14T13:09:06.145410Z'^^xsd:dateTime .
+fsld:site_1005_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/croton-geo/blob/main/py/croton.py> .
 
 fsld:agent_0000-0003-1100-6494 rdf:type foaf:Person .
 fsld:agent_0000-0003-1100-6494 rdf:type prov:Agent .
@@ -300,8 +300,8 @@ fsld:site_1006_geom fsl:certaintyLevel fsl:low.
 fsld:site_1006_geom fsl:certaintyDesc 'coordinate from related GeoNames ID'@en.
 fsld:site_1006_activity rdf:type prov:Activity .
 fsld:site_1006_activity rdf:type fsl:ExternalRepository.
-fsld:site_1006_activity prov:startedAtTime '2023-08-14T12:58:43.038750Z'^^xsd:dateTime .
-fsld:site_1006_activity prov:endedAtTime '2023-08-14T12:58:43.055400Z'^^xsd:dateTime .
+fsld:site_1006_activity prov:startedAtTime '2023-08-14T13:09:06.131423Z'^^xsd:dateTime .
+fsld:site_1006_activity prov:endedAtTime '2023-08-14T13:09:06.145410Z'^^xsd:dateTime .
 fsld:site_1006_activity fsl:hasSource fsl:Coinhoards.
 fsld:site_1006_activity fsl:hasSourceType fsl:URI.
 fsld:site_1006_activity fsl:hasReference 'Vlasto, NNM 15 (1922), pp. 204-5'.
@@ -318,13 +318,13 @@ fsld:site_1006 dct:creator <https://orcid.org/0000-0002-3246-3531> .
 fsld:site_1006 dct:creator <https://orcid.org/0000-0003-1100-6494> .
 fsld:site_1006 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
 fsld:site_1006 dct:rightsHolder <https://orcid.org/0000-0003-1100-6494> .
-fsld:site_1006 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/croton-geo/blob/main/py/igch.py> .
+fsld:site_1006 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/croton-geo/blob/main/py/croton.py> .
 fsld:site_1006 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/croton-geo> .
 fsld:site_1006 prov:wasGeneratedBy fsld:site_1006_pyscript .
 fsld:site_1006_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
-fsld:site_1006_pyscript prov:startedAtTime '2023-08-14T12:58:43.038750Z'^^xsd:dateTime .
-fsld:site_1006_pyscript prov:endedAtTime '2023-08-14T12:58:43.055400Z'^^xsd:dateTime .
-fsld:site_1006_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/croton-geo/blob/main/py/igch.py> .
+fsld:site_1006_pyscript prov:startedAtTime '2023-08-14T13:09:06.131423Z'^^xsd:dateTime .
+fsld:site_1006_pyscript prov:endedAtTime '2023-08-14T13:09:06.146409Z'^^xsd:dateTime .
+fsld:site_1006_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/croton-geo/blob/main/py/croton.py> .
 
 fsld:agent_0000-0003-1100-6494 rdf:type foaf:Person .
 fsld:agent_0000-0003-1100-6494 rdf:type prov:Agent .
@@ -353,8 +353,8 @@ fsld:site_1007_geom fsl:certaintyLevel fsl:low.
 fsld:site_1007_geom fsl:certaintyDesc 'coordinate from related GeoNames ID'@en.
 fsld:site_1007_activity rdf:type prov:Activity .
 fsld:site_1007_activity rdf:type fsl:ExternalRepository.
-fsld:site_1007_activity prov:startedAtTime '2023-08-14T12:58:43.038750Z'^^xsd:dateTime .
-fsld:site_1007_activity prov:endedAtTime '2023-08-14T12:58:43.056400Z'^^xsd:dateTime .
+fsld:site_1007_activity prov:startedAtTime '2023-08-14T13:09:06.131423Z'^^xsd:dateTime .
+fsld:site_1007_activity prov:endedAtTime '2023-08-14T13:09:06.146409Z'^^xsd:dateTime .
 fsld:site_1007_activity fsl:hasSource fsl:Coinhoards.
 fsld:site_1007_activity fsl:hasSourceType fsl:URI.
 fsld:site_1007_activity fsl:hasReference 'Orsi, AttiMemIIN 1919, pp. 35-45, illus.'.
@@ -371,13 +371,13 @@ fsld:site_1007 dct:creator <https://orcid.org/0000-0002-3246-3531> .
 fsld:site_1007 dct:creator <https://orcid.org/0000-0003-1100-6494> .
 fsld:site_1007 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
 fsld:site_1007 dct:rightsHolder <https://orcid.org/0000-0003-1100-6494> .
-fsld:site_1007 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/croton-geo/blob/main/py/igch.py> .
+fsld:site_1007 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/croton-geo/blob/main/py/croton.py> .
 fsld:site_1007 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/croton-geo> .
 fsld:site_1007 prov:wasGeneratedBy fsld:site_1007_pyscript .
 fsld:site_1007_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
-fsld:site_1007_pyscript prov:startedAtTime '2023-08-14T12:58:43.038750Z'^^xsd:dateTime .
-fsld:site_1007_pyscript prov:endedAtTime '2023-08-14T12:58:43.056400Z'^^xsd:dateTime .
-fsld:site_1007_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/croton-geo/blob/main/py/igch.py> .
+fsld:site_1007_pyscript prov:startedAtTime '2023-08-14T13:09:06.131423Z'^^xsd:dateTime .
+fsld:site_1007_pyscript prov:endedAtTime '2023-08-14T13:09:06.146409Z'^^xsd:dateTime .
+fsld:site_1007_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/croton-geo/blob/main/py/croton.py> .
 
 fsld:agent_0000-0002-3246-3531 rdf:type foaf:Person .
 fsld:agent_0000-0002-3246-3531 rdf:type prov:Agent .
@@ -403,8 +403,8 @@ fsld:site_2001_geom fsl:certaintyLevel fsl:low.
 fsld:site_2001_geom fsl:certaintyDesc 'Coordinate is directly used from the iDAI record.'@en.
 fsld:site_2001_activity rdf:type prov:Activity .
 fsld:site_2001_activity rdf:type fsl:ExternalRepository.
-fsld:site_2001_activity prov:startedAtTime '2023-08-14T12:58:43.038750Z'^^xsd:dateTime .
-fsld:site_2001_activity prov:endedAtTime '2023-08-14T12:58:43.068454Z'^^xsd:dateTime .
+fsld:site_2001_activity prov:startedAtTime '2023-08-14T13:09:06.131423Z'^^xsd:dateTime .
+fsld:site_2001_activity prov:endedAtTime '2023-08-14T13:09:06.158545Z'^^xsd:dateTime .
 fsld:site_2001_activity fsl:hasSource fsl:iDAIgazetteer.
 fsld:site_2001_activity fsl:hasSourceType fsl:URI.
 fsld:site_2001_activity fsl:activityDesc 'uses existing URI from iDAI.gazetteer'@en.
@@ -419,13 +419,13 @@ fsld:site_2001 dct:creator <https://orcid.org/0000-0002-3246-3531> .
 fsld:site_2001 dct:creator <https://orcid.org/0000-0003-1100-6494> .
 fsld:site_2001 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
 fsld:site_2001 dct:rightsHolder <https://orcid.org/0000-0003-1100-6494> .
-fsld:site_2001 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/croton-geo/blob/main/py/igch.py> .
+fsld:site_2001 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/croton-geo/blob/main/py/croton.py> .
 fsld:site_2001 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/croton-geo> .
 fsld:site_2001 prov:wasGeneratedBy fsld:site_2001_pyscript .
 fsld:site_2001_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
-fsld:site_2001_pyscript prov:startedAtTime '2023-08-14T12:58:43.038750Z'^^xsd:dateTime .
-fsld:site_2001_pyscript prov:endedAtTime '2023-08-14T12:58:43.068454Z'^^xsd:dateTime .
-fsld:site_2001_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/croton-geo/blob/main/py/igch.py> .
+fsld:site_2001_pyscript prov:startedAtTime '2023-08-14T13:09:06.131423Z'^^xsd:dateTime .
+fsld:site_2001_pyscript prov:endedAtTime '2023-08-14T13:09:06.159545Z'^^xsd:dateTime .
+fsld:site_2001_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/croton-geo/blob/main/py/croton.py> .
 
 fsld:agent_0000-0002-3246-3531 rdf:type foaf:Person .
 fsld:agent_0000-0002-3246-3531 rdf:type prov:Agent .
@@ -451,8 +451,8 @@ fsld:site_2002_geom fsl:certaintyLevel fsl:low.
 fsld:site_2002_geom fsl:certaintyDesc 'Coordinate is directly used from the iDAI record.'@en.
 fsld:site_2002_activity rdf:type prov:Activity .
 fsld:site_2002_activity rdf:type fsl:ExternalRepository.
-fsld:site_2002_activity prov:startedAtTime '2023-08-14T12:58:43.038750Z'^^xsd:dateTime .
-fsld:site_2002_activity prov:endedAtTime '2023-08-14T12:58:43.069535Z'^^xsd:dateTime .
+fsld:site_2002_activity prov:startedAtTime '2023-08-14T13:09:06.131423Z'^^xsd:dateTime .
+fsld:site_2002_activity prov:endedAtTime '2023-08-14T13:09:06.159545Z'^^xsd:dateTime .
 fsld:site_2002_activity fsl:hasSource fsl:iDAIgazetteer.
 fsld:site_2002_activity fsl:hasSourceType fsl:URI.
 fsld:site_2002_activity fsl:activityDesc 'uses existing URI from iDAI.gazetteer'@en.
@@ -467,13 +467,13 @@ fsld:site_2002 dct:creator <https://orcid.org/0000-0002-3246-3531> .
 fsld:site_2002 dct:creator <https://orcid.org/0000-0003-1100-6494> .
 fsld:site_2002 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
 fsld:site_2002 dct:rightsHolder <https://orcid.org/0000-0003-1100-6494> .
-fsld:site_2002 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/croton-geo/blob/main/py/igch.py> .
+fsld:site_2002 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/croton-geo/blob/main/py/croton.py> .
 fsld:site_2002 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/croton-geo> .
 fsld:site_2002 prov:wasGeneratedBy fsld:site_2002_pyscript .
 fsld:site_2002_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
-fsld:site_2002_pyscript prov:startedAtTime '2023-08-14T12:58:43.038750Z'^^xsd:dateTime .
-fsld:site_2002_pyscript prov:endedAtTime '2023-08-14T12:58:43.069535Z'^^xsd:dateTime .
-fsld:site_2002_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/croton-geo/blob/main/py/igch.py> .
+fsld:site_2002_pyscript prov:startedAtTime '2023-08-14T13:09:06.131423Z'^^xsd:dateTime .
+fsld:site_2002_pyscript prov:endedAtTime '2023-08-14T13:09:06.159545Z'^^xsd:dateTime .
+fsld:site_2002_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/croton-geo/blob/main/py/croton.py> .
 
 fsld:agent_0000-0002-3246-3531 rdf:type foaf:Person .
 fsld:agent_0000-0002-3246-3531 rdf:type prov:Agent .
@@ -499,8 +499,8 @@ fsld:site_2003_geom fsl:certaintyLevel fsl:low.
 fsld:site_2003_geom fsl:certaintyDesc 'Coordinate is directly used from the Pleiades record.'@en.
 fsld:site_2003_activity rdf:type prov:Activity .
 fsld:site_2003_activity rdf:type fsl:ExternalRepository.
-fsld:site_2003_activity prov:startedAtTime '2023-08-14T12:58:43.038750Z'^^xsd:dateTime .
-fsld:site_2003_activity prov:endedAtTime '2023-08-14T12:58:43.069535Z'^^xsd:dateTime .
+fsld:site_2003_activity prov:startedAtTime '2023-08-14T13:09:06.131423Z'^^xsd:dateTime .
+fsld:site_2003_activity prov:endedAtTime '2023-08-14T13:09:06.159545Z'^^xsd:dateTime .
 fsld:site_2003_activity fsl:hasSource fsl:Pleides.
 fsld:site_2003_activity fsl:hasSourceType fsl:URI.
 fsld:site_2003_activity fsl:activityDesc 'uses existing URI from Pleiades'@en.
@@ -515,13 +515,13 @@ fsld:site_2003 dct:creator <https://orcid.org/0000-0002-3246-3531> .
 fsld:site_2003 dct:creator <https://orcid.org/0000-0003-1100-6494> .
 fsld:site_2003 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
 fsld:site_2003 dct:rightsHolder <https://orcid.org/0000-0003-1100-6494> .
-fsld:site_2003 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/croton-geo/blob/main/py/igch.py> .
+fsld:site_2003 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/croton-geo/blob/main/py/croton.py> .
 fsld:site_2003 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/croton-geo> .
 fsld:site_2003 prov:wasGeneratedBy fsld:site_2003_pyscript .
 fsld:site_2003_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
-fsld:site_2003_pyscript prov:startedAtTime '2023-08-14T12:58:43.038750Z'^^xsd:dateTime .
-fsld:site_2003_pyscript prov:endedAtTime '2023-08-14T12:58:43.069535Z'^^xsd:dateTime .
-fsld:site_2003_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/croton-geo/blob/main/py/igch.py> .
+fsld:site_2003_pyscript prov:startedAtTime '2023-08-14T13:09:06.131423Z'^^xsd:dateTime .
+fsld:site_2003_pyscript prov:endedAtTime '2023-08-14T13:09:06.159545Z'^^xsd:dateTime .
+fsld:site_2003_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/croton-geo/blob/main/py/croton.py> .
 
 fsld:agent_0000-0002-3246-3531 rdf:type foaf:Person .
 fsld:agent_0000-0002-3246-3531 rdf:type prov:Agent .
@@ -547,8 +547,8 @@ fsld:site_2004_geom fsl:certaintyLevel fsl:low.
 fsld:site_2004_geom fsl:certaintyDesc 'Georeferencing was done using QGIS.'@en.
 fsld:site_2004_activity rdf:type prov:Activity .
 fsld:site_2004_activity rdf:type fsl:Georeferencing.
-fsld:site_2004_activity prov:startedAtTime '2023-08-14T12:58:43.038750Z'^^xsd:dateTime .
-fsld:site_2004_activity prov:endedAtTime '2023-08-14T12:58:43.069535Z'^^xsd:dateTime .
+fsld:site_2004_activity prov:startedAtTime '2023-08-14T13:09:06.131423Z'^^xsd:dateTime .
+fsld:site_2004_activity prov:endedAtTime '2023-08-14T13:09:06.159545Z'^^xsd:dateTime .
 fsld:site_2004_activity fsl:hasSource fsl:WikimediaCommons.
 fsld:site_2004_activity fsl:hasSourceType fsl:Image.
 fsld:site_2004_activity fsl:activityDesc 'georeferencing the area using QGIS and the Wikimedia Commons Image and combine it with iDAI.gazetteer ID 2180561'@en.
@@ -564,13 +564,13 @@ fsld:site_2004 dct:creator <https://orcid.org/0000-0002-3246-3531> .
 fsld:site_2004 dct:creator <https://orcid.org/0000-0003-1100-6494> .
 fsld:site_2004 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
 fsld:site_2004 dct:rightsHolder <https://orcid.org/0000-0003-1100-6494> .
-fsld:site_2004 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/croton-geo/blob/main/py/igch.py> .
+fsld:site_2004 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/croton-geo/blob/main/py/croton.py> .
 fsld:site_2004 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/croton-geo> .
 fsld:site_2004 prov:wasGeneratedBy fsld:site_2004_pyscript .
 fsld:site_2004_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
-fsld:site_2004_pyscript prov:startedAtTime '2023-08-14T12:58:43.038750Z'^^xsd:dateTime .
-fsld:site_2004_pyscript prov:endedAtTime '2023-08-14T12:58:43.069535Z'^^xsd:dateTime .
-fsld:site_2004_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/croton-geo/blob/main/py/igch.py> .
+fsld:site_2004_pyscript prov:startedAtTime '2023-08-14T13:09:06.131423Z'^^xsd:dateTime .
+fsld:site_2004_pyscript prov:endedAtTime '2023-08-14T13:09:06.160545Z'^^xsd:dateTime .
+fsld:site_2004_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/croton-geo/blob/main/py/croton.py> .
 
 fsld:agent_0000-0002-3246-3531 rdf:type foaf:Person .
 fsld:agent_0000-0002-3246-3531 rdf:type prov:Agent .
@@ -596,8 +596,8 @@ fsld:site_2005_geom fsl:certaintyLevel fsl:low.
 fsld:site_2005_geom fsl:certaintyDesc 'Coordinate is directly used from the GeoNames record.'@en.
 fsld:site_2005_activity rdf:type prov:Activity .
 fsld:site_2005_activity rdf:type fsl:ExternalRepository.
-fsld:site_2005_activity prov:startedAtTime '2023-08-14T12:58:43.038750Z'^^xsd:dateTime .
-fsld:site_2005_activity prov:endedAtTime '2023-08-14T12:58:43.070517Z'^^xsd:dateTime .
+fsld:site_2005_activity prov:startedAtTime '2023-08-14T13:09:06.131423Z'^^xsd:dateTime .
+fsld:site_2005_activity prov:endedAtTime '2023-08-14T13:09:06.160545Z'^^xsd:dateTime .
 fsld:site_2005_activity fsl:hasSource fsl:GeoNames.
 fsld:site_2005_activity fsl:hasSourceType fsl:URI.
 fsld:site_2005_activity fsl:activityDesc 'uses existing link to GeoNames in coinhorads ID 1902'@en.
@@ -612,13 +612,13 @@ fsld:site_2005 dct:creator <https://orcid.org/0000-0002-3246-3531> .
 fsld:site_2005 dct:creator <https://orcid.org/0000-0003-1100-6494> .
 fsld:site_2005 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
 fsld:site_2005 dct:rightsHolder <https://orcid.org/0000-0003-1100-6494> .
-fsld:site_2005 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/croton-geo/blob/main/py/igch.py> .
+fsld:site_2005 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/croton-geo/blob/main/py/croton.py> .
 fsld:site_2005 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/croton-geo> .
 fsld:site_2005 prov:wasGeneratedBy fsld:site_2005_pyscript .
 fsld:site_2005_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
-fsld:site_2005_pyscript prov:startedAtTime '2023-08-14T12:58:43.038750Z'^^xsd:dateTime .
-fsld:site_2005_pyscript prov:endedAtTime '2023-08-14T12:58:43.070517Z'^^xsd:dateTime .
-fsld:site_2005_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/croton-geo/blob/main/py/igch.py> .
+fsld:site_2005_pyscript prov:startedAtTime '2023-08-14T13:09:06.131423Z'^^xsd:dateTime .
+fsld:site_2005_pyscript prov:endedAtTime '2023-08-14T13:09:06.160545Z'^^xsd:dateTime .
+fsld:site_2005_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/croton-geo/blob/main/py/croton.py> .
 
 fsld:agent_0000-0002-3246-3531 rdf:type foaf:Person .
 fsld:agent_0000-0002-3246-3531 rdf:type prov:Agent .
@@ -644,8 +644,8 @@ fsld:site_2006_geom fsl:certaintyLevel fsl:medium.
 fsld:site_2006_geom fsl:certaintyDesc 'Coordinate is directly used from the GeoNames record.'@en.
 fsld:site_2006_activity rdf:type prov:Activity .
 fsld:site_2006_activity rdf:type fsl:ExternalRepository.
-fsld:site_2006_activity prov:startedAtTime '2023-08-14T12:58:43.038750Z'^^xsd:dateTime .
-fsld:site_2006_activity prov:endedAtTime '2023-08-14T12:58:43.070517Z'^^xsd:dateTime .
+fsld:site_2006_activity prov:startedAtTime '2023-08-14T13:09:06.131423Z'^^xsd:dateTime .
+fsld:site_2006_activity prov:endedAtTime '2023-08-14T13:09:06.160545Z'^^xsd:dateTime .
 fsld:site_2006_activity fsl:hasSource fsl:GeoNames.
 fsld:site_2006_activity fsl:hasSourceType fsl:URI.
 fsld:site_2006_activity fsl:activityDesc 'uses existing link to GeoNames in coinhorads ID 1925'@en.
@@ -660,13 +660,13 @@ fsld:site_2006 dct:creator <https://orcid.org/0000-0002-3246-3531> .
 fsld:site_2006 dct:creator <https://orcid.org/0000-0003-1100-6494> .
 fsld:site_2006 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
 fsld:site_2006 dct:rightsHolder <https://orcid.org/0000-0003-1100-6494> .
-fsld:site_2006 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/croton-geo/blob/main/py/igch.py> .
+fsld:site_2006 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/croton-geo/blob/main/py/croton.py> .
 fsld:site_2006 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/croton-geo> .
 fsld:site_2006 prov:wasGeneratedBy fsld:site_2006_pyscript .
 fsld:site_2006_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
-fsld:site_2006_pyscript prov:startedAtTime '2023-08-14T12:58:43.038750Z'^^xsd:dateTime .
-fsld:site_2006_pyscript prov:endedAtTime '2023-08-14T12:58:43.070517Z'^^xsd:dateTime .
-fsld:site_2006_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/croton-geo/blob/main/py/igch.py> .
+fsld:site_2006_pyscript prov:startedAtTime '2023-08-14T13:09:06.131423Z'^^xsd:dateTime .
+fsld:site_2006_pyscript prov:endedAtTime '2023-08-14T13:09:06.160545Z'^^xsd:dateTime .
+fsld:site_2006_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/croton-geo/blob/main/py/croton.py> .
 
 fsld:agent_0000-0002-3246-3531 rdf:type foaf:Person .
 fsld:agent_0000-0002-3246-3531 rdf:type prov:Agent .
@@ -692,8 +692,8 @@ fsld:site_2007_geom fsl:certaintyLevel fsl:medium.
 fsld:site_2007_geom fsl:certaintyDesc 'Coordinate is directly used from the GeoNames record.'@en.
 fsld:site_2007_activity rdf:type prov:Activity .
 fsld:site_2007_activity rdf:type fsl:ExternalRepository.
-fsld:site_2007_activity prov:startedAtTime '2023-08-14T12:58:43.038750Z'^^xsd:dateTime .
-fsld:site_2007_activity prov:endedAtTime '2023-08-14T12:58:43.070517Z'^^xsd:dateTime .
+fsld:site_2007_activity prov:startedAtTime '2023-08-14T13:09:06.131423Z'^^xsd:dateTime .
+fsld:site_2007_activity prov:endedAtTime '2023-08-14T13:09:06.160545Z'^^xsd:dateTime .
 fsld:site_2007_activity fsl:hasSource fsl:GeoNames.
 fsld:site_2007_activity fsl:hasSourceType fsl:URI.
 fsld:site_2007_activity fsl:activityDesc 'uses existing link to GeoNames in coinhorads ID 1885'@en.
@@ -708,13 +708,13 @@ fsld:site_2007 dct:creator <https://orcid.org/0000-0002-3246-3531> .
 fsld:site_2007 dct:creator <https://orcid.org/0000-0003-1100-6494> .
 fsld:site_2007 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
 fsld:site_2007 dct:rightsHolder <https://orcid.org/0000-0003-1100-6494> .
-fsld:site_2007 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/croton-geo/blob/main/py/igch.py> .
+fsld:site_2007 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/croton-geo/blob/main/py/croton.py> .
 fsld:site_2007 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/croton-geo> .
 fsld:site_2007 prov:wasGeneratedBy fsld:site_2007_pyscript .
 fsld:site_2007_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
-fsld:site_2007_pyscript prov:startedAtTime '2023-08-14T12:58:43.038750Z'^^xsd:dateTime .
-fsld:site_2007_pyscript prov:endedAtTime '2023-08-14T12:58:43.070517Z'^^xsd:dateTime .
-fsld:site_2007_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/croton-geo/blob/main/py/igch.py> .
+fsld:site_2007_pyscript prov:startedAtTime '2023-08-14T13:09:06.131423Z'^^xsd:dateTime .
+fsld:site_2007_pyscript prov:endedAtTime '2023-08-14T13:09:06.160545Z'^^xsd:dateTime .
+fsld:site_2007_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/croton-geo/blob/main/py/croton.py> .
 
 fsld:agent_0000-0002-3246-3531 rdf:type foaf:Person .
 fsld:agent_0000-0002-3246-3531 rdf:type prov:Agent .
@@ -740,8 +740,8 @@ fsld:site_2008_geom fsl:certaintyLevel fsl:low.
 fsld:site_2008_geom fsl:certaintyDesc 'Coordinate is directly used from the GeoNames record.'@en.
 fsld:site_2008_activity rdf:type prov:Activity .
 fsld:site_2008_activity rdf:type fsl:ExternalRepository.
-fsld:site_2008_activity prov:startedAtTime '2023-08-14T12:58:43.038750Z'^^xsd:dateTime .
-fsld:site_2008_activity prov:endedAtTime '2023-08-14T12:58:43.070517Z'^^xsd:dateTime .
+fsld:site_2008_activity prov:startedAtTime '2023-08-14T13:09:06.131423Z'^^xsd:dateTime .
+fsld:site_2008_activity prov:endedAtTime '2023-08-14T13:09:06.161543Z'^^xsd:dateTime .
 fsld:site_2008_activity fsl:hasSource fsl:GeoNames.
 fsld:site_2008_activity fsl:hasSourceType fsl:URI.
 fsld:site_2008_activity fsl:activityDesc 'uses existing link to GeoNames in coinhorads ID 1873'@en.
@@ -756,13 +756,13 @@ fsld:site_2008 dct:creator <https://orcid.org/0000-0002-3246-3531> .
 fsld:site_2008 dct:creator <https://orcid.org/0000-0003-1100-6494> .
 fsld:site_2008 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
 fsld:site_2008 dct:rightsHolder <https://orcid.org/0000-0003-1100-6494> .
-fsld:site_2008 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/croton-geo/blob/main/py/igch.py> .
+fsld:site_2008 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/croton-geo/blob/main/py/croton.py> .
 fsld:site_2008 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/croton-geo> .
 fsld:site_2008 prov:wasGeneratedBy fsld:site_2008_pyscript .
 fsld:site_2008_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
-fsld:site_2008_pyscript prov:startedAtTime '2023-08-14T12:58:43.038750Z'^^xsd:dateTime .
-fsld:site_2008_pyscript prov:endedAtTime '2023-08-14T12:58:43.071503Z'^^xsd:dateTime .
-fsld:site_2008_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/croton-geo/blob/main/py/igch.py> .
+fsld:site_2008_pyscript prov:startedAtTime '2023-08-14T13:09:06.131423Z'^^xsd:dateTime .
+fsld:site_2008_pyscript prov:endedAtTime '2023-08-14T13:09:06.161543Z'^^xsd:dateTime .
+fsld:site_2008_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/croton-geo/blob/main/py/croton.py> .
 
 fsld:agent_0000-0002-3246-3531 rdf:type foaf:Person .
 fsld:agent_0000-0002-3246-3531 rdf:type prov:Agent .
@@ -788,8 +788,8 @@ fsld:site_2009_geom fsl:certaintyLevel fsl:low.
 fsld:site_2009_geom fsl:certaintyDesc 'Coordinate is directly used from the GeoNames record.'@en.
 fsld:site_2009_activity rdf:type prov:Activity .
 fsld:site_2009_activity rdf:type fsl:ExternalRepository.
-fsld:site_2009_activity prov:startedAtTime '2023-08-14T12:58:43.038750Z'^^xsd:dateTime .
-fsld:site_2009_activity prov:endedAtTime '2023-08-14T12:58:43.071503Z'^^xsd:dateTime .
+fsld:site_2009_activity prov:startedAtTime '2023-08-14T13:09:06.131423Z'^^xsd:dateTime .
+fsld:site_2009_activity prov:endedAtTime '2023-08-14T13:09:06.161543Z'^^xsd:dateTime .
 fsld:site_2009_activity fsl:hasSource fsl:GeoNames.
 fsld:site_2009_activity fsl:hasSourceType fsl:URI.
 fsld:site_2009_activity fsl:activityDesc 'uses existing link to GeoNames in coinhorads ID 1894'@en.
@@ -804,13 +804,13 @@ fsld:site_2009 dct:creator <https://orcid.org/0000-0002-3246-3531> .
 fsld:site_2009 dct:creator <https://orcid.org/0000-0003-1100-6494> .
 fsld:site_2009 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
 fsld:site_2009 dct:rightsHolder <https://orcid.org/0000-0003-1100-6494> .
-fsld:site_2009 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/croton-geo/blob/main/py/igch.py> .
+fsld:site_2009 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/croton-geo/blob/main/py/croton.py> .
 fsld:site_2009 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/croton-geo> .
 fsld:site_2009 prov:wasGeneratedBy fsld:site_2009_pyscript .
 fsld:site_2009_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
-fsld:site_2009_pyscript prov:startedAtTime '2023-08-14T12:58:43.038750Z'^^xsd:dateTime .
-fsld:site_2009_pyscript prov:endedAtTime '2023-08-14T12:58:43.071503Z'^^xsd:dateTime .
-fsld:site_2009_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/croton-geo/blob/main/py/igch.py> .
+fsld:site_2009_pyscript prov:startedAtTime '2023-08-14T13:09:06.131423Z'^^xsd:dateTime .
+fsld:site_2009_pyscript prov:endedAtTime '2023-08-14T13:09:06.161543Z'^^xsd:dateTime .
+fsld:site_2009_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/croton-geo/blob/main/py/croton.py> .
 
 fsld:agent_0000-0002-3246-3531 rdf:type foaf:Person .
 fsld:agent_0000-0002-3246-3531 rdf:type prov:Agent .
@@ -836,8 +836,8 @@ fsld:site_2010_geom fsl:certaintyLevel fsl:low.
 fsld:site_2010_geom fsl:certaintyDesc 'Coordinate is directly used from the GeoNames record.'@en.
 fsld:site_2010_activity rdf:type prov:Activity .
 fsld:site_2010_activity rdf:type fsl:ExternalRepository.
-fsld:site_2010_activity prov:startedAtTime '2023-08-14T12:58:43.038750Z'^^xsd:dateTime .
-fsld:site_2010_activity prov:endedAtTime '2023-08-14T12:58:43.071503Z'^^xsd:dateTime .
+fsld:site_2010_activity prov:startedAtTime '2023-08-14T13:09:06.131423Z'^^xsd:dateTime .
+fsld:site_2010_activity prov:endedAtTime '2023-08-14T13:09:06.161543Z'^^xsd:dateTime .
 fsld:site_2010_activity fsl:hasSource fsl:GeoNames.
 fsld:site_2010_activity fsl:hasSourceType fsl:URI.
 fsld:site_2010_activity fsl:activityDesc 'uses existing link to GeoNames in coinhorads ID 1916'@en.
@@ -852,13 +852,13 @@ fsld:site_2010 dct:creator <https://orcid.org/0000-0002-3246-3531> .
 fsld:site_2010 dct:creator <https://orcid.org/0000-0003-1100-6494> .
 fsld:site_2010 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
 fsld:site_2010 dct:rightsHolder <https://orcid.org/0000-0003-1100-6494> .
-fsld:site_2010 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/croton-geo/blob/main/py/igch.py> .
+fsld:site_2010 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/croton-geo/blob/main/py/croton.py> .
 fsld:site_2010 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/croton-geo> .
 fsld:site_2010 prov:wasGeneratedBy fsld:site_2010_pyscript .
 fsld:site_2010_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
-fsld:site_2010_pyscript prov:startedAtTime '2023-08-14T12:58:43.038750Z'^^xsd:dateTime .
-fsld:site_2010_pyscript prov:endedAtTime '2023-08-14T12:58:43.071503Z'^^xsd:dateTime .
-fsld:site_2010_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/croton-geo/blob/main/py/igch.py> .
+fsld:site_2010_pyscript prov:startedAtTime '2023-08-14T13:09:06.131423Z'^^xsd:dateTime .
+fsld:site_2010_pyscript prov:endedAtTime '2023-08-14T13:09:06.161543Z'^^xsd:dateTime .
+fsld:site_2010_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/croton-geo/blob/main/py/croton.py> .
 
 fsld:agent_0000-0002-3246-3531 rdf:type foaf:Person .
 fsld:agent_0000-0002-3246-3531 rdf:type prov:Agent .
@@ -884,8 +884,8 @@ fsld:site_2011_geom fsl:certaintyLevel fsl:low.
 fsld:site_2011_geom fsl:certaintyDesc 'Coordinate is directly used from the GeoNames record.'@en.
 fsld:site_2011_activity rdf:type prov:Activity .
 fsld:site_2011_activity rdf:type fsl:ExternalRepository.
-fsld:site_2011_activity prov:startedAtTime '2023-08-14T12:58:43.038750Z'^^xsd:dateTime .
-fsld:site_2011_activity prov:endedAtTime '2023-08-14T12:58:43.071503Z'^^xsd:dateTime .
+fsld:site_2011_activity prov:startedAtTime '2023-08-14T13:09:06.131423Z'^^xsd:dateTime .
+fsld:site_2011_activity prov:endedAtTime '2023-08-14T13:09:06.161543Z'^^xsd:dateTime .
 fsld:site_2011_activity fsl:hasSource fsl:GeoNames.
 fsld:site_2011_activity fsl:hasSourceType fsl:URI.
 fsld:site_2011_activity fsl:activityDesc 'uses existing link to GeoNames in coinhorads ID 1881'@en.
@@ -900,13 +900,13 @@ fsld:site_2011 dct:creator <https://orcid.org/0000-0002-3246-3531> .
 fsld:site_2011 dct:creator <https://orcid.org/0000-0003-1100-6494> .
 fsld:site_2011 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
 fsld:site_2011 dct:rightsHolder <https://orcid.org/0000-0003-1100-6494> .
-fsld:site_2011 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/croton-geo/blob/main/py/igch.py> .
+fsld:site_2011 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/croton-geo/blob/main/py/croton.py> .
 fsld:site_2011 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/croton-geo> .
 fsld:site_2011 prov:wasGeneratedBy fsld:site_2011_pyscript .
 fsld:site_2011_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
-fsld:site_2011_pyscript prov:startedAtTime '2023-08-14T12:58:43.038750Z'^^xsd:dateTime .
-fsld:site_2011_pyscript prov:endedAtTime '2023-08-14T12:58:43.071503Z'^^xsd:dateTime .
-fsld:site_2011_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/croton-geo/blob/main/py/igch.py> .
+fsld:site_2011_pyscript prov:startedAtTime '2023-08-14T13:09:06.131423Z'^^xsd:dateTime .
+fsld:site_2011_pyscript prov:endedAtTime '2023-08-14T13:09:06.161543Z'^^xsd:dateTime .
+fsld:site_2011_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/croton-geo/blob/main/py/croton.py> .
 
 fsld:agent_0000-0003-1100-6494 rdf:type foaf:Person .
 fsld:agent_0000-0003-1100-6494 rdf:type prov:Agent .
@@ -935,8 +935,8 @@ fsld:site_3001_geom fsl:certaintyLevel fsl:medium.
 fsld:site_3001_geom fsl:certaintyDesc 'Wo befand sich der Grundbesitz des E. De Finis?'@en.
 fsld:site_3001_activity rdf:type prov:Activity .
 fsld:site_3001_activity rdf:type fsl:Georeferencing.
-fsld:site_3001_activity prov:startedAtTime '2023-08-14T12:58:43.038750Z'^^xsd:dateTime .
-fsld:site_3001_activity prov:endedAtTime '2023-08-14T12:58:43.083416Z'^^xsd:dateTime .
+fsld:site_3001_activity prov:startedAtTime '2023-08-14T13:09:06.131423Z'^^xsd:dateTime .
+fsld:site_3001_activity prov:endedAtTime '2023-08-14T13:09:06.173968Z'^^xsd:dateTime .
 fsld:site_3001_activity fsl:hasSource fsl:PaperDesc.
 fsld:site_3001_activity fsl:hasSourceType fsl:Paper.
 fsld:site_3001_activity fsl:hasReference 'F. G. Lo Porto (1990)'.
@@ -953,13 +953,13 @@ fsld:site_3001 dct:creator <https://orcid.org/0000-0002-3246-3531> .
 fsld:site_3001 dct:creator <https://orcid.org/0000-0003-1100-6494> .
 fsld:site_3001 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
 fsld:site_3001 dct:rightsHolder <https://orcid.org/0000-0003-1100-6494> .
-fsld:site_3001 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/croton-geo/blob/main/py/igch.py> .
+fsld:site_3001 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/croton-geo/blob/main/py/croton.py> .
 fsld:site_3001 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/croton-geo> .
 fsld:site_3001 prov:wasGeneratedBy fsld:site_3001_pyscript .
 fsld:site_3001_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
-fsld:site_3001_pyscript prov:startedAtTime '2023-08-14T12:58:43.038750Z'^^xsd:dateTime .
-fsld:site_3001_pyscript prov:endedAtTime '2023-08-14T12:58:43.083416Z'^^xsd:dateTime .
-fsld:site_3001_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/croton-geo/blob/main/py/igch.py> .
+fsld:site_3001_pyscript prov:startedAtTime '2023-08-14T13:09:06.131423Z'^^xsd:dateTime .
+fsld:site_3001_pyscript prov:endedAtTime '2023-08-14T13:09:06.173968Z'^^xsd:dateTime .
+fsld:site_3001_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/croton-geo/blob/main/py/croton.py> .
 
 fsld:agent_0000-0003-1100-6494 rdf:type foaf:Person .
 fsld:agent_0000-0003-1100-6494 rdf:type prov:Agent .
@@ -987,8 +987,8 @@ fsld:site_3002_geom fsl:certaintyLevel fsl:high.
 fsld:site_3002_geom fsl:certaintyDesc 'geringe Unsicherheit'@en.
 fsld:site_3002_activity rdf:type prov:Activity .
 fsld:site_3002_activity rdf:type fsl:Georeferencing.
-fsld:site_3002_activity prov:startedAtTime '2023-08-14T12:58:43.038750Z'^^xsd:dateTime .
-fsld:site_3002_activity prov:endedAtTime '2023-08-14T12:58:43.083416Z'^^xsd:dateTime .
+fsld:site_3002_activity prov:startedAtTime '2023-08-14T13:09:06.131423Z'^^xsd:dateTime .
+fsld:site_3002_activity prov:endedAtTime '2023-08-14T13:09:06.173968Z'^^xsd:dateTime .
 fsld:site_3002_activity fsl:hasSource fsl:PaperDesc.
 fsld:site_3002_activity fsl:hasSourceType fsl:Paper.
 fsld:site_3002_activity fsl:hasReference 'P. Attianese (1980)'.
@@ -1004,13 +1004,13 @@ fsld:site_3002 dct:creator <https://orcid.org/0000-0002-3246-3531> .
 fsld:site_3002 dct:creator <https://orcid.org/0000-0003-1100-6494> .
 fsld:site_3002 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
 fsld:site_3002 dct:rightsHolder <https://orcid.org/0000-0003-1100-6494> .
-fsld:site_3002 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/croton-geo/blob/main/py/igch.py> .
+fsld:site_3002 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/croton-geo/blob/main/py/croton.py> .
 fsld:site_3002 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/croton-geo> .
 fsld:site_3002 prov:wasGeneratedBy fsld:site_3002_pyscript .
 fsld:site_3002_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
-fsld:site_3002_pyscript prov:startedAtTime '2023-08-14T12:58:43.038750Z'^^xsd:dateTime .
-fsld:site_3002_pyscript prov:endedAtTime '2023-08-14T12:58:43.084413Z'^^xsd:dateTime .
-fsld:site_3002_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/croton-geo/blob/main/py/igch.py> .
+fsld:site_3002_pyscript prov:startedAtTime '2023-08-14T13:09:06.131423Z'^^xsd:dateTime .
+fsld:site_3002_pyscript prov:endedAtTime '2023-08-14T13:09:06.173968Z'^^xsd:dateTime .
+fsld:site_3002_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/croton-geo/blob/main/py/croton.py> .
 
 fsld:agent_0000-0003-1100-6494 rdf:type foaf:Person .
 fsld:agent_0000-0003-1100-6494 rdf:type prov:Agent .
@@ -1039,8 +1039,8 @@ fsld:site_3003_geom fsl:certaintyLevel fsl:low.
 fsld:site_3003_geom fsl:certaintyDesc 'Es gibt lediglich die Information, dass der Hortfund am Fluss Esaro gefunden wurde, ohne genaue Angabe, wo am Flusslauf. In der Literatur gibt es die Information, dass er “in Crotone” gefunden wurde, womit eher die Stadt als die Provinz gemeint sein dürfte, da es ansonsten anders formuliert worden wäre. Der städtische Bereich des Flusslaufes endet kurz hinter der “Strada Statale 106 Jonica”. Am wahrscheinlichsten ist der Fundort am Flusslauf zwischen dem Abschnitt kurz vor der Autobahn und der Flussmündung im Meer. Da der Fund 1967 getätigt wurde, entspricht der damalige Flussverlauf vermutlich ziemlich genau dem heutigen. Sowohl Letzteres als auch der mutmaßliche Fundabschnitt sind jedoch Vermutungen.'@en.
 fsld:site_3003_activity rdf:type prov:Activity .
 fsld:site_3003_activity rdf:type fsl:Georeferencing.
-fsld:site_3003_activity prov:startedAtTime '2023-08-14T12:58:43.038750Z'^^xsd:dateTime .
-fsld:site_3003_activity prov:endedAtTime '2023-08-14T12:58:43.084413Z'^^xsd:dateTime .
+fsld:site_3003_activity prov:startedAtTime '2023-08-14T13:09:06.131423Z'^^xsd:dateTime .
+fsld:site_3003_activity prov:endedAtTime '2023-08-14T13:09:06.173968Z'^^xsd:dateTime .
 fsld:site_3003_activity fsl:hasSource fsl:PaperDesc.
 fsld:site_3003_activity fsl:hasSourceType fsl:Paper.
 fsld:site_3003_activity fsl:hasReference 'P. Attianese (1980)'.
@@ -1057,13 +1057,13 @@ fsld:site_3003 dct:creator <https://orcid.org/0000-0002-3246-3531> .
 fsld:site_3003 dct:creator <https://orcid.org/0000-0003-1100-6494> .
 fsld:site_3003 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
 fsld:site_3003 dct:rightsHolder <https://orcid.org/0000-0003-1100-6494> .
-fsld:site_3003 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/croton-geo/blob/main/py/igch.py> .
+fsld:site_3003 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/croton-geo/blob/main/py/croton.py> .
 fsld:site_3003 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/croton-geo> .
 fsld:site_3003 prov:wasGeneratedBy fsld:site_3003_pyscript .
 fsld:site_3003_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
-fsld:site_3003_pyscript prov:startedAtTime '2023-08-14T12:58:43.038750Z'^^xsd:dateTime .
-fsld:site_3003_pyscript prov:endedAtTime '2023-08-14T12:58:43.084413Z'^^xsd:dateTime .
-fsld:site_3003_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/croton-geo/blob/main/py/igch.py> .
+fsld:site_3003_pyscript prov:startedAtTime '2023-08-14T13:09:06.131423Z'^^xsd:dateTime .
+fsld:site_3003_pyscript prov:endedAtTime '2023-08-14T13:09:06.173968Z'^^xsd:dateTime .
+fsld:site_3003_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/croton-geo/blob/main/py/croton.py> .
 
 fsld:agent_0000-0003-1100-6494 rdf:type foaf:Person .
 fsld:agent_0000-0003-1100-6494 rdf:type prov:Agent .
@@ -1092,8 +1092,8 @@ fsld:site_3004_geom fsl:certaintyLevel fsl:medium.
 fsld:site_3004_geom fsl:certaintyDesc 'Bei GeoNames wurden die Koordinaten ungefähr vom Zentrum von Curinga gewählt. Der Fund wurde jedoch bei Trockenlegungsarbeiten zum Bau der Bahnstrecke zwischen den Flüssen Angitola und Turrina gehoben. Beide Flüsse liegen deutlich weiter südlich, außerhalb der Stadt. Der Turrina verläuft unmittelbar südlich von Curinga, der Angitola evtl. ca. 15 km weiter südlich; die Bahnstrecke verläuft allerdings westlich an der Küste entlang. Der Fundort könnte sich in einem undefinierten Areal  südwestlich von Curinga befinden.'@en.
 fsld:site_3004_activity rdf:type prov:Activity .
 fsld:site_3004_activity rdf:type fsl:Georeferencing.
-fsld:site_3004_activity prov:startedAtTime '2023-08-14T12:58:43.038750Z'^^xsd:dateTime .
-fsld:site_3004_activity prov:endedAtTime '2023-08-14T12:58:43.084413Z'^^xsd:dateTime .
+fsld:site_3004_activity prov:startedAtTime '2023-08-14T13:09:06.131423Z'^^xsd:dateTime .
+fsld:site_3004_activity prov:endedAtTime '2023-08-14T13:09:06.173968Z'^^xsd:dateTime .
 fsld:site_3004_activity fsl:hasSource fsl:PaperDesc.
 fsld:site_3004_activity fsl:hasSourceType fsl:Paper.
 fsld:site_3004_activity fsl:hasReference 'P. Orsi (1919)'.
@@ -1109,11 +1109,11 @@ fsld:site_3004 dct:creator <https://orcid.org/0000-0002-3246-3531> .
 fsld:site_3004 dct:creator <https://orcid.org/0000-0003-1100-6494> .
 fsld:site_3004 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
 fsld:site_3004 dct:rightsHolder <https://orcid.org/0000-0003-1100-6494> .
-fsld:site_3004 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/croton-geo/blob/main/py/igch.py> .
+fsld:site_3004 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/croton-geo/blob/main/py/croton.py> .
 fsld:site_3004 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/croton-geo> .
 fsld:site_3004 prov:wasGeneratedBy fsld:site_3004_pyscript .
 fsld:site_3004_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
-fsld:site_3004_pyscript prov:startedAtTime '2023-08-14T12:58:43.038750Z'^^xsd:dateTime .
-fsld:site_3004_pyscript prov:endedAtTime '2023-08-14T12:58:43.084413Z'^^xsd:dateTime .
-fsld:site_3004_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/croton-geo/blob/main/py/igch.py> .
+fsld:site_3004_pyscript prov:startedAtTime '2023-08-14T13:09:06.131423Z'^^xsd:dateTime .
+fsld:site_3004_pyscript prov:endedAtTime '2023-08-14T13:09:06.174967Z'^^xsd:dateTime .
+fsld:site_3004_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/croton-geo/blob/main/py/croton.py> .
 
