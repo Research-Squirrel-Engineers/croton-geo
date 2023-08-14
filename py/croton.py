@@ -22,7 +22,6 @@ import hashlib
 
 # set UTF8 as default
 importlib.reload(sys)
-print("*****************************************")
 
 # set starttime
 starttime = datetime.datetime.now().strftime("%Y-%m-%dT%H:%M:%S.%fZ")
@@ -42,15 +41,13 @@ data = pd.read_csv(
              'sourcetype', 'spatialtype', 'methodtype', 'agent', 'methoddesc', 'literature', 'wkt'],
     na_values=['.', '??', 'NULL']  # take any '.' or '??' values as NA
 )
+print("*****************************************")
 print(data.info())
 
 # create triples from dataframe
 lineNo = 2
 for index, row in data.iterrows():
-    # print(lineNo)
     tmpno = lineNo - 2
-    if tmpno % 1000 == 0:
-        print(tmpno)
     lineNo += 1
 
     # agent
@@ -151,6 +148,16 @@ for index, row in data.iterrows():
                  str(row['id']) + "_activity " + "fsl:certaintyLevel" + " " + str(row['certainty']) + ".")
     lines.append("fsld:site_" +
                  str(row['id']) + "_activity " + "fsl:certaintyDesc" + " '" + str(row['certaintyinfo']) + "'@en.")
+
+    # image?
+    if str(row['relatedto']) != 'nan':
+        for i in relatedtos:
+            if "png" in i:
+                lines.append("fsld:site_" +
+                             str(row['id']) + "_activity " + "fsl:image" + " <" + i + ">.")
+            if "jpg" in i:
+                lines.append("fsld:site_" +
+                             str(row['id']) + "_activity " + "fsl:image" + " <" + i + ">.")
 
     # prov-o model
     lines.append("fsld:site_" + str(row['id']) + " " + "prov:wasGeneratedBy" +
@@ -213,10 +220,7 @@ print(data.info())
 # create triples from dataframe
 lineNo = 2
 for index, row in data.iterrows():
-    # print(lineNo)
     tmpno = lineNo - 2
-    if tmpno % 1000 == 0:
-        print(tmpno)
     lineNo += 1
 
     # agent
@@ -318,6 +322,16 @@ for index, row in data.iterrows():
     lines.append("fsld:site_" +
                  str(row['id']) + "_activity " + "fsl:certaintyDesc" + " '" + str(row['certaintyinfo']) + "'@en.")
 
+    # image?
+    if str(row['relatedto']) != 'nan':
+        for i in relatedtos:
+            if "png" in i:
+                lines.append("fsld:site_" +
+                             str(row['id']) + "_activity " + "fsl:image" + " <" + i + ">.")
+            if "jpg" in i:
+                lines.append("fsld:site_" +
+                             str(row['id']) + "_activity " + "fsl:image" + " <" + i + ">.")
+
     # prov-o model
     lines.append("fsld:site_" + str(row['id']) + " " + "prov:wasGeneratedBy" +
                  " " + "fsld:site_" + str(row['id']) + "_activity.")
@@ -379,10 +393,7 @@ print(data.info())
 # create triples from dataframe
 lineNo = 2
 for index, row in data.iterrows():
-    # print(lineNo)
     tmpno = lineNo - 2
-    if tmpno % 1000 == 0:
-        print(tmpno)
     lineNo += 1
 
     # agent
@@ -486,14 +497,14 @@ for index, row in data.iterrows():
     # image?
     if str(row['relatedto']) != 'nan':
         for i in relatedtos:
-            if ".png" in i:
+            if "png" in i:
                 lines.append("fsld:site_" +
-                             str(row['id']) + "_activity " + "skos:prefSymbol" + " <" + i + ">.")
-            if ".jpg" in i:
+                             str(row['id']) + "_activity " + "fsl:image" + " <" + i + ">.")
+            if "jpg" in i:
                 lines.append("fsld:site_" +
-                             str(row['id']) + "_activity " + "skos:prefSymbol" + " <" + i + ">.")
+                             str(row['id']) + "_activity " + "fsl:image" + " <" + i + ">.")
 
-        # prov-o model
+    # prov-o model
     lines.append("fsld:site_" + str(row['id']) + " " + "prov:wasGeneratedBy" +
                  " " + "fsld:site_" + str(row['id']) + "_activity.")
     lines.append("fsld:site_" +
