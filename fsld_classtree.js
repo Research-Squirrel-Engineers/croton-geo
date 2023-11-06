@@ -589,9 +589,6 @@ var tree={
             "http://archaeoinformatics.link/ontology#certaintyLevel": {
               "instancecount": 1
             },
-            "http://archaeoinformatics.link/ontology#hasReference": {
-              "instancecount": 1
-            },
             "http://archaeoinformatics.link/ontology#partOf": {
               "instancecount": 1
             },
@@ -624,7 +621,7 @@ var tree={
               "instancecount": 1
             },
             "http://www.w3.org/2004/02/skos/core#exactMatch": {
-              "instancecount": 2
+              "instancecount": 1
             },
             "http://www.w3.org/2004/02/skos/core#prefLabel": {
               "instancecount": 1
@@ -656,7 +653,7 @@ var tree={
             }
           }
         },
-        "instancecount": 26
+        "instancecount": 24
       },
       {
         "id": "http://fuzzy-sl.squirrel.link/data/site_1001_geom",
@@ -1325,6 +1322,9 @@ var tree={
             "http://archaeoinformatics.link/ontology#certaintyLevel": {
               "instancecount": 1
             },
+            "http://archaeoinformatics.link/ontology#hasReference": {
+              "instancecount": 2
+            },
             "http://archaeoinformatics.link/ontology#hasSource": {
               "instancecount": 1
             },
@@ -1363,7 +1363,7 @@ var tree={
             }
           }
         },
-        "instancecount": 11
+        "instancecount": 13
       },
       {
         "id": "http://fuzzy-sl.squirrel.link/data/site_2004_activity_suniv1_",
@@ -1508,14 +1508,15 @@ var tree={
               "instancecount": 1
             },
             "http://www.w3.org/2000/01/rdf-schema#member": {
-              "instancecount": 17,
-              "http://www.w3.org/ns/prov#Activity": 17,
-              "http://archaeoinformatics.link/ontology#ExternalRepository": 17
+              "instancecount": 44,
+              "http://www.w3.org/ns/prov#Activity": 44,
+              "http://archaeoinformatics.link/ontology#ExternalRepository": 17,
+              "http://archaeoinformatics.link/ontology#Georeferencing": 5
             }
           },
           "from": {}
         },
-        "instancecount": 19
+        "instancecount": 46
       },
       {
         "id": "http://fuzzy-sl.squirrel.link/data/Site_collection",
