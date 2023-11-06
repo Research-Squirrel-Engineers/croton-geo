@@ -589,6 +589,9 @@ var tree={
             "http://archaeoinformatics.link/ontology#certaintyLevel": {
               "instancecount": 1
             },
+            "http://archaeoinformatics.link/ontology#hasReference": {
+              "instancecount": 1
+            },
             "http://archaeoinformatics.link/ontology#partOf": {
               "instancecount": 1
             },
@@ -621,7 +624,7 @@ var tree={
               "instancecount": 1
             },
             "http://www.w3.org/2004/02/skos/core#exactMatch": {
-              "instancecount": 1
+              "instancecount": 2
             },
             "http://www.w3.org/2004/02/skos/core#prefLabel": {
               "instancecount": 1
@@ -653,7 +656,7 @@ var tree={
             }
           }
         },
-        "instancecount": 24
+        "instancecount": 26
       },
       {
         "id": "http://fuzzy-sl.squirrel.link/data/site_1001_geom",
@@ -1322,9 +1325,6 @@ var tree={
             "http://archaeoinformatics.link/ontology#certaintyLevel": {
               "instancecount": 1
             },
-            "http://archaeoinformatics.link/ontology#hasReference": {
-              "instancecount": 2
-            },
             "http://archaeoinformatics.link/ontology#hasSource": {
               "instancecount": 1
             },
@@ -1363,7 +1363,7 @@ var tree={
             }
           }
         },
-        "instancecount": 13
+        "instancecount": 11
       },
       {
         "id": "http://fuzzy-sl.squirrel.link/data/site_2004_activity_suniv1_",
