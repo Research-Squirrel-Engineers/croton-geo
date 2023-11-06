@@ -11,6 +11,7 @@ With these modern and ancient labels, another problem arises, if one wants to ma
 This dataset can be accessed in the following ways:
 * As HTML using the [Github page](https://research-squirrel-engineers.github.io/croton-geo/) of this repository
 * In QGIS using the static OGC API Features API of this repository: [https://research-squirrel-engineers.github.io/croton-geo/index.json](https://research-squirrel-engineers.github.io/croton-geo/index.json) [OpenAPI](https://research-squirrel-engineers.github.io/croton-geo/api/api.html)
+* Using the static IIIF Presentation API provided by this repository, e.g., in the provided [IIIF Viewer in JavaScript](https://research-squirrel-engineers.github.io/croton-geo/iiif/)
 * As RDF in JavaScript [SPARQL Interface in JavaScript](https://research-squirrel-engineers.github.io/croton-geo/sparql.html)
 * As individual class-based RDF dumps on every URL hierarchy, e.g., all RDF [RDF Dump on Github Page](https://research-squirrel-engineers.github.io/croton-geo/index.ttl)
 
