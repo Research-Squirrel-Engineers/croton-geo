@@ -1,0 +1,8 @@
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ns1: <http://archaeoinformatics.link/ontology#> .
+
+<http://fuzzy-sl.squirrel.link/data/crotonsite_3004_geom> a <http://www.opengis.net/ont/sf#Point> ;
+    ns1:certaintyDesc "Bei GeoNames wurden die Koordinaten ungefähr vom Zentrum von Curinga gewählt. Der Fund wurde jedoch bei Trockenlegungsarbeiten zum Bau der Bahnstrecke zwischen den Flüssen Angitola und Turrina gehoben. Beide Flüsse liegen deutlich weiter südlich, außerhalb der Stadt. Der Turrina verläuft unmittelbar südlich von Curinga, der Angitola evtl. ca. 15 km weiter südlich; die Bahnstrecke verläuft allerdings westlich an der Küste entlang. Der Fundort könnte sich in einem undefinierten Areal  südwestlich von Curinga befinden."@en ;
+    ns1:certaintyLevel ns1:medium ;
+    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(16.31344 38.82811)"^^geo:wktLiteral .
+

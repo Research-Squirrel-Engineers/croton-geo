@@ -1,0 +1,8 @@
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ns1: <http://archaeoinformatics.link/ontology#> .
+
+<http://fuzzy-sl.squirrel.link/data/crotonsite_3003_geom> a <http://www.opengis.net/ont/sf#Point> ;
+    ns1:certaintyDesc "Es gibt lediglich die Information, dass der Hortfund am Fluss Esaro gefunden wurde, ohne genaue Angabe, wo am Flusslauf. In der Literatur gibt es die Information, dass er “in Crotone” gefunden wurde, womit eher die Stadt als die Provinz gemeint sein dürfte, da es ansonsten anders formuliert worden wäre. Der städtische Bereich des Flusslaufes endet kurz hinter der “Strada Statale 106 Jonica”. Am wahrscheinlichsten ist der Fundort am Flusslauf zwischen dem Abschnitt kurz vor der Autobahn und der Flussmündung im Meer. Da der Fund 1967 getätigt wurde, entspricht der damalige Flussverlauf vermutlich ziemlich genau dem heutigen. Sowohl Letzteres als auch der mutmaßliche Fundabschnitt sind jedoch Vermutungen."@en ;
+    ns1:certaintyLevel ns1:low ;
+    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(17.1123 39.0855)"^^geo:wktLiteral .
+

@@ -1,0 +1,35 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ns1: <http://archaeoinformatics.link/ontology#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://fuzzy-sl.squirrel.link/data/crotonsite_3004> a ns1:Site,
+        prov:Entity,
+        <https://pleiades.stoa.org/places/vocab#Place> ;
+    rdfs:label "Curinga 1916 (IGCH 1881 / Noe 285)"@en ;
+    ns1:certaintyDesc "Bei GeoNames wurden die Koordinaten ungefähr vom Zentrum von Curinga gewählt. Der Fund wurde jedoch bei Trockenlegungsarbeiten zum Bau der Bahnstrecke zwischen den Flüssen Angitola und Turrina gehoben. Beide Flüsse liegen deutlich weiter südlich, außerhalb der Stadt. Der Turrina verläuft unmittelbar südlich von Curinga, der Angitola evtl. ca. 15 km weiter südlich; die Bahnstrecke verläuft allerdings westlich an der Küste entlang. Der Fundort könnte sich in einem undefinierten Areal  südwestlich von Curinga befinden."@en ;
+    ns1:certaintyLevel ns1:medium ;
+    ns1:hasReference "P. Orsi (1919)" ;
+    ns1:partOf ns1:CrotonProject ;
+    ns1:siteType ns1:ArchaeologicalSite ;
+    ns1:spatialCloseMatch <http://coinhoards.org/id/igch1881>,
+        <http://openstreetmap.org/relation/39724>,
+        <http://wikidata.org/entity/Q53514> ;
+    ns1:spatialType ns1:ArchaeologicalSite ;
+    dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
+        <https://orcid.org/0000-0003-1100-6494> ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:rightsHolder <https://orcid.org/0000-0002-3246-3531>,
+        <https://orcid.org/0000-0003-1100-6494> ;
+    geo:hasGeometry <http://fuzzy-sl.squirrel.link/data/crotonsite_3004_geom> ;
+    rdfs:comment "An der Bahnstrecke von Curinga (Provinz Catanzaro), zwischen den Flüssen Angitola und Turrina."@en ;
+    skos:prefLabel "Curinga 1916 (IGCH 1881 / Noe 285)"@en ;
+    skos:scopeNote "An der Bahnstrecke von Curinga (Provinz Catanzaro), zwischen den Flüssen Angitola und Turrina."@en ;
+    prov:wasAttributedTo <http://orcid.org/0000-0003-1100-6494>,
+        <https://github.com/Research-Squirrel-Engineers/croton-geo/blob/main/py/croton.py> ;
+    prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/croton-geo> ;
+    prov:wasGeneratedBy <http://fuzzy-sl.squirrel.link/data/crotonsite_3004_activity>,
+        <http://fuzzy-sl.squirrel.link/data/crotonsite_3004_pyscript> .
+

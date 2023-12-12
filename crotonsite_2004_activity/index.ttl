@@ -1,0 +1,17 @@
+@prefix ns1: <http://archaeoinformatics.link/ontology#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://fuzzy-sl.squirrel.link/data/crotonsite_2004_activity> a ns1:Georeferencing,
+        prov:Activity ;
+    ns1:activityDesc "georeferencing the area using QGIS and the Wikimedia Commons Image and combine it with iDAI.gazetteer ID 2180561"@en ;
+    ns1:certaintyDesc "Georeferencing was done using QGIS."@en ;
+    ns1:certaintyLevel ns1:low ;
+    ns1:hasSource ns1:WikimediaCommons ;
+    ns1:hasSourceType ns1:Image ;
+    ns1:image <https://upload.wikimedia.org/wikipedia/commons/7/75/Shepherd_-_Bruttium_%28Calabria%29_-_1911.png> ;
+    prov:endedAtTime "2023-12-12T11:51:40.097770+00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2023-12-12T11:51:39.953054+00:00"^^xsd:dateTime ;
+    prov:used <http://fuzzy-sl.squirrel.link/data/crotonsite_2004> ;
+    prov:wasAssociatedWith <http://orcid.org/0000-0002-3246-3531> .
+

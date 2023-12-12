@@ -3,9 +3,9 @@
 
 <http://fuzzy-sl.squirrel.link/data/Georeferencing_collection> a skos:Collection ;
     rdfs:label "Georeferencing Instances Collection" ;
-    rdfs:member <http://fuzzy-sl.squirrel.link/data/site_2004_activity>,
-        <http://fuzzy-sl.squirrel.link/data/site_3001_activity>,
-        <http://fuzzy-sl.squirrel.link/data/site_3002_activity>,
-        <http://fuzzy-sl.squirrel.link/data/site_3003_activity>,
-        <http://fuzzy-sl.squirrel.link/data/site_3004_activity> .
+    rdfs:member <http://fuzzy-sl.squirrel.link/data/crotonsite_2004_activity>,
+        <http://fuzzy-sl.squirrel.link/data/crotonsite_3001_activity>,
+        <http://fuzzy-sl.squirrel.link/data/crotonsite_3002_activity>,
+        <http://fuzzy-sl.squirrel.link/data/crotonsite_3003_activity>,
+        <http://fuzzy-sl.squirrel.link/data/crotonsite_3004_activity> .
 

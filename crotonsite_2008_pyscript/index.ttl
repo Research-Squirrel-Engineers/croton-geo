@@ -1,0 +1,8 @@
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://fuzzy-sl.squirrel.link/data/crotonsite_2008_pyscript> a prov:Activity ;
+    prov:endedAtTime "2023-12-12T11:51:40.103968+00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2023-12-12T11:51:39.953054+00:00"^^xsd:dateTime ;
+    prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/croton-geo/blob/main/py/croton.py> .
+

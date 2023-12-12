@@ -1,0 +1,32 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ns1: <http://archaeoinformatics.link/ontology#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://fuzzy-sl.squirrel.link/data/crotonsite_2004> a ns1:Site,
+        prov:Entity,
+        <https://pleiades.stoa.org/places/vocab#Place> ;
+    rdfs:label "Shepherd - Bruttium (Calabria) - 1911"@en ;
+    ns1:certaintyDesc "Georeferencing was done using QGIS."@en ;
+    ns1:certaintyLevel ns1:low ;
+    ns1:partOf ns1:CrotonProject ;
+    ns1:siteType ns1:ArchaeologicalSite ;
+    ns1:spatialType ns1:AncientLocation ;
+    dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
+        <https://orcid.org/0000-0003-1100-6494> ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:rightsHolder <https://orcid.org/0000-0002-3246-3531>,
+        <https://orcid.org/0000-0003-1100-6494> ;
+    geo:hasGeometry <http://fuzzy-sl.squirrel.link/data/crotonsite_2004_geom> ;
+    rdfs:comment "Region Bruttium (ancient) or Calabria (modern)"@en ;
+    skos:exactMatch <https://upload.wikimedia.org/wikipedia/commons/7/75/Shepherd_-_Bruttium_%28Calabria%29_-_1911.png> ;
+    skos:prefLabel "Shepherd - Bruttium (Calabria) - 1911"@en ;
+    skos:scopeNote "Region Bruttium (ancient) or Calabria (modern)"@en ;
+    prov:wasAttributedTo <http://orcid.org/0000-0002-3246-3531>,
+        <https://github.com/Research-Squirrel-Engineers/croton-geo/blob/main/py/croton.py> ;
+    prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/croton-geo> ;
+    prov:wasGeneratedBy <http://fuzzy-sl.squirrel.link/data/crotonsite_2004_activity>,
+        <http://fuzzy-sl.squirrel.link/data/crotonsite_2004_pyscript> .
+
