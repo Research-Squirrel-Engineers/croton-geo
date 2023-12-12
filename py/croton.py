@@ -572,7 +572,7 @@ prefixes += "@prefix osmr: <http://openopenstreetmap.org/relation/> .\r\n"
 prefixes += "@prefix osmw: <http://openopenstreetmap.org/way/> .\r\n"
 prefixes += "@prefix idaigaz: <https://gazetteer.dainst.org/place/> .\r\n"
 prefixes += "@prefix pleiadesp: <https://pleiades.stoa.org/places/> .\r\n"
-prefixes += "@prefix fsl: <http://archaeoinformatics.link/ontology#> .\r\n"
+prefixes += "@prefix fsl: <http://fuzzy-sl.squirrel.link/ontology/> .\r\n"
 prefixes += "@prefix fsld: <http://fuzzy-sl.squirrel.link/data/> .\r\n"
 prefixes += "\r\n"
 
