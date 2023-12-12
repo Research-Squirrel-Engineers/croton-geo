@@ -590,7 +590,7 @@ var tree={
               "instancecount": 1
             },
             "http://fuzzy-sl.squirrel.link/ontology/hasReference": {
-              "instancecount": 2
+              "instancecount": 1
             },
             "http://fuzzy-sl.squirrel.link/ontology/partOf": {
               "instancecount": 1
@@ -650,7 +650,7 @@ var tree={
             }
           }
         },
-        "instancecount": 25
+        "instancecount": 24
       },
       {
         "id": "http://fuzzy-sl.squirrel.link/data/crotonsite_1001_geom",
@@ -1319,6 +1319,9 @@ var tree={
             "http://fuzzy-sl.squirrel.link/ontology/certaintyLevel": {
               "instancecount": 1
             },
+            "http://fuzzy-sl.squirrel.link/ontology/hasReference": {
+              "instancecount": 2
+            },
             "http://fuzzy-sl.squirrel.link/ontology/hasSource": {
               "instancecount": 1
             },
@@ -1357,7 +1360,7 @@ var tree={
             }
           }
         },
-        "instancecount": 11
+        "instancecount": 13
       },
       {
         "id": "http://fuzzy-sl.squirrel.link/data/crotonsite_2004_activity_suniv1_",
