@@ -589,9 +589,6 @@ var tree={
             "http://fuzzy-sl.squirrel.link/ontology/certaintyLevel": {
               "instancecount": 1
             },
-            "http://fuzzy-sl.squirrel.link/ontology/hasReference": {
-              "instancecount": 1
-            },
             "http://fuzzy-sl.squirrel.link/ontology/partOf": {
               "instancecount": 1
             },
@@ -617,13 +614,19 @@ var tree={
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
               "instancecount": 3
             },
+            "http://www.w3.org/2000/01/rdf-schema#comment": {
+              "instancecount": 1
+            },
             "http://www.w3.org/2000/01/rdf-schema#label": {
               "instancecount": 1
             },
             "http://www.w3.org/2004/02/skos/core#exactMatch": {
-              "instancecount": 2
+              "instancecount": 1
             },
             "http://www.w3.org/2004/02/skos/core#prefLabel": {
+              "instancecount": 1
+            },
+            "http://www.w3.org/2004/02/skos/core#scopeNote": {
               "instancecount": 1
             },
             "http://www.w3.org/ns/prov#wasAttributedTo": {
@@ -1414,7 +1417,7 @@ var tree={
               "instancecount": 1
             },
             "http://fuzzy-sl.squirrel.link/ontology/hasReference": {
-              "instancecount": 2
+              "instancecount": 1
             },
             "http://fuzzy-sl.squirrel.link/ontology/hasSource": {
               "instancecount": 1
@@ -1454,7 +1457,7 @@ var tree={
             }
           }
         },
-        "instancecount": 13
+        "instancecount": 12
       },
       {
         "id": "http://fuzzy-sl.squirrel.link/data/Person_collection",
@@ -1505,14 +1508,15 @@ var tree={
               "instancecount": 1
             },
             "http://www.w3.org/2000/01/rdf-schema#member": {
-              "instancecount": 2,
-              "http://xmlns.com/foaf/0.1/Person": 2,
-              "http://www.w3.org/ns/prov#Agent": 2
+              "instancecount": 44,
+              "http://www.w3.org/ns/prov#Activity": 44,
+              "http://fuzzy-sl.squirrel.link/ontology/Georeferencing": 5,
+              "http://fuzzy-sl.squirrel.link/ontology/ExternalRepository": 17
             }
           },
           "from": {}
         },
-        "instancecount": 4
+        "instancecount": 46
       },
       {
         "id": "http://fuzzy-sl.squirrel.link/data/Site_collection",
