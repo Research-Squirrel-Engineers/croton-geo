@@ -1,5 +1,7 @@
-  {
-       "type": "FeatureCollection",
-       "features":
-[{"type":"Feature","geometry":{"type":"Point","coordinates":[17.05413,39.26576]},"properties":{"name":"Strongoli (Italy)","uri":"https://sws.geonames.org/2522990/","type":"findspot"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[17.2701645,40.4545235]},"properties":{"name":"Tarentum","uri":"http://nomisma.org/id/taras","type":"mint","average_count":1}},{"type":"Feature","geometry":{"type":"Point","coordinates":[16.822782,40.3831258]},"properties":{"name":"Metapontum","uri":"http://nomisma.org/id/metapontum","type":"mint","average_count":4}},{"type":"Feature","geometry":{"type":"Point","coordinates":[15.005569,40.422631]},"properties":{"name":"Paestum","uri":"http://nomisma.org/id/poseidonia","type":"mint","average_count":3}},{"type":"Feature","geometry":{"type":"Point","coordinates":[16.578485,38.445426]},"properties":{"name":"Caulonia","uri":"http://nomisma.org/id/caulonia","type":"mint","average_count":1}},{"type":"Feature","geometry":{"type":"Point","coordinates":[17.127080,39.080763]},"properties":{"name":"Crotone","uri":"http://nomisma.org/id/croton","type":"mint","average_count":4}}]
+{
+"type": "FeatureCollection",
+"name": "igch1885",
+"features": [
+{ "type": "Feature", "properties": { "name": "Strongoli (Italy)", "uri": "https://sws.geonames.org/2522990/", "type": "findspot" }, "geometry": { "type": "Point", "coordinates": [ 17.05413, 39.26576 ] } }
+]
 }
