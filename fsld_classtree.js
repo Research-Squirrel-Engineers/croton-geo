@@ -102,160 +102,160 @@ var tree={
       },
       {
         "id": "http://fuzzy-sl.squirrel.link/data/crotonsite_1001_suniv0_",
-        "parent": "http://archaeoinformatics.link/ontology#Site",
+        "parent": "http://fuzzy-sl.squirrel.link/ontology/Site",
         "type": "geoinstance",
         "text": "Taranto, Via Oberdan (fsld:crotonsite_1001)",
         "data": {}
       },
       {
         "id": "http://fuzzy-sl.squirrel.link/data/crotonsite_1002_suniv0_",
-        "parent": "http://archaeoinformatics.link/ontology#Site",
+        "parent": "http://fuzzy-sl.squirrel.link/ontology/Site",
         "type": "geoinstance",
         "text": "Paestum (anc. Poseidonia), Lucania (fsld:crotonsite_1002)",
         "data": {}
       },
       {
         "id": "http://fuzzy-sl.squirrel.link/data/crotonsite_1003_suniv0_",
-        "parent": "http://archaeoinformatics.link/ontology#Site",
+        "parent": "http://fuzzy-sl.squirrel.link/ontology/Site",
         "type": "geoinstance",
         "text": "Strongoli (anc. Petelia), 25 km. N of Croton, Bruttium (fsld:crotonsite_1003)",
         "data": {}
       },
       {
         "id": "http://fuzzy-sl.squirrel.link/data/crotonsite_1004_suniv0_",
-        "parent": "http://archaeoinformatics.link/ontology#Site",
+        "parent": "http://fuzzy-sl.squirrel.link/ontology/Site",
         "type": "geoinstance",
         "text": "Calabria (anc. Bruttium) (fsld:crotonsite_1004)",
         "data": {}
       },
       {
         "id": "http://fuzzy-sl.squirrel.link/data/crotonsite_1005_suniv0_",
-        "parent": "http://archaeoinformatics.link/ontology#Site",
+        "parent": "http://fuzzy-sl.squirrel.link/ontology/Site",
         "type": "geoinstance",
         "text": "South Italy (fsld:crotonsite_1005)",
         "data": {}
       },
       {
         "id": "http://fuzzy-sl.squirrel.link/data/crotonsite_1006_suniv0_",
-        "parent": "http://archaeoinformatics.link/ontology#Site",
+        "parent": "http://fuzzy-sl.squirrel.link/ontology/Site",
         "type": "geoinstance",
         "text": "Ionian Shore, Bruttium (fsld:crotonsite_1006)",
         "data": {}
       },
       {
         "id": "http://fuzzy-sl.squirrel.link/data/crotonsite_1007_suniv0_",
-        "parent": "http://archaeoinformatics.link/ontology#Site",
+        "parent": "http://fuzzy-sl.squirrel.link/ontology/Site",
         "type": "geoinstance",
         "text": "Curinga, 30 km. WSW of Catanzaro, Bruttium (fsld:crotonsite_1007)",
         "data": {}
       },
       {
         "id": "http://fuzzy-sl.squirrel.link/data/crotonsite_2001_suniv0_",
-        "parent": "http://archaeoinformatics.link/ontology#Site",
+        "parent": "http://fuzzy-sl.squirrel.link/ontology/Site",
         "type": "geoinstance",
         "text": "Bruttium (fsld:crotonsite_2001)",
         "data": {}
       },
       {
         "id": "http://fuzzy-sl.squirrel.link/data/crotonsite_2002_suniv0_",
-        "parent": "http://archaeoinformatics.link/ontology#Site",
+        "parent": "http://fuzzy-sl.squirrel.link/ontology/Site",
         "type": "geoinstance",
         "text": "Calabria (Regione) (fsld:crotonsite_2002)",
         "data": {}
       },
       {
         "id": "http://fuzzy-sl.squirrel.link/data/crotonsite_2003_suniv0_",
-        "parent": "http://archaeoinformatics.link/ontology#Site",
+        "parent": "http://fuzzy-sl.squirrel.link/ontology/Site",
         "type": "geoinstance",
         "text": "Leucopetra (cape) (fsld:crotonsite_2003)",
         "data": {}
       },
       {
         "id": "http://fuzzy-sl.squirrel.link/data/crotonsite_2004_suniv0_",
-        "parent": "http://archaeoinformatics.link/ontology#Site",
+        "parent": "http://fuzzy-sl.squirrel.link/ontology/Site",
         "type": "geoinstance",
         "text": "Shepherd - Bruttium (Calabria) - 1911 (fsld:crotonsite_2004)",
         "data": {}
       },
       {
         "id": "http://fuzzy-sl.squirrel.link/data/crotonsite_2005_suniv0_",
-        "parent": "http://archaeoinformatics.link/ontology#Site",
+        "parent": "http://fuzzy-sl.squirrel.link/ontology/Site",
         "type": "geoinstance",
         "text": "Taranto (Italy) (fsld:crotonsite_2005)",
         "data": {}
       },
       {
         "id": "http://fuzzy-sl.squirrel.link/data/crotonsite_2006_suniv0_",
-        "parent": "http://archaeoinformatics.link/ontology#Site",
+        "parent": "http://fuzzy-sl.squirrel.link/ontology/Site",
         "type": "geoinstance",
         "text": "Paestum (Italy) (fsld:crotonsite_2006)",
         "data": {}
       },
       {
         "id": "http://fuzzy-sl.squirrel.link/data/crotonsite_2007_suniv0_",
-        "parent": "http://archaeoinformatics.link/ontology#Site",
+        "parent": "http://fuzzy-sl.squirrel.link/ontology/Site",
         "type": "geoinstance",
         "text": "Strongoli (Italy) (fsld:crotonsite_2007)",
         "data": {}
       },
       {
         "id": "http://fuzzy-sl.squirrel.link/data/crotonsite_2008_suniv0_",
-        "parent": "http://archaeoinformatics.link/ontology#Site",
+        "parent": "http://fuzzy-sl.squirrel.link/ontology/Site",
         "type": "geoinstance",
         "text": "Calabria (Italy) (fsld:crotonsite_2008)",
         "data": {}
       },
       {
         "id": "http://fuzzy-sl.squirrel.link/data/crotonsite_2009_suniv0_",
-        "parent": "http://archaeoinformatics.link/ontology#Site",
+        "parent": "http://fuzzy-sl.squirrel.link/ontology/Site",
         "type": "geoinstance",
         "text": "South Italy (fsld:crotonsite_2009)",
         "data": {}
       },
       {
         "id": "http://fuzzy-sl.squirrel.link/data/crotonsite_2010_suniv0_",
-        "parent": "http://archaeoinformatics.link/ontology#Site",
+        "parent": "http://fuzzy-sl.squirrel.link/ontology/Site",
         "type": "geoinstance",
         "text": "Province of Brindisi (Italy) (fsld:crotonsite_2010)",
         "data": {}
       },
       {
         "id": "http://fuzzy-sl.squirrel.link/data/crotonsite_2011_suniv0_",
-        "parent": "http://archaeoinformatics.link/ontology#Site",
+        "parent": "http://fuzzy-sl.squirrel.link/ontology/Site",
         "type": "geoinstance",
         "text": "Curinga (Italy) (fsld:crotonsite_2011)",
         "data": {}
       },
       {
         "id": "http://fuzzy-sl.squirrel.link/data/crotonsite_3001_suniv0_",
-        "parent": "http://archaeoinformatics.link/ontology#Site",
+        "parent": "http://fuzzy-sl.squirrel.link/ontology/Site",
         "type": "geoinstance",
         "text": "San Giorgio Ionico 1949 (fsld:crotonsite_3001)",
         "data": {}
       },
       {
         "id": "http://fuzzy-sl.squirrel.link/data/crotonsite_3002_suniv0_",
-        "parent": "http://archaeoinformatics.link/ontology#Site",
+        "parent": "http://fuzzy-sl.squirrel.link/ontology/Site",
         "type": "geoinstance",
         "text": "Crotone, loc. Via Paternostro 1974 (fsld:crotonsite_3002)",
         "data": {}
       },
       {
         "id": "http://fuzzy-sl.squirrel.link/data/crotonsite_3003_suniv0_",
-        "parent": "http://archaeoinformatics.link/ontology#Site",
+        "parent": "http://fuzzy-sl.squirrel.link/ontology/Site",
         "type": "geoinstance",
         "text": "Fiume Esaro 1967 (gennaio) (fsld:crotonsite_3003)",
         "data": {}
       },
       {
         "id": "http://fuzzy-sl.squirrel.link/data/crotonsite_3004_suniv0_",
-        "parent": "http://archaeoinformatics.link/ontology#Site",
+        "parent": "http://fuzzy-sl.squirrel.link/ontology/Site",
         "type": "geoinstance",
         "text": "Curinga 1916 (IGCH 1881 / Noe 285) (fsld:crotonsite_3004)",
         "data": {}
       },
       {
-        "id": "http://archaeoinformatics.link/ontology#Site",
+        "id": "http://fuzzy-sl.squirrel.link/ontology/Site",
         "parent": "#",
         "type": "geoclass",
         "text": "Site (fsl:Site) [22]",
@@ -583,19 +583,22 @@ var tree={
         "text": "Place (pleiades:Place) [22]",
         "data": {
           "to": {
-            "http://archaeoinformatics.link/ontology#certaintyDesc": {
+            "http://fuzzy-sl.squirrel.link/ontology/certaintyDesc": {
               "instancecount": 1
             },
-            "http://archaeoinformatics.link/ontology#certaintyLevel": {
+            "http://fuzzy-sl.squirrel.link/ontology/certaintyLevel": {
               "instancecount": 1
             },
-            "http://archaeoinformatics.link/ontology#partOf": {
+            "http://fuzzy-sl.squirrel.link/ontology/hasReference": {
+              "instancecount": 2
+            },
+            "http://fuzzy-sl.squirrel.link/ontology/partOf": {
               "instancecount": 1
             },
-            "http://archaeoinformatics.link/ontology#siteType": {
+            "http://fuzzy-sl.squirrel.link/ontology/siteType": {
               "instancecount": 1
             },
-            "http://archaeoinformatics.link/ontology#spatialType": {
+            "http://fuzzy-sl.squirrel.link/ontology/spatialType": {
               "instancecount": 1
             },
             "http://purl.org/dc/terms/creator": {
@@ -614,19 +617,13 @@ var tree={
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
               "instancecount": 3
             },
-            "http://www.w3.org/2000/01/rdf-schema#comment": {
-              "instancecount": 1
-            },
             "http://www.w3.org/2000/01/rdf-schema#label": {
               "instancecount": 1
             },
             "http://www.w3.org/2004/02/skos/core#exactMatch": {
-              "instancecount": 1
+              "instancecount": 2
             },
             "http://www.w3.org/2004/02/skos/core#prefLabel": {
-              "instancecount": 1
-            },
-            "http://www.w3.org/2004/02/skos/core#scopeNote": {
               "instancecount": 1
             },
             "http://www.w3.org/ns/prov#wasAttributedTo": {
@@ -638,7 +635,7 @@ var tree={
             "http://www.w3.org/ns/prov#wasGeneratedBy": {
               "instancecount": 2,
               "http://www.w3.org/ns/prov#Activity": 2,
-              "http://archaeoinformatics.link/ontology#ExternalRepository": 1
+              "http://fuzzy-sl.squirrel.link/ontology/ExternalRepository": 1
             }
           },
           "from": {
@@ -649,11 +646,11 @@ var tree={
             "http://www.w3.org/ns/prov#used": {
               "instancecount": 0,
               "http://www.w3.org/ns/prov#Activity": 1,
-              "http://archaeoinformatics.link/ontology#ExternalRepository": 1
+              "http://fuzzy-sl.squirrel.link/ontology/ExternalRepository": 1
             }
           }
         },
-        "instancecount": 24
+        "instancecount": 25
       },
       {
         "id": "http://fuzzy-sl.squirrel.link/data/crotonsite_1001_geom",
@@ -816,10 +813,10 @@ var tree={
         "text": "Point (sf:Point) [22]",
         "data": {
           "to": {
-            "http://archaeoinformatics.link/ontology#certaintyDesc": {
+            "http://fuzzy-sl.squirrel.link/ontology/certaintyDesc": {
               "instancecount": 1
             },
-            "http://archaeoinformatics.link/ontology#certaintyLevel": {
+            "http://fuzzy-sl.squirrel.link/ontology/certaintyLevel": {
               "instancecount": 1
             },
             "http://www.opengis.net/ont/geosparql#asWKT": {
@@ -832,7 +829,7 @@ var tree={
           "from": {
             "http://www.opengis.net/ont/geosparql#hasGeometry": {
               "instancecount": 0,
-              "http://archaeoinformatics.link/ontology#Site": 1,
+              "http://fuzzy-sl.squirrel.link/ontology/Site": 1,
               "http://www.w3.org/ns/prov#Entity": 1,
               "https://pleiades.stoa.org/places/vocab#Place": 1
             },
@@ -1179,7 +1176,7 @@ var tree={
             },
             "http://www.w3.org/ns/prov#wasGeneratedBy": {
               "instancecount": 0,
-              "http://archaeoinformatics.link/ontology#Site": 1,
+              "http://fuzzy-sl.squirrel.link/ontology/Site": 1,
               "http://www.w3.org/ns/prov#Entity": 1,
               "https://pleiades.stoa.org/places/vocab#Place": 1
             }
@@ -1189,146 +1186,143 @@ var tree={
       },
       {
         "id": "http://fuzzy-sl.squirrel.link/data/crotonsite_1001_activity_suniv1_",
-        "parent": "http://archaeoinformatics.link/ontology#ExternalRepository",
+        "parent": "http://fuzzy-sl.squirrel.link/ontology/ExternalRepository",
         "type": "instance",
         "text": "crotonsite_1001_activity (fsld:crotonsite_1001_activity)",
         "data": {}
       },
       {
         "id": "http://fuzzy-sl.squirrel.link/data/crotonsite_1002_activity_suniv1_",
-        "parent": "http://archaeoinformatics.link/ontology#ExternalRepository",
+        "parent": "http://fuzzy-sl.squirrel.link/ontology/ExternalRepository",
         "type": "instance",
         "text": "crotonsite_1002_activity (fsld:crotonsite_1002_activity)",
         "data": {}
       },
       {
         "id": "http://fuzzy-sl.squirrel.link/data/crotonsite_1003_activity_suniv1_",
-        "parent": "http://archaeoinformatics.link/ontology#ExternalRepository",
+        "parent": "http://fuzzy-sl.squirrel.link/ontology/ExternalRepository",
         "type": "instance",
         "text": "crotonsite_1003_activity (fsld:crotonsite_1003_activity)",
         "data": {}
       },
       {
         "id": "http://fuzzy-sl.squirrel.link/data/crotonsite_1004_activity_suniv1_",
-        "parent": "http://archaeoinformatics.link/ontology#ExternalRepository",
+        "parent": "http://fuzzy-sl.squirrel.link/ontology/ExternalRepository",
         "type": "instance",
         "text": "crotonsite_1004_activity (fsld:crotonsite_1004_activity)",
         "data": {}
       },
       {
         "id": "http://fuzzy-sl.squirrel.link/data/crotonsite_1005_activity_suniv1_",
-        "parent": "http://archaeoinformatics.link/ontology#ExternalRepository",
+        "parent": "http://fuzzy-sl.squirrel.link/ontology/ExternalRepository",
         "type": "instance",
         "text": "crotonsite_1005_activity (fsld:crotonsite_1005_activity)",
         "data": {}
       },
       {
         "id": "http://fuzzy-sl.squirrel.link/data/crotonsite_1006_activity_suniv1_",
-        "parent": "http://archaeoinformatics.link/ontology#ExternalRepository",
+        "parent": "http://fuzzy-sl.squirrel.link/ontology/ExternalRepository",
         "type": "instance",
         "text": "crotonsite_1006_activity (fsld:crotonsite_1006_activity)",
         "data": {}
       },
       {
         "id": "http://fuzzy-sl.squirrel.link/data/crotonsite_1007_activity_suniv1_",
-        "parent": "http://archaeoinformatics.link/ontology#ExternalRepository",
+        "parent": "http://fuzzy-sl.squirrel.link/ontology/ExternalRepository",
         "type": "instance",
         "text": "crotonsite_1007_activity (fsld:crotonsite_1007_activity)",
         "data": {}
       },
       {
         "id": "http://fuzzy-sl.squirrel.link/data/crotonsite_2001_activity_suniv1_",
-        "parent": "http://archaeoinformatics.link/ontology#ExternalRepository",
+        "parent": "http://fuzzy-sl.squirrel.link/ontology/ExternalRepository",
         "type": "instance",
         "text": "crotonsite_2001_activity (fsld:crotonsite_2001_activity)",
         "data": {}
       },
       {
         "id": "http://fuzzy-sl.squirrel.link/data/crotonsite_2002_activity_suniv1_",
-        "parent": "http://archaeoinformatics.link/ontology#ExternalRepository",
+        "parent": "http://fuzzy-sl.squirrel.link/ontology/ExternalRepository",
         "type": "instance",
         "text": "crotonsite_2002_activity (fsld:crotonsite_2002_activity)",
         "data": {}
       },
       {
         "id": "http://fuzzy-sl.squirrel.link/data/crotonsite_2003_activity_suniv1_",
-        "parent": "http://archaeoinformatics.link/ontology#ExternalRepository",
+        "parent": "http://fuzzy-sl.squirrel.link/ontology/ExternalRepository",
         "type": "instance",
         "text": "crotonsite_2003_activity (fsld:crotonsite_2003_activity)",
         "data": {}
       },
       {
         "id": "http://fuzzy-sl.squirrel.link/data/crotonsite_2005_activity_suniv1_",
-        "parent": "http://archaeoinformatics.link/ontology#ExternalRepository",
+        "parent": "http://fuzzy-sl.squirrel.link/ontology/ExternalRepository",
         "type": "instance",
         "text": "crotonsite_2005_activity (fsld:crotonsite_2005_activity)",
         "data": {}
       },
       {
         "id": "http://fuzzy-sl.squirrel.link/data/crotonsite_2006_activity_suniv1_",
-        "parent": "http://archaeoinformatics.link/ontology#ExternalRepository",
+        "parent": "http://fuzzy-sl.squirrel.link/ontology/ExternalRepository",
         "type": "instance",
         "text": "crotonsite_2006_activity (fsld:crotonsite_2006_activity)",
         "data": {}
       },
       {
         "id": "http://fuzzy-sl.squirrel.link/data/crotonsite_2007_activity_suniv1_",
-        "parent": "http://archaeoinformatics.link/ontology#ExternalRepository",
+        "parent": "http://fuzzy-sl.squirrel.link/ontology/ExternalRepository",
         "type": "instance",
         "text": "crotonsite_2007_activity (fsld:crotonsite_2007_activity)",
         "data": {}
       },
       {
         "id": "http://fuzzy-sl.squirrel.link/data/crotonsite_2008_activity_suniv1_",
-        "parent": "http://archaeoinformatics.link/ontology#ExternalRepository",
+        "parent": "http://fuzzy-sl.squirrel.link/ontology/ExternalRepository",
         "type": "instance",
         "text": "crotonsite_2008_activity (fsld:crotonsite_2008_activity)",
         "data": {}
       },
       {
         "id": "http://fuzzy-sl.squirrel.link/data/crotonsite_2009_activity_suniv1_",
-        "parent": "http://archaeoinformatics.link/ontology#ExternalRepository",
+        "parent": "http://fuzzy-sl.squirrel.link/ontology/ExternalRepository",
         "type": "instance",
         "text": "crotonsite_2009_activity (fsld:crotonsite_2009_activity)",
         "data": {}
       },
       {
         "id": "http://fuzzy-sl.squirrel.link/data/crotonsite_2010_activity_suniv1_",
-        "parent": "http://archaeoinformatics.link/ontology#ExternalRepository",
+        "parent": "http://fuzzy-sl.squirrel.link/ontology/ExternalRepository",
         "type": "instance",
         "text": "crotonsite_2010_activity (fsld:crotonsite_2010_activity)",
         "data": {}
       },
       {
         "id": "http://fuzzy-sl.squirrel.link/data/crotonsite_2011_activity_suniv1_",
-        "parent": "http://archaeoinformatics.link/ontology#ExternalRepository",
+        "parent": "http://fuzzy-sl.squirrel.link/ontology/ExternalRepository",
         "type": "instance",
         "text": "crotonsite_2011_activity (fsld:crotonsite_2011_activity)",
         "data": {}
       },
       {
-        "id": "http://archaeoinformatics.link/ontology#ExternalRepository",
+        "id": "http://fuzzy-sl.squirrel.link/ontology/ExternalRepository",
         "parent": "#",
         "type": "class",
         "text": "ExternalRepository (fsl:ExternalRepository) [17]",
         "data": {
           "to": {
-            "http://archaeoinformatics.link/ontology#activityDesc": {
+            "http://fuzzy-sl.squirrel.link/ontology/activityDesc": {
               "instancecount": 1
             },
-            "http://archaeoinformatics.link/ontology#certaintyDesc": {
+            "http://fuzzy-sl.squirrel.link/ontology/certaintyDesc": {
               "instancecount": 1
             },
-            "http://archaeoinformatics.link/ontology#certaintyLevel": {
+            "http://fuzzy-sl.squirrel.link/ontology/certaintyLevel": {
               "instancecount": 1
             },
-            "http://archaeoinformatics.link/ontology#hasReference": {
-              "instancecount": 2
-            },
-            "http://archaeoinformatics.link/ontology#hasSource": {
+            "http://fuzzy-sl.squirrel.link/ontology/hasSource": {
               "instancecount": 1
             },
-            "http://archaeoinformatics.link/ontology#hasSourceType": {
+            "http://fuzzy-sl.squirrel.link/ontology/hasSourceType": {
               "instancecount": 1
             },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
@@ -1342,7 +1336,7 @@ var tree={
             },
             "http://www.w3.org/ns/prov#used": {
               "instancecount": 1,
-              "http://archaeoinformatics.link/ontology#Site": 1,
+              "http://fuzzy-sl.squirrel.link/ontology/Site": 1,
               "http://www.w3.org/ns/prov#Entity": 1,
               "https://pleiades.stoa.org/places/vocab#Place": 1
             },
@@ -1357,72 +1351,72 @@ var tree={
             },
             "http://www.w3.org/ns/prov#wasGeneratedBy": {
               "instancecount": 0,
-              "http://archaeoinformatics.link/ontology#Site": 1,
+              "http://fuzzy-sl.squirrel.link/ontology/Site": 1,
               "http://www.w3.org/ns/prov#Entity": 1,
               "https://pleiades.stoa.org/places/vocab#Place": 1
             }
           }
         },
-        "instancecount": 13
+        "instancecount": 11
       },
       {
         "id": "http://fuzzy-sl.squirrel.link/data/crotonsite_2004_activity_suniv1_",
-        "parent": "http://archaeoinformatics.link/ontology#Georeferencing",
+        "parent": "http://fuzzy-sl.squirrel.link/ontology/Georeferencing",
         "type": "instance",
         "text": "crotonsite_2004_activity (fsld:crotonsite_2004_activity)",
         "data": {}
       },
       {
         "id": "http://fuzzy-sl.squirrel.link/data/crotonsite_3001_activity_suniv1_",
-        "parent": "http://archaeoinformatics.link/ontology#Georeferencing",
+        "parent": "http://fuzzy-sl.squirrel.link/ontology/Georeferencing",
         "type": "instance",
         "text": "crotonsite_3001_activity (fsld:crotonsite_3001_activity)",
         "data": {}
       },
       {
         "id": "http://fuzzy-sl.squirrel.link/data/crotonsite_3002_activity_suniv1_",
-        "parent": "http://archaeoinformatics.link/ontology#Georeferencing",
+        "parent": "http://fuzzy-sl.squirrel.link/ontology/Georeferencing",
         "type": "instance",
         "text": "crotonsite_3002_activity (fsld:crotonsite_3002_activity)",
         "data": {}
       },
       {
         "id": "http://fuzzy-sl.squirrel.link/data/crotonsite_3003_activity_suniv1_",
-        "parent": "http://archaeoinformatics.link/ontology#Georeferencing",
+        "parent": "http://fuzzy-sl.squirrel.link/ontology/Georeferencing",
         "type": "instance",
         "text": "crotonsite_3003_activity (fsld:crotonsite_3003_activity)",
         "data": {}
       },
       {
         "id": "http://fuzzy-sl.squirrel.link/data/crotonsite_3004_activity_suniv1_",
-        "parent": "http://archaeoinformatics.link/ontology#Georeferencing",
+        "parent": "http://fuzzy-sl.squirrel.link/ontology/Georeferencing",
         "type": "instance",
         "text": "crotonsite_3004_activity (fsld:crotonsite_3004_activity)",
         "data": {}
       },
       {
-        "id": "http://archaeoinformatics.link/ontology#Georeferencing",
+        "id": "http://fuzzy-sl.squirrel.link/ontology/Georeferencing",
         "parent": "#",
         "type": "class",
         "text": "Georeferencing (fsl:Georeferencing) [5]",
         "data": {
           "to": {
-            "http://archaeoinformatics.link/ontology#activityDesc": {
+            "http://fuzzy-sl.squirrel.link/ontology/activityDesc": {
               "instancecount": 1
             },
-            "http://archaeoinformatics.link/ontology#certaintyDesc": {
+            "http://fuzzy-sl.squirrel.link/ontology/certaintyDesc": {
               "instancecount": 1
             },
-            "http://archaeoinformatics.link/ontology#certaintyLevel": {
+            "http://fuzzy-sl.squirrel.link/ontology/certaintyLevel": {
               "instancecount": 1
             },
-            "http://archaeoinformatics.link/ontology#hasReference": {
+            "http://fuzzy-sl.squirrel.link/ontology/hasReference": {
               "instancecount": 2
             },
-            "http://archaeoinformatics.link/ontology#hasSource": {
+            "http://fuzzy-sl.squirrel.link/ontology/hasSource": {
               "instancecount": 1
             },
-            "http://archaeoinformatics.link/ontology#hasSourceType": {
+            "http://fuzzy-sl.squirrel.link/ontology/hasSourceType": {
               "instancecount": 1
             },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
@@ -1436,7 +1430,7 @@ var tree={
             },
             "http://www.w3.org/ns/prov#used": {
               "instancecount": 1,
-              "http://archaeoinformatics.link/ontology#Site": 1,
+              "http://fuzzy-sl.squirrel.link/ontology/Site": 1,
               "http://www.w3.org/ns/prov#Entity": 1,
               "https://pleiades.stoa.org/places/vocab#Place": 1
             },
@@ -1451,7 +1445,7 @@ var tree={
             },
             "http://www.w3.org/ns/prov#wasGeneratedBy": {
               "instancecount": 0,
-              "http://archaeoinformatics.link/ontology#Site": 1,
+              "http://fuzzy-sl.squirrel.link/ontology/Site": 1,
               "http://www.w3.org/ns/prov#Entity": 1,
               "https://pleiades.stoa.org/places/vocab#Place": 1
             }
@@ -1508,15 +1502,14 @@ var tree={
               "instancecount": 1
             },
             "http://www.w3.org/2000/01/rdf-schema#member": {
-              "instancecount": 44,
-              "http://www.w3.org/ns/prov#Activity": 44,
-              "http://archaeoinformatics.link/ontology#ExternalRepository": 17,
-              "http://archaeoinformatics.link/ontology#Georeferencing": 5
+              "instancecount": 2,
+              "http://xmlns.com/foaf/0.1/Person": 2,
+              "http://www.w3.org/ns/prov#Agent": 2
             }
           },
           "from": {}
         },
-        "instancecount": 46
+        "instancecount": 4
       },
       {
         "id": "http://fuzzy-sl.squirrel.link/data/Site_collection",
@@ -1554,7 +1547,7 @@ var tree={
             },
             "http://www.w3.org/2000/01/rdf-schema#member": {
               "instancecount": 22,
-              "http://archaeoinformatics.link/ontology#Site": 22,
+              "http://fuzzy-sl.squirrel.link/ontology/Site": 22,
               "http://www.w3.org/ns/prov#Entity": 22,
               "https://pleiades.stoa.org/places/vocab#Place": 22
             }
