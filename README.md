@@ -1,4 +1,4 @@
-# croton-geo
+# Croton Geo Locations
 
 > https://research-squirrel-engineers.github.io/croton-geo/
 
