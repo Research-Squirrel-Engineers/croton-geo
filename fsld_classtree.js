@@ -1322,9 +1322,6 @@ var tree={
             "http://fuzzy-sl.squirrel.link/ontology/certaintyLevel": {
               "instancecount": 1
             },
-            "http://fuzzy-sl.squirrel.link/ontology/hasReference": {
-              "instancecount": 2
-            },
             "http://fuzzy-sl.squirrel.link/ontology/hasSource": {
               "instancecount": 1
             },
@@ -1363,7 +1360,7 @@ var tree={
             }
           }
         },
-        "instancecount": 13
+        "instancecount": 11
       },
       {
         "id": "http://fuzzy-sl.squirrel.link/data/crotonsite_2004_activity_suniv1_",
@@ -1508,15 +1505,14 @@ var tree={
               "instancecount": 1
             },
             "http://www.w3.org/2000/01/rdf-schema#member": {
-              "instancecount": 44,
-              "http://www.w3.org/ns/prov#Activity": 44,
-              "http://fuzzy-sl.squirrel.link/ontology/Georeferencing": 5,
+              "instancecount": 17,
+              "http://www.w3.org/ns/prov#Activity": 17,
               "http://fuzzy-sl.squirrel.link/ontology/ExternalRepository": 17
             }
           },
           "from": {}
         },
-        "instancecount": 46
+        "instancecount": 19
       },
       {
         "id": "http://fuzzy-sl.squirrel.link/data/Site_collection",
@@ -1543,7 +1539,7 @@ var tree={
         "id": "http://www.opengis.net/ont/geosparql#FeatureCollection",
         "parent": "http://www.opengis.net/ont/geosparql#SpatialObjectCollection",
         "type": "collectionclass",
-        "text": "FeatureCollection (gsp:FeatureCollection) [3]",
+        "text": "FeatureCollection (geosparql:FeatureCollection) [3]",
         "data": {
           "to": {
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
@@ -1567,7 +1563,7 @@ var tree={
         "id": "http://www.opengis.net/ont/geosparql#SpatialObjectCollection",
         "parent": "#",
         "type": "collectionclass",
-        "text": "SpatialObjectCollection (gsp:SpatialObjectCollection)",
+        "text": "SpatialObjectCollection (geosparql:SpatialObjectCollection)",
         "data": {}
       },
       {
@@ -1581,7 +1577,7 @@ var tree={
         "id": "http://www.opengis.net/ont/geosparql#GeometryCollection",
         "parent": "http://www.opengis.net/ont/geosparql#SpatialObjectCollection",
         "type": "collectionclass",
-        "text": "GeometryCollection (gsp:GeometryCollection) [1]",
+        "text": "GeometryCollection (geosparql:GeometryCollection) [1]",
         "data": {
           "to": {
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
