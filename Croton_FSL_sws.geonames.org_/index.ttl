@@ -1,0 +1,16 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://fuzzy-sl.squirrel.link/data/Croton_FSL_sws.geonames.org_> a void:Linkset,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Linkset: Croton_FSL - gns:"@en,
+        "Linkset: Croton_FSL - sws.geonames.org"@en ;
+    void:linkPredicate skos:exactMatch ;
+    void:objectsTarget <http://sws.geonames.org/>,
+        <https://sws.geonames.org/> ;
+    void:subjectsTarget <http://fuzzy-sl.squirrel.link/data/Croton_FSL> ;
+    void:triples 7 .
+

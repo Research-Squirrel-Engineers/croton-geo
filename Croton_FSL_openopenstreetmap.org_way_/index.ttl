@@ -1,0 +1,13 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://fuzzy-sl.squirrel.link/data/Croton_FSL_openopenstreetmap.org_way_> a void:Linkset,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Linkset: Croton_FSL - osmw:"@en ;
+    void:linkPredicate <http://fuzzy-sl.squirrel.link/ontology/dubiousMatch> ;
+    void:objectsTarget <http://openopenstreetmap.org/way/> ;
+    void:subjectsTarget <http://fuzzy-sl.squirrel.link/data/Croton_FSL> ;
+    void:triples 1 .
+

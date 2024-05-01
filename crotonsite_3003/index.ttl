@@ -4,10 +4,13 @@
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix void: <http://rdfs.org/ns/void#> .
 
 <http://fuzzy-sl.squirrel.link/data/crotonsite_3003> a ns1:Site,
+        <http://www.w3.org/ns/ldp#Resource>,
         prov:Entity,
-        <https://pleiades.stoa.org/places/vocab#Place> ;
+        <https://pleiades.stoa.org/places/vocab#Place>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
     rdfs:label "Fiume Esaro 1967 (gennaio)"@en ;
     ns1:certaintyDesc "Es gibt lediglich die Information, dass der Hortfund am Fluss Esaro gefunden wurde, ohne genaue Angabe, wo am Flusslauf. In der Literatur gibt es die Information, dass er “in Crotone” gefunden wurde, womit eher die Stadt als die Provinz gemeint sein dürfte, da es ansonsten anders formuliert worden wäre. Der städtische Bereich des Flusslaufes endet kurz hinter der “Strada Statale 106 Jonica”. Am wahrscheinlichsten ist der Fundort am Flusslauf zwischen dem Abschnitt kurz vor der Autobahn und der Flussmündung im Meer. Da der Fund 1967 getätigt wurde, entspricht der damalige Flussverlauf vermutlich ziemlich genau dem heutigen. Sowohl Letzteres als auch der mutmaßliche Fundabschnitt sind jedoch Vermutungen."@en ;
     ns1:certaintyLevel ns1:low ;
@@ -23,6 +26,7 @@
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
     dcterms:rightsHolder <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-1100-6494> ;
+    void:inDataset <http://fuzzy-sl.squirrel.link/data/Croton_FSL> ;
     geo:hasGeometry <http://fuzzy-sl.squirrel.link/data/crotonsite_3003_geom> ;
     rdfs:comment "Am `Fiume Esaro`."@en ;
     skos:prefLabel "Fiume Esaro 1967 (gennaio)"@en ;

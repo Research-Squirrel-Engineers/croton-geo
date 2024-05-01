@@ -4,10 +4,13 @@
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix void: <http://rdfs.org/ns/void#> .
 
 <http://fuzzy-sl.squirrel.link/data/crotonsite_2004> a ns1:Site,
+        <http://www.w3.org/ns/ldp#Resource>,
         prov:Entity,
-        <https://pleiades.stoa.org/places/vocab#Place> ;
+        <https://pleiades.stoa.org/places/vocab#Place>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
     rdfs:label "Shepherd - Bruttium (Calabria) - 1911"@en ;
     ns1:certaintyDesc "Georeferencing was done using QGIS."@en ;
     ns1:certaintyLevel ns1:low ;
@@ -19,6 +22,7 @@
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
     dcterms:rightsHolder <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-1100-6494> ;
+    void:inDataset <http://fuzzy-sl.squirrel.link/data/Croton_FSL> ;
     geo:hasGeometry <http://fuzzy-sl.squirrel.link/data/crotonsite_2004_geom> ;
     rdfs:comment "Region Bruttium (ancient) or Calabria (modern)"@en ;
     skos:exactMatch <https://upload.wikimedia.org/wikipedia/commons/7/75/Shepherd_-_Bruttium_%28Calabria%29_-_1911.png> ;

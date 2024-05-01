@@ -17,6 +17,7 @@ var search={
   "Leucopetra (cape)": "http://fuzzy-sl.squirrel.link/data/crotonsite_2003",
   "Paestum (Italy)": "http://fuzzy-sl.squirrel.link/data/crotonsite_2006",
   "Paestum (anc. Poseidonia), Lucania": "http://fuzzy-sl.squirrel.link/data/crotonsite_1002",
+  "Person": "http://fuzzy-sl.squirrel.link/data/nonns_Person.html",
   "Person Instances Collection": "http://fuzzy-sl.squirrel.link/data/Person_collection",
   "Place Instances Collection": "http://fuzzy-sl.squirrel.link/data/Place_collection",
   "Point Instances Collection": "http://fuzzy-sl.squirrel.link/data/Point_collection",
