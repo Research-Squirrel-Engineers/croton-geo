@@ -599,16 +599,13 @@ var tree={
               "instancecount": 1
             },
             "http://fuzzy-sl.squirrel.link/ontology/hasReference": {
-              "instancecount": 2
+              "instancecount": 1
             },
             "http://fuzzy-sl.squirrel.link/ontology/partOf": {
               "instancecount": 1
             },
             "http://fuzzy-sl.squirrel.link/ontology/siteType": {
               "instancecount": 1
-            },
-            "http://fuzzy-sl.squirrel.link/ontology/spatialCloseMatch": {
-              "instancecount": 2
             },
             "http://fuzzy-sl.squirrel.link/ontology/spatialType": {
               "instancecount": 1
@@ -634,16 +631,13 @@ var tree={
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
               "instancecount": 3
             },
-            "http://www.w3.org/2000/01/rdf-schema#comment": {
-              "instancecount": 1
-            },
             "http://www.w3.org/2000/01/rdf-schema#label": {
               "instancecount": 1
             },
-            "http://www.w3.org/2004/02/skos/core#prefLabel": {
-              "instancecount": 1
+            "http://www.w3.org/2004/02/skos/core#exactMatch": {
+              "instancecount": 2
             },
-            "http://www.w3.org/2004/02/skos/core#scopeNote": {
+            "http://www.w3.org/2004/02/skos/core#prefLabel": {
               "instancecount": 1
             },
             "http://www.w3.org/ns/prov#wasAttributedTo": {
@@ -656,7 +650,7 @@ var tree={
             "http://www.w3.org/ns/prov#wasGeneratedBy": {
               "instancecount": 2,
               "http://www.w3.org/ns/prov#Activity": 2,
-              "http://fuzzy-sl.squirrel.link/ontology/Georeferencing": 1
+              "http://fuzzy-sl.squirrel.link/ontology/ExternalRepository": 1
             }
           },
           "from": {
@@ -667,11 +661,11 @@ var tree={
             "http://www.w3.org/ns/prov#used": {
               "instancecount": 0,
               "http://www.w3.org/ns/prov#Activity": 1,
-              "http://fuzzy-sl.squirrel.link/ontology/Georeferencing": 1
+              "http://fuzzy-sl.squirrel.link/ontology/ExternalRepository": 1
             }
           }
         },
-        "instancecount": 28
+        "instancecount": 25
       },
       {
         "id": "http://fuzzy-sl.squirrel.link/data/crotonsite_1001_geom",
@@ -1350,6 +1344,9 @@ var tree={
             "http://fuzzy-sl.squirrel.link/ontology/certaintyLevel": {
               "instancecount": 1
             },
+            "http://fuzzy-sl.squirrel.link/ontology/hasReference": {
+              "instancecount": 2
+            },
             "http://fuzzy-sl.squirrel.link/ontology/hasSource": {
               "instancecount": 1
             },
@@ -1393,7 +1390,7 @@ var tree={
             }
           }
         },
-        "instancecount": 12
+        "instancecount": 14
       },
       {
         "id": "http://fuzzy-sl.squirrel.link/data/crotonsite_2004_activity_suniv1_",
@@ -1548,15 +1545,14 @@ var tree={
               "instancecount": 1
             },
             "http://www.w3.org/2000/01/rdf-schema#member": {
-              "instancecount": 44,
-              "http://www.w3.org/ns/prov#Activity": 44,
-              "http://fuzzy-sl.squirrel.link/ontology/ExternalRepository": 17,
-              "http://fuzzy-sl.squirrel.link/ontology/Georeferencing": 5
+              "instancecount": 17,
+              "http://www.w3.org/ns/prov#Activity": 17,
+              "http://fuzzy-sl.squirrel.link/ontology/ExternalRepository": 17
             }
           },
           "from": {}
         },
-        "instancecount": 48
+        "instancecount": 21
       },
       {
         "id": "http://fuzzy-sl.squirrel.link/data/Agent_collection",
