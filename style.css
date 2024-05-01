@@ -27,7 +27,7 @@ body {
   float: left;
   height: 50px;
   margin-bottom: 20px;
-  background: linear-gradient(to right, #0190a1, #004c54);
+  background: linear-gradient(to right, #004c54, #0190a1);
   width: calc(100% + 0px);
   position: fixed;
   top: 0;
@@ -42,6 +42,16 @@ body {
   display: flex;
   align-items: center;
   margin-left: 20px;
+  font-size: 20px;
+}
+.header_pt2 {
+  float: right;
+  color: white;
+  background-color: transparent;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
   font-size: 20px;
 }
 /*#footer {
