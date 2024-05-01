@@ -53,25 +53,88 @@ var minivowlresult={
  ],
  "links": [
   {
-   "source": 8,
-   "target": 3,
-   "valueTo": "used",
+   "source": 3,
+   "target": 6,
+   "valueTo": "wasGeneratedBy",
    "propertyTo": "class",
-   "uriTo": "http://www.w3.org/ns/prov#used"
+   "uriTo": "http://www.w3.org/ns/prov#wasGeneratedBy"
   },
   {
-   "source": 8,
-   "target": 2,
-   "valueTo": "used",
+   "source": 3,
+   "target": 7,
+   "valueTo": "wasGeneratedBy",
    "propertyTo": "class",
-   "uriTo": "http://www.w3.org/ns/prov#used"
+   "uriTo": "http://www.w3.org/ns/prov#wasGeneratedBy"
   },
   {
-   "source": 8,
-   "target": 4,
-   "valueTo": "used",
+   "source": 3,
+   "target": 8,
+   "valueTo": "wasGeneratedBy",
    "propertyTo": "class",
-   "uriTo": "http://www.w3.org/ns/prov#used"
+   "uriTo": "http://www.w3.org/ns/prov#wasGeneratedBy"
+  },
+  {
+   "source": 2,
+   "target": 6,
+   "valueTo": "wasGeneratedBy",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/ns/prov#wasGeneratedBy"
+  },
+  {
+   "source": 2,
+   "target": 7,
+   "valueTo": "wasGeneratedBy",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/ns/prov#wasGeneratedBy"
+  },
+  {
+   "source": 2,
+   "target": 8,
+   "valueTo": "wasGeneratedBy",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/ns/prov#wasGeneratedBy"
+  },
+  {
+   "source": 4,
+   "target": 6,
+   "valueTo": "wasGeneratedBy",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/ns/prov#wasGeneratedBy"
+  },
+  {
+   "source": 4,
+   "target": 7,
+   "valueTo": "wasGeneratedBy",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/ns/prov#wasGeneratedBy"
+  },
+  {
+   "source": 4,
+   "target": 8,
+   "valueTo": "wasGeneratedBy",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/ns/prov#wasGeneratedBy"
+  },
+  {
+   "source": 3,
+   "target": 5,
+   "valueTo": "hasGeometry",
+   "propertyTo": "class",
+   "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
+  },
+  {
+   "source": 2,
+   "target": 5,
+   "valueTo": "hasGeometry",
+   "propertyTo": "class",
+   "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
+  },
+  {
+   "source": 4,
+   "target": 5,
+   "valueTo": "hasGeometry",
+   "propertyTo": "class",
+   "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
   },
   {
    "source": 6,
@@ -116,88 +179,25 @@ var minivowlresult={
    "uriTo": "http://www.w3.org/ns/prov#used"
   },
   {
-   "source": 3,
-   "target": 5,
-   "valueTo": "hasGeometry",
+   "source": 8,
+   "target": 3,
+   "valueTo": "used",
    "propertyTo": "class",
-   "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
+   "uriTo": "http://www.w3.org/ns/prov#used"
   },
   {
-   "source": 2,
-   "target": 5,
-   "valueTo": "hasGeometry",
+   "source": 8,
+   "target": 2,
+   "valueTo": "used",
    "propertyTo": "class",
-   "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
+   "uriTo": "http://www.w3.org/ns/prov#used"
   },
   {
-   "source": 4,
-   "target": 5,
-   "valueTo": "hasGeometry",
+   "source": 8,
+   "target": 4,
+   "valueTo": "used",
    "propertyTo": "class",
-   "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
-  },
-  {
-   "source": 3,
-   "target": 8,
-   "valueTo": "wasGeneratedBy",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/ns/prov#wasGeneratedBy"
-  },
-  {
-   "source": 3,
-   "target": 6,
-   "valueTo": "wasGeneratedBy",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/ns/prov#wasGeneratedBy"
-  },
-  {
-   "source": 3,
-   "target": 7,
-   "valueTo": "wasGeneratedBy",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/ns/prov#wasGeneratedBy"
-  },
-  {
-   "source": 2,
-   "target": 8,
-   "valueTo": "wasGeneratedBy",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/ns/prov#wasGeneratedBy"
-  },
-  {
-   "source": 2,
-   "target": 6,
-   "valueTo": "wasGeneratedBy",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/ns/prov#wasGeneratedBy"
-  },
-  {
-   "source": 2,
-   "target": 7,
-   "valueTo": "wasGeneratedBy",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/ns/prov#wasGeneratedBy"
-  },
-  {
-   "source": 4,
-   "target": 8,
-   "valueTo": "wasGeneratedBy",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/ns/prov#wasGeneratedBy"
-  },
-  {
-   "source": 4,
-   "target": 6,
-   "valueTo": "wasGeneratedBy",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/ns/prov#wasGeneratedBy"
-  },
-  {
-   "source": 4,
-   "target": 7,
-   "valueTo": "wasGeneratedBy",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/ns/prov#wasGeneratedBy"
+   "uriTo": "http://www.w3.org/ns/prov#used"
   }
  ]
 }

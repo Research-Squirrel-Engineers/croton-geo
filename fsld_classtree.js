@@ -86,8 +86,8 @@ var tree={
           "to": {
             "http://rdfs.org/ns/void#inDataset": {
               "instancecount": 1,
-              "http://www.w3.org/ns/adms#Asset": 1,
-              "http://rdfs.org/ns/void#Dataset": 1
+              "http://rdfs.org/ns/void#Dataset": 1,
+              "http://www.w3.org/ns/adms#Asset": 1
             },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
               "instancecount": 2
@@ -599,7 +599,7 @@ var tree={
               "instancecount": 1
             },
             "http://fuzzy-sl.squirrel.link/ontology/hasReference": {
-              "instancecount": 1
+              "instancecount": 2
             },
             "http://fuzzy-sl.squirrel.link/ontology/partOf": {
               "instancecount": 1
@@ -621,8 +621,8 @@ var tree={
             },
             "http://rdfs.org/ns/void#inDataset": {
               "instancecount": 1,
-              "http://www.w3.org/ns/adms#Asset": 1,
-              "http://rdfs.org/ns/void#Dataset": 1
+              "http://rdfs.org/ns/void#Dataset": 1,
+              "http://www.w3.org/ns/adms#Asset": 1
             },
             "http://www.opengis.net/ont/geosparql#hasGeometry": {
               "instancecount": 1,
@@ -631,6 +631,9 @@ var tree={
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
               "instancecount": 3
             },
+            "http://www.w3.org/2000/01/rdf-schema#comment": {
+              "instancecount": 1
+            },
             "http://www.w3.org/2000/01/rdf-schema#label": {
               "instancecount": 1
             },
@@ -638,6 +641,9 @@ var tree={
               "instancecount": 2
             },
             "http://www.w3.org/2004/02/skos/core#prefLabel": {
+              "instancecount": 1
+            },
+            "http://www.w3.org/2004/02/skos/core#scopeNote": {
               "instancecount": 1
             },
             "http://www.w3.org/ns/prov#wasAttributedTo": {
@@ -665,7 +671,7 @@ var tree={
             }
           }
         },
-        "instancecount": 25
+        "instancecount": 28
       },
       {
         "id": "http://fuzzy-sl.squirrel.link/data/crotonsite_1001_geom",
@@ -836,8 +842,8 @@ var tree={
             },
             "http://rdfs.org/ns/void#inDataset": {
               "instancecount": 1,
-              "http://www.w3.org/ns/adms#Asset": 1,
-              "http://rdfs.org/ns/void#Dataset": 1
+              "http://rdfs.org/ns/void#Dataset": 1,
+              "http://www.w3.org/ns/adms#Asset": 1
             },
             "http://www.opengis.net/ont/geosparql#asWKT": {
               "instancecount": 1
@@ -1178,8 +1184,8 @@ var tree={
           "to": {
             "http://rdfs.org/ns/void#inDataset": {
               "instancecount": 1,
-              "http://www.w3.org/ns/adms#Asset": 1,
-              "http://rdfs.org/ns/void#Dataset": 1
+              "http://rdfs.org/ns/void#Dataset": 1,
+              "http://www.w3.org/ns/adms#Asset": 1
             },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
               "instancecount": 1
@@ -1344,9 +1350,6 @@ var tree={
             "http://fuzzy-sl.squirrel.link/ontology/certaintyLevel": {
               "instancecount": 1
             },
-            "http://fuzzy-sl.squirrel.link/ontology/hasReference": {
-              "instancecount": 2
-            },
             "http://fuzzy-sl.squirrel.link/ontology/hasSource": {
               "instancecount": 1
             },
@@ -1355,8 +1358,8 @@ var tree={
             },
             "http://rdfs.org/ns/void#inDataset": {
               "instancecount": 1,
-              "http://www.w3.org/ns/adms#Asset": 1,
-              "http://rdfs.org/ns/void#Dataset": 1
+              "http://rdfs.org/ns/void#Dataset": 1,
+              "http://www.w3.org/ns/adms#Asset": 1
             },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
               "instancecount": 2
@@ -1390,7 +1393,7 @@ var tree={
             }
           }
         },
-        "instancecount": 14
+        "instancecount": 12
       },
       {
         "id": "http://fuzzy-sl.squirrel.link/data/crotonsite_2004_activity_suniv1_",
@@ -1454,8 +1457,8 @@ var tree={
             },
             "http://rdfs.org/ns/void#inDataset": {
               "instancecount": 1,
-              "http://www.w3.org/ns/adms#Asset": 1,
-              "http://rdfs.org/ns/void#Dataset": 1
+              "http://rdfs.org/ns/void#Dataset": 1,
+              "http://www.w3.org/ns/adms#Asset": 1
             },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
               "instancecount": 2
@@ -1507,8 +1510,8 @@ var tree={
           "to": {
             "http://rdfs.org/ns/void#inDataset": {
               "instancecount": 1,
-              "http://www.w3.org/ns/adms#Asset": 1,
-              "http://rdfs.org/ns/void#Dataset": 1
+              "http://rdfs.org/ns/void#Dataset": 1,
+              "http://www.w3.org/ns/adms#Asset": 1
             },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
               "instancecount": 1
@@ -1535,8 +1538,8 @@ var tree={
           "to": {
             "http://rdfs.org/ns/void#inDataset": {
               "instancecount": 1,
-              "http://www.w3.org/ns/adms#Asset": 1,
-              "http://rdfs.org/ns/void#Dataset": 1
+              "http://rdfs.org/ns/void#Dataset": 1,
+              "http://www.w3.org/ns/adms#Asset": 1
             },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
               "instancecount": 1
@@ -1545,14 +1548,15 @@ var tree={
               "instancecount": 1
             },
             "http://www.w3.org/2000/01/rdf-schema#member": {
-              "instancecount": 17,
-              "http://www.w3.org/ns/prov#Activity": 17,
-              "http://fuzzy-sl.squirrel.link/ontology/ExternalRepository": 17
+              "instancecount": 44,
+              "http://www.w3.org/ns/prov#Activity": 44,
+              "http://fuzzy-sl.squirrel.link/ontology/ExternalRepository": 17,
+              "http://fuzzy-sl.squirrel.link/ontology/Georeferencing": 5
             }
           },
           "from": {}
         },
-        "instancecount": 21
+        "instancecount": 48
       },
       {
         "id": "http://fuzzy-sl.squirrel.link/data/Agent_collection",
@@ -1612,8 +1616,8 @@ var tree={
           "to": {
             "http://rdfs.org/ns/void#inDataset": {
               "instancecount": 1,
-              "http://www.w3.org/ns/adms#Asset": 1,
-              "http://rdfs.org/ns/void#Dataset": 1
+              "http://rdfs.org/ns/void#Dataset": 1,
+              "http://www.w3.org/ns/adms#Asset": 1
             },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
               "instancecount": 1
@@ -1655,8 +1659,8 @@ var tree={
           "to": {
             "http://rdfs.org/ns/void#inDataset": {
               "instancecount": 1,
-              "http://www.w3.org/ns/adms#Asset": 1,
-              "http://rdfs.org/ns/void#Dataset": 1
+              "http://rdfs.org/ns/void#Dataset": 1,
+              "http://www.w3.org/ns/adms#Asset": 1
             },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
               "instancecount": 1
